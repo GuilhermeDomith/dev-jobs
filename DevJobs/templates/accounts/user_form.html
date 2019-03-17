@@ -1,0 +1,134 @@
+{% extends 'base/base.html'%}
+{% load static %}
+{% block main %}
+<div class="section section-card">
+
+    <h5 class="center">Cadastre-se</h5>
+    
+    <form method="post" class="mt-2">
+        {% csrf_token %}
+
+        <div class="row">
+            <!-- Nome -->
+            <div class="input-field col s12 m6">
+                {% if form.first_name.errors %}
+                <input id="id_first_name" name="first_name" type="text" class="validate invalid" value="{{ form.first_name.value|default_if_none:'' }}">
+                {% else %}
+                <input id="id_first_name" name="first_name" type="text" class="validate" value="{{ form.first_name.value|default_if_none:'' }}">
+                {% endif %}
+                <label for="first_name">Nome</label>
+                <span class="helper-text" data-error="{{form.first_name.errors|first}}">
+                </span>
+            </div>
+            <!-- Sobrenome -->
+            <div class="input-field col s12 m6">
+                <input id="last_name" name="last_name" type="text" class="validate" value="{{ form.last_name.value|default_if_none:'' }}">
+                <label for="last_name">Sobrenome</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Email -->
+            <div class="input-field col s12 m8">
+                {% if form.email.errors %}
+                <input id="email" type="email" name="email" class="validate invalid" value="{{ form.email.value|default_if_none:'' }}">
+                {% else %}
+                <input id="email" type="email" name="email" class="validate" value="{{ form.email.value|default_if_none:'' }}">
+                {% endif %}
+                <label for="email">Email</label>
+                <span class="helper-text" data-error="{{form.email.errors|first}}">
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Interesses -->
+            <div class="input-field col s12 m8">
+                <textarea id="vagas_desejadas" name="vagas_desejadas" class="materialize-textarea">{{ form.vagas_desejadas.value|default_if_none:'' }}</textarea>
+                <label for="vagas_desejadas">Vagas Desejadas</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6 quadro-competencia">
+                <!-- Competências -->
+                <label class="active">Competências</label>
+
+                <div id="nao-competencias" class="quadro-1" >
+
+                    {% for tag in tags %}
+                    <div class="chip" data-add="0" data-value="{{ tag }}">
+                        {{ tag }}
+                        <i class="close material-icons">check</i>
+                        <input disabled type="hidden" name="comp" value="{{ tag }}">
+                    </div>
+                    {% endfor %}
+                    
+                </div>
+
+                <div class="input-field">
+                    <i class="material-icons prefix">filter_list</i>
+                    <input id="filtro" placeholder="Filtrar Competências" />
+                </div>
+            </div>
+
+            <div class="col s12 m6 quadro-competencia">
+                <!-- Minhas Competências -->
+                <label class="active">Minhas Competências</label>
+
+                <div id="competencias" class="quadro-2">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Username -->
+            <div class="input-field col s12 m6">
+                {% if form.username.errors %}
+                <input id="username" name="username" type="text" class="validate invalid" value="{{ form.username.value|default_if_none:'' }}">
+                {% else %}
+                <input id="username" name="username" type="text" class="validate" value="{{ form.username.value|default_if_none:'' }}">
+                {% endif %}
+                <label for="username">Nome de Usuário</label>
+                <span class="helper-text" data-error="{{form.username.errors|first}}">
+                    O nome de usuário é único e será necessário para acessar a sua conta.
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Senha -->
+            <div class="input-field col s12 m6">
+                <input id="password" name="password" type="password" class="validate">
+                <label for="password">Senha</label>
+            </div>
+
+
+            <!-- Confirmar Senha -->
+            <div class="input-field col s12 m6">
+                {% if form.cpassword.errors %}
+                <input id="cpassword" name="cpassword" type="password" class="validate invalid">
+                {% else %}
+                <input id="cpassword" name="cpassword" type="password" class="validate">
+                {% endif %}
+                <label for="cpassword">Confirma Senha</label>
+                <span class="helper-text" data-error="{{form.cpassword.errors|first}}">
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12">
+                <button class="btn waves-effect waves-light right" type="submit" name="action">Cadastrar
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script src="{% static 'js/user_form.js' %}"></script>
+{% endblock%}

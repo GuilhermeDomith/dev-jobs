@@ -1,0 +1,92 @@
+{% load static %}
+
+<header>
+    <!-- Navbar -->
+    <nav class="hide-on-large-only light-blue darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center logo-devjobs">DevJobs</a>
+            <a href="#" data-target="slide-out" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <!-- sidenav -->
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        {% if user.is_authenticated %}
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="{% static 'img/default-capa.jpg' %}" width="100%">
+                    </div>
+                    <a href="#user"><img class="circle" src="{% static 'img/default.jpg' %}"></a>
+                    <a href="#name"><span class="white-text name">{{ user.username }}</span></a>
+                    <a href="#email"><span class="white-text email">{{ user.email }}</span></a>
+                </div>
+            </li>
+
+            <li>
+                <a href="#!" class="waves-effect link-sidenav">
+                    <i class="material-icons icon-sidenav">account_circle</i>
+                    Meu Perfil
+                </a>
+            </li>
+
+        {% else %}
+
+            <li>
+                <div class="sidenav-top-logo">
+                    <div class="logo-devjobs">
+                        DevJobs
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+        {% endif %}
+
+        <li>
+            <a href="{% url 'jobs:vagas'%}" class="waves-effect link-sidenav">
+                <i class="material-icons icon-sidenav">work</i>
+                Vagas
+            </a>
+        </li>
+
+        <li>
+                <div class="divider"></div>
+        </li>
+
+        {% if user.is_authenticated %}
+            <li>
+                <a href="{% url 'accounts:logout' %}" class="waves-effect link-sidenav">
+                    <i class="material-icons icon-sidenav">exit_to_app</i>
+                    Sair
+                </a>
+            </li>
+
+            <li>
+                <div class="sidenav-bottom-logo">
+                    <div class="logo-devjobs">
+                        DevJobs
+                    </div>
+                </div>
+            </li>
+
+        {% else %}
+            <li>
+                <a href="{% url 'accounts:signup' %}" class="waves-effect link-sidenav">
+                    <i class="material-icons icon-sidenav">person_add</i>
+                    Cadastre-se
+                </a>
+            </li>
+
+            <li>
+                <a href="{% url 'accounts:login' %}" class="waves-effect link-sidenav">
+                    <i class="material-icons icon-sidenav">lock</i>
+                    Login
+                </a>
+            </li>
+        {% endif %}
+    </ul>
+</header>

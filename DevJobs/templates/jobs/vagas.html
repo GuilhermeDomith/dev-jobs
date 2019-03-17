@@ -1,0 +1,84 @@
+{% extends 'base/base.html'%}
+
+{% load static%}
+
+{% block main %}
+
+<div class="section section-card">
+
+
+    <!-- Busca de vagas -->
+    <div class="row">
+        <form action="{% url 'jobs:vagas' %}" class="col s12 center" method="POST">
+            {% csrf_token %}
+
+            <div class="search-jobs">
+                <div class="input-field">
+                    <input type="text" id="search_jobs" name="search_jobs" />
+                    <label for="search_jobs">Busque vagas</label>
+                </div>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action" style="margin-top: 23px">
+                <i class="material-icons left">search</i>
+                Buscar
+            </button>
+        </form>
+    </div>
+
+    <div class="row">
+
+        <div class="col s12">
+            <p>{{ descricao }}:</p>
+            <div class="divider"></div>
+            
+        </div>
+    </div>
+
+    <!-- Lista de vagas -->
+    <div class="row">
+
+        <ul>
+            {% for job in jobs %}
+            <li class="col s12">
+                <a href="{% url 'jobs:detail' job.id %}">
+                    <div>
+                        <div class="card horizontal hoverable grey lighten-5">
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <span class="card-title">{{ job.title }}</span>
+                                    <p class="black-text mt-1"> {{job.country}}</p>
+
+                                    <div class="mt-2">
+                                    {% for tag in job.tags %}
+                                        <div class="chip white"> {{tag}}</div>
+                                    {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Paginação -->
+    <div class="row">
+        <ul class="pagination col s12 center">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="{% static 'js/vagas.js' %}"></script>
+{% endblock%}

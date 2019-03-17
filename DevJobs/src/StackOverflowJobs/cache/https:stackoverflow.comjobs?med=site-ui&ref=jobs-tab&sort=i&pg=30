@@ -1,0 +1,2648 @@
+<!DOCTYPE html>
+
+
+    <html class="html__responsive">
+
+    <head>
+
+        <title>Developer Jobs, Programming Jobs &amp; More  - Stack Overflow</title>
+        <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+        <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+        <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.sstatic.net/Js/stub.en.js?v=fbb2ceb70a27"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=5023e4724ed5" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=e80b34c71e7c" >
+        <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=a714695bbcd1" >
+
+    
+<!-- Start SO: 4:Head -->
+<!-- Begin Careers Head -->
+<script>
+    
+    StackExchange.gaReady(function() {
+
+StackExchange.ga.setDimension('dimension20', 'No');
+}
+);
+
+</script>
+
+            <link rel="prev" href="https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab&amp;sort=p&amp;pg=29" />
+            <link rel="next" href="https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab&amp;sort=p&amp;pg=31" />
+
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"ItemList","numberOfItems":25,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://stackoverflow.com/jobs/217562/senior-software-engineer-in-test-carbon-black"},{"@type":"ListItem","position":2,"url":"https://stackoverflow.com/jobs/227175/graphic-ux-developer-saunders-scott"},{"@type":"ListItem","position":3,"url":"https://stackoverflow.com/jobs/227174/cybersecurity-platform-system-administrator-visa"},{"@type":"ListItem","position":4,"url":"https://stackoverflow.com/jobs/217568/chief-development-officer-lead-developer-m-w-s%C3%BCwag-energie-ag"},{"@type":"ListItem","position":5,"url":"https://stackoverflow.com/jobs/217566/senior-frontend-developer-shop-applications-about-you-gmbh"},{"@type":"ListItem","position":6,"url":"https://stackoverflow.com/jobs/227173/infrastructure-engineer-linux-ehire"},{"@type":"ListItem","position":7,"url":"https://stackoverflow.com/jobs/196447/net-developer-set-the-standard-in-automotive-cap-hpi"},{"@type":"ListItem","position":8,"url":"https://stackoverflow.com/jobs/227171/firmware-engineer-brain-corporation"},{"@type":"ListItem","position":9,"url":"https://stackoverflow.com/jobs/227170/software-engineer-linux-brain-corporation"},{"@type":"ListItem","position":10,"url":"https://stackoverflow.com/jobs/217561/fully-cleared-java-software-developer-opportunity-varen-technologies"},{"@type":"ListItem","position":11,"url":"https://stackoverflow.com/jobs/217560/rapid-prototyping-software-engineer-varen-technologies"},{"@type":"ListItem","position":12,"url":"https://stackoverflow.com/jobs/195165/web-frontend-developer-m-w-in-frankfurt-am-main-pro-vision-gmbh"},{"@type":"ListItem","position":13,"url":"https://stackoverflow.com/jobs/217559/big-data-software-engineer-opportunity-to-gain-varen-technologies"},{"@type":"ListItem","position":14,"url":"https://stackoverflow.com/jobs/207432/senior-full-stack-web-engineer-cathedral-plumbing-of-texas"},{"@type":"ListItem","position":15,"url":"https://stackoverflow.com/jobs/217558/senior-animation-programmer-hunt-crytek-gmbh"},{"@type":"ListItem","position":16,"url":"https://stackoverflow.com/jobs/167750/senior-machine-learning-engineer-communications-bloomberg-lp"},{"@type":"ListItem","position":17,"url":"https://stackoverflow.com/jobs/227169/frontend-web-developer-legalesign"},{"@type":"ListItem","position":18,"url":"https://stackoverflow.com/jobs/167749/senior-c-plus-plus-engineer-financial-applications-bloomberg-lp"},{"@type":"ListItem","position":19,"url":"https://stackoverflow.com/jobs/217557/product-manager-digital-farming-solutions-m-f-basf"},{"@type":"ListItem","position":20,"url":"https://stackoverflow.com/jobs/217556/senior-server-programmer-hunt-crytek-gmbh"},{"@type":"ListItem","position":21,"url":"https://stackoverflow.com/jobs/217555/javascript-entwickler-m-w-geomagic-gmbh"},{"@type":"ListItem","position":22,"url":"https://stackoverflow.com/jobs/217554/java-entwickler-m-w-geomagic-gmbh"},{"@type":"ListItem","position":23,"url":"https://stackoverflow.com/jobs/207430/senior-web-developer-frontend-mtic-hd-co-ltd"},{"@type":"ListItem","position":24,"url":"https://stackoverflow.com/jobs/173177/softwareentwickler-c-sharp-net-m-w-b2b-marktplatz-aera-edv-programm-gmbh"},{"@type":"ListItem","position":25,"url":"https://stackoverflow.com/jobs/217553/remote-devops-automation-engineer-nodejs-aula"}]}
+</script>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/jobs/feed"/>
+<meta name="description" content="Your dream job awaits at Stack Overflow. Browse thousands of jobs by salary &amp; tech stack. Personalized job matches. No recruiter spam. Your privacy, guaranteed."/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@StackDevJobs"/>
+<meta name="twitter:title" content="Stack Overflow Jobs"/>
+<meta name="twitter:description" content="Your dream job awaits at Stack Overflow. Browse thousands of jobs by salary &amp; tech stack. Personalized job matches. No recruiter spam. Your privacy, guaranteed."/>
+<meta name="twitter:creator" content="@StackDevJobs"/>
+<meta name="twitter:image" content="https://cdn.sstatic.net/careers/Img/social/OG_Twitter_Jobs_Home.png?v=94493df6e998"/>
+<meta property="og:title" content="Stack Overflow Jobs"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://stackoverflow.com/jobs"/>
+<meta property="og:image" content="https://cdn.sstatic.net/careers/Img/social/OG_Facebook_Jobs_home.png?v=37b55fc72141"/>
+<meta property="og:image:type" content="image/png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="628"/>
+<meta property="og:description" content="Your dream job awaits at Stack Overflow. Browse thousands of jobs by salary &amp; tech stack. Personalized job matches. No recruiter spam. Your privacy, guaranteed."/>
+<meta property="og:site_name" content="Stack Overflow"/>
+
+        <link rel="canonical" href="https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab" />
+
+<!-- End Careers Head --><!-- End SO: 4:Head -->
+<!-- Start SO: 5:CSS -->
+<!-- Begin Careers CSS -->
+<link href="https://cdn.sstatic.net/careers/less/views/jobs/jobs.min.css?v=dd2756df2540" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.sstatic.net/careers/Js/third-party/chosen/1.5.1/chosen.min.css?v=42fb1cb7d124" rel="stylesheet" type="text/css" />
+
+<!-- End Careers CSS --><!-- End SO: 5:CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/jobs.css?v=7bd75cb03976" >
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCOvQgO0envTRT_ulsBcZo0is6OYMzMORg"></script>
+        
+        
+        
+        
+        
+        
+
+
+        <script>
+        StackExchange.init({"locale":"en","serverTime":1546911540,"routeName":"Jobs: Jobs/Index","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"aa9f20da8afc6d52dc3ea8c58e3bb4bdf6936b25e9fa0488d002f86840b86662","tid":"55237370-be80-e7b0-5635-f241a08fb603","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"inline_signup_hero":{"v":"d","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/svg-icons","svgIconHash":"6fdddd5ad9af"}, {"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"22bd12f07699","js/moderator.en.js":"c958174d70e8","js/full-anon.en.js":"809bdb8c27e8","js/full.en.js":"2feaf62fc4ff","js/wmd.en.js":"7b6dbd21554c","js/mobile.en.js":"29e7365d5ccc","js/help.en.js":"2c0c5cb052c2","js/tageditor.en.js":"b13dc394b92d","js/tageditornew.en.js":"54b3c88944e8","js/inline-tag-editing.en.js":"abc66f94ddbd","js/revisions.en.js":"be10a4167571","js/review.en.js":"75b1a6c38658","js/tagsuggestions.en.js":"b278f9a0b23b","js/post-validation.en.js":"fc86f95bf103","js/explore-qlist.en.js":"13036a5f10ad","js/events.en.js":"d72e4e583974","js/keyboard-shortcuts.en.js":"18270f9407d7","js/external-editor.en.js":"7d20a0b245c2","js/adops.en.js":"22a9bd59b1e9","js/begin-edit-event.en.js":"a03fb3ec532c","js/stacks-polyfills.en.js":"73c3bfd32fb6","js/external-editor.en.js":"7d20a0b245c2","js/snippet-javascript.en.js":"ebc751779f44","js/snippet-javascript-codemirror.en.js":"64d50df4a715"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    <noscript id="noscript-css"><style>body,.top-bar{margin-top:1.9em}</style></noscript>
+    </head>
+        <body class="unified-theme">
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+<header class="top-bar js-top-bar top-bar__network _fixed">
+    <div class="-container">
+        <div class="-main">
+                <a href="#" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle"><span class="ps-relative"></span></a>
+                                <a href="https://stackoverflow.com" class="-logo js-gps-track"
+                        data-gps-track="top_nav.click({is_current:false, location:29, destination:8})">
+                        <span class="-img _glyph">Stack Overflow</span>
+                    </a>
+
+
+
+        </div>
+
+            <form id="search" action=/search method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search…" value="" autocomplete="off" maxlength="240" class="f-input js-search-field " />
+                        <button type="submit" aria-label="Search..." class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"/></svg></button>
+                    </div>
+            </form>
+
+        
+
+
+
+
+
+<ol class="-secondary js-secondary-topbar-links drop-icons-responsively">
+        <li class="-item searchbar-trigger js-searchbar-trigger"><a href="#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"/></svg></a></li>
+            <li class="-item">
+        <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"/></svg>
+            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+        </a>
+    </li>
+    <li class="-item">
+        <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"/></svg>
+            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+        </a>
+    </li>
+
+    <li class="-item help-button-item" data-remove-order="1"><a href="#" class="-link js-help-button" title="Help Center and other resources">
+        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"/></svg>
+    </a></li>
+
+    <li class="-item site-switcher-item">
+        <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 174 Stack Exchange sites">
+            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"/></svg>
+        </a>
+    </li>
+
+            <li class="-ctas">
+                        <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fjobs%3fmed%3dsite-ui%26ref%3djobs-tab%26sort%3di%26pg%3d30" class="login-link s-btn btn-topbar-clear py8" rel="nofollow">Log In</a>
+                        <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcreate" class="login-link s-btn s-btn__primary py8 btn-topbar-primary" rel="nofollow" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a>
+
+            </li>
+
+    <li class="-dialog-container js-topbar-dialog-corral">
+
+
+    <div class="topbar-dialog siteSwitcher-dialog dno">
+        <div class="header">
+            <h3><a href="https://stackoverflow.com">current community</a>
+            </h3>
+        </div>
+        <div class="modal-content current-site-container">
+            <ul class="current-site">
+                    <li class="grid">
+                            <div class="fl1">
+            <a href="https://stackoverflow.com"
+       class="current-site-link site-link js-gps-track grid gs8 gsx"
+       data-id="1"
+       data-gps-track="site_switcher.click({ item_type:3 })">
+        <div class="favicon favicon-stackoverflow site-icon grid--cell" title="Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Stack Overflow
+        </span>
+    </a>
+
+    </div>
+    <div class="related-links">
+            <a href="https://stackoverflow.com/help" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:14 })"
+>help</a>
+                    <a href="https://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+                    </li>
+                    <li class="related-site grid">
+                            <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                            <a href="https://meta.stackoverflow.com"
+       class="site-link js-gps-track grid gs8 gsx"
+       data-id="552"
+       data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })">
+        <div class="favicon favicon-stackoverflowmeta site-icon grid--cell" title="Meta Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Meta Stack Overflow
+        </span>
+    </a>
+
+                    </li>
+            </ul>
+        </div>
+
+        <div class="header" id="your-communities-header">
+            <h3>
+your communities            </h3>
+
+        </div>
+        <div class="modal-content" id="your-communities-section">
+
+                <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcreate" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fjobs%3fmed%3dsite-ui%26ref%3djobs-tab%26sort%3di%26pg%3d30" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+                </div>
+        </div>
+
+        <div class="header">
+            <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a>
+            </h3>
+            <a href="https://stackoverflow.blog" class="fr">company blog</a>
+        </div>
+        <div class="modal-content">
+                <div class="child-content"></div>
+        </div>        
+    </div>
+            <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+                <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm"></div>
+            </div>
+    </li>
+</ol>
+
+    </div>
+</header>
+    <div id="js-gdpr-consent-banner" class="p16 bg-black-700 ff-sans fc-white ps-fixed b0 l0 r0 z-banner" role="banner" aria-hidden="false">
+        <div class="wmx8 mx-auto grid jc-center" role="alertdialog" aria-describedby="notice-message">
+            <div class="grid--cell mr12" aria-label="notice-message">
+                <p class="mb0 lh-lg">
+                    By using our site, you acknowledge that you have read and understand our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/cookie-policy">Cookie Policy</a>, <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a>, and our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/terms-of-service/public">Terms of Service</a>.
+                </p>
+            </div>
+            <a class="grid--cell fc-white js-notice-close" aria-label="notice-dismiss">
+                <svg aria-hidden="true" class="svg-icon m0 iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        StackExchange.ready(function () { StackExchange.topbar.init({ observeSize: true }); });
+        StackExchange.scrollPadding.setPaddingTop(50, 10);     </script>
+
+
+
+
+
+
+    <div class="container">
+        
+
+
+
+
+
+<div id="left-sidebar" data-is-here-when="md lg" class="left-sidebar js-pinned-left-sidebar">
+    <div class="left-sidebar--sticky-container js-sticky-leftnav">
+            <nav role="navigation">
+                <ol class="nav-links">
+                    <li>    <li>
+        <a
+            href="/"
+            class="pl8 js-gps-track nav-links--link"
+            
+            data-gps-track="top_nav.click({is_current:false, location:29, destination:8})">
+Home        </a>
+    </li>
+</li>
+                    <li>
+                        <ol class="nav-links">
+                                <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">Public</li>
+                                <li>
+        <a id="nav-questions"
+            href="/questions"
+            class="pl8 js-gps-track nav-links--link -link__with-icon"
+            
+            data-gps-track="top_nav.click({is_current:false, location:29, destination:1})">
+<svg aria-hidden="true" class="svg-icon iconGlobe" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zM8 15.32a6.4 6.4 0 0 1-5.23-7.75L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.4 6.4 0 0 1 2.32 10.24z"/></svg>                <span class="-link--channel-name">Stack Overflow</span>
+        </a>
+    </li>
+
+    <li>
+        <a id="nav-tags"
+            href="/tags"
+            class=" js-gps-track nav-links--link"
+            
+            data-gps-track="top_nav.click({is_current:false, location:29, destination:2})">
+Tags        </a>
+    </li>
+    <li>
+        <a id="nav-users"
+            href="/users"
+            class=" js-gps-track nav-links--link"
+            
+            data-gps-track="top_nav.click({is_current:false, location:29, destination:3})">
+Users        </a>
+    </li>
+    <li class=" youarehere">
+        <a id="nav-jobs"
+            href="/jobs?med=site-ui&amp;ref=jobs-tab"
+            class=" js-gps-track nav-links--link"
+            
+            data-gps-track="top_nav.click({is_current:true, location:29, destination:6})">
+Jobs        </a>
+    </li>
+                                                    </ol>
+                    </li>
+                        <li>
+                            <ol class="nav-links">
+                                        <li class="fs-fine tt-uppercase ml8 mt24 mb4 fc-light">
+                                            Teams
+                                        </li>
+                                        <li class="ps-relative">
+                                            <a href="https://stackoverflow.com/teams"
+                                               class="pl8 js-gps-track nav-links--link -link__with-icon"
+                                               title="A private, secure home for your team&#39;s questions and answers. Starts at $10/month"
+                                               data-gps-track="teams.create.left-sidenav.click"
+                                               data-ga="[&quot;teams traffic&quot;,&quot;left nav cta&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]">
+                                                <svg aria-hidden="true" class="svg-icon iconPlus" width="18" height="18" viewBox="0 0 18 18"><path d="M10 2H8v6H2v2h6v6h2v-6h6V8h-6z"></path></svg>
+                                                <span class="js-create-team-btn-with-tooltip -link--channel-name">Create Team</span>
+                                            </a>
+
+
+
+<div class="d-none create-team-tooltip js-create-team-tooltip bar-sm bg-blue-500 fc-white l100 md:d-none mln24 new-feature-wrapper p16 pr32 t0 ws2"
+     data-cookie="notice-ctt"
+     data-expire-date="1862530740209">
+    <svg aria-hidden="true" class="svg-icon ps-absolute r12 c-pointer iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg>
+    <p class="mb0">Q&amp;A for work. A dedicated place to share your team’s knowledge.</p>
+</div>
+<script>
+    StackExchange.ready(function () {
+        StackExchange.Notice.tooltipInit();
+    });
+</script>
+                                        </li>
+                            </ol>
+                        </li>
+                </ol>
+            </nav>
+    </div>
+</div>
+
+        <div id="content" class="snippet-hidden">
+
+
+            
+<!-- Start SO: 1:Banner -->
+<!-- Begin Careers Banner -->
+
+<!-- End Careers Banner --><!-- End SO: 1:Banner -->
+        <div class="subheader left-tabs grid jc-space-between ai-center mb16">
+            <div class="grid--cell">
+                
+<div id="tabs">
+        <a class="youarehere is-selected " href="/jobs" data-nav-xhref="" data-value="jobs" data-shortcut="">
+            search jobs</a>
+        <a href="/jobs/companies" data-nav-xhref="" data-value="companies" data-shortcut="">
+            search companies</a>
+        <a href="/jobs/why-jobs" data-nav-xhref="" data-value="whyjobs" data-shortcut="">
+            why Jobs?</a>
+    </div>
+
+            </div>
+            <div class="grid--cell sm:d-none">
+                <div id="sub-navs">
+            <a class="ps-relative ws-nowrap" href="/users/story/current?ac=1" data-value="story" data-ga="[&quot;jobs engagement&quot;,&quot;jobs onboarding start&quot;,&quot;create a developer story&quot;,null,null]">
+                <span>Developer Story</span>
+                              
+                    <span class="r0 t0 mtn8 mrn4 ps-absolute mod-flag-indicator hotbg hide"></span>
+            </a>
+</div>
+
+            </div>
+        </div>
+    <!-- Start SO: 2:Body -->
+<!-- Begin Careers Body -->
+
+
+
+
+
+
+
+
+
+<script class="js-ga-script">
+    StackExchange.gaReady(function() {
+
+StackExchange.ga.setDimension('dimension20', 'Yes');
+
+StackExchange.ga.setDimension('dimension21', 'N/A');
+
+StackExchange.ga.setDimension('dimension22', 'N/A');
+
+StackExchange.ga.setDimension('dimension24', 'N/A');
+
+StackExchange.ga.setDimension('dimension25', 'N/A');
+
+StackExchange.ga.setDimension('dimension26', 'N/A');
+
+StackExchange.ga.setDimension('dimension27', 'No');
+
+StackExchange.ga.setDimension('dimension28', 'No');
+
+StackExchange.ga.setDimension('dimension29', 'No');
+
+StackExchange.ga.setDimension('dimension30', 'No');
+
+StackExchange.ga.setDimension('dimension31', 'N/A');
+
+StackExchange.ga.setDimension('dimension32', 'N/A');
+
+StackExchange.ga.setDimension('dimension33', 'N/A');
+
+StackExchange.ga.setDimension('dimension34', 'N/A');
+
+StackExchange.ga.setDimension('dimension35', 'N/A');
+
+StackExchange.ga.setDimension('dimension36', 'N/A');
+
+StackExchange.ga.setDimension('dimension37', 'N/A');
+
+StackExchange.ga.setDimension('dimension38', 'No');
+
+StackExchange.ga.setDimension('dimension39', 'No');
+
+StackExchange.ga.setDimension('dimension23', 'N/A');
+    }
+);
+</script>
+
+<div class="main-columns js-search-container search-container ">
+    <div id="mainbar">
+        <span class="page-title">Developer Jobs, Programming Jobs &amp; More</span>
+
+
+
+
+<form action="/jobs" class="responsive search-form js-search-form " id="job-search-form" method="get">
+
+    <div class="search--trigger js-search-trigger">
+        <svg aria-hidden="true" class="svg-icon o30 mr8 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"/></svg>
+        <span class="fc-black-400">Search all jobs</span>
+    </div>
+    <div class="cols">
+        <div class="-col _left">
+            <div class="search-inputs js-search-inputs">
+                <div class="-item js-keyword-search ">
+                    <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"/></svg>
+                    
+                    <input type="text" id="q" name="q" value="" placeholder="Search all jobs" maxlength="120" autocomplete="none" />
+                    <label class="btn-icon js-clear-field" tabindex="-1" for="q">
+                        <span>
+                            <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"/></svg>
+                        </span>
+                        <div class="tooltip">Clear keywords</div>
+                    </label>
+                </div>
+                <div class="-item -location-search js-location-search ">
+                    <svg aria-hidden="true" class="svg-icon iconLocation" width="18" height="18" viewBox="0 0 18 18"><path d="M8.1 17.7S2 9.9 2 6.38A6.44 6.44 0 0 1 8.5 0C12.09 0 15 2.86 15 6.38 15 9.91 8.9 17.7 8.9 17.7c-.22.29-.58.29-.8 0zm.4-8.45a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5z"/></svg>
+                    <input type="text" id="l" name="l" placeholder="Located anywhere" maxlength="120" autocomplete="none" />
+                    <select name="d" id="d" class="-distance js-distance">
+                            <option value="5" >within 5 mi.</option>
+                            <option value="10" >within 10 mi.</option>
+                            <option value="20" selected>within 20 mi.</option>
+                            <option value="50" >within 50 mi.</option>
+                            <option value="100" >within 100 mi.</option>
+                    </select>
+                    <input id="u" name="u" type="hidden" value="Miles" />
+                    <label class="btn-icon js-clear-field" for="l" tabindex="-1">
+                        <span>
+                            <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"/></svg>
+                        </span>
+                        <div class="tooltip">Clear location</div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="-col _right search-controls d-inline">
+            <div class="search-controls-responsive">
+                <div class="-item advanced-search sm:w100 sm:ml0">
+                    <button class="s-btn s-btn__md s-btn__primary js-trigger js-search-btn sm:w100">
+                        <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"/></svg> <span class="d-none sm:d-inline">Search</span>
+                    </button>
+                        <div class="tooltip">
+                            Search
+                        </div>
+                </div>
+                    <div class="job-alert-tooltip _animate">
+                        <div class="unicorn">
+                            <svg height="61" width="39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="b" x1="18.81%" x2="100.3%" y1="94.91%" y2="4.22%"><stop offset="0" stop-color="#437dcc"/><stop offset=".91" stop-color="#35a5fa"/><stop offset="1" stop-color="#3af"/></linearGradient><linearGradient id="a"><stop offset="0" stop-color="#8e99e0" stop-opacity=".7"/><stop offset=".63" stop-color="#51a4f5" stop-opacity=".89"/><stop offset="1" stop-color="#3af"/></linearGradient><linearGradient id="c" x1="31.5%" x2="93.69%" xlink:href="#a" y1="-4.2%" y2="91.34%"/><linearGradient id="d" x1="28.48%" x2="78.47%" xlink:href="#a" y1="14.96%" y2="93.01%"/><linearGradient id="e" x1="6.33%" x2="116.29%" xlink:href="#a" y1=".19%" y2="93.28%"/><linearGradient id="f" x1="15.1%" x2="74.95%" xlink:href="#a" y1=".04%" y2="89.51%"/><linearGradient id="g" x1="12%" x2="71.56%" xlink:href="#a" y1="-1.99%" y2="98.77%"/><linearGradient id="h" x1="15.18%" x2="68.61%" xlink:href="#a" y1="9.12%" y2="98.72%"/><g fill="none" fill-rule="evenodd"><path d="M6 21s.5-8 6.5-11 9.22-1 13 .5c1-1.5 8.17-8.1 9-7.5.78.56-4.1 10.27-4 10.5s3.37 4.46 5.5 8c3.2 5.33.43 8.64-2 10-.99.55-2.21.35-2.5.5-1 .5-9.18 0-9.5.5s0 2 1 3 7 10 5 13.5-5.5 4.5-5.5 4.5 2 3.5 1.5 5-7.5 2.5-10 1-1-5-1-5l-3-2-.5-.5A5.27 5.27 0 0 1 8 49c-.32-2.56.36-6.07 1-8 1-3 0-6 0-6s-1.94-4.88-2.5-7.5A29.16 29.16 0 0 1 6 23c-.04-.95 0-2 0-2z" fill="#fff"/><path d="M8.2 49.7c-.6-2.5.4-5.7 1-8.4-2.1-.6-4.7-3.3-7.2-1.1-3.3 2.8 2.1 7.4 3.1 10.4.9 2.6.9 5.6 1.7 5.8 1.2.3 2.5-2.6 3.1-4.2-.7-.7-1.4-1.6-1.7-2.5zm16.1-11.6c-.7-1.1-1.3-2-1.5-2.4l-.5-.7-.1-.1-.2-.3-.1-.1-.4-.9V33l.1-.3c0-.1.1-.1.1-.2.1-.1.1-.2.2-.2l.3-.2h2.7c-2.5-.6-8-2-11.1-4-3.5-2 6 5.6 10.5 10z" fill="#cceaff" fill-rule="nonzero"/><path d="M18.4 60.6c-5 0-5.6-.7-5.9-2.2-.2-1-.4-2.8-.5-3.5-.4-.2-1.1-.7-1.9-1.3-1.1 2.6-2.2 3.7-3.3 3.5-.8-.2-1-1.3-1.3-3-.2-1-.4-2.1-.8-3.2-.3-.9-1-1.9-1.7-3-1.7-2.6-3.8-5.7-1.2-8 2.1-1.8 4.2-.7 6 .2.3.1.5.3.8.4.2-1 .4-2.1.4-2.8-.2-2.1-2.1-7.2-2.4-7.9-.1-.2-.2-.4.1-.7l.5-.1c.1 0 .2.2.3.4.8 1.5 2.4 6.9 2.5 8.2.1.9-.2 2.1-.6 3.7l-.1.6-.5-.2c-.5-.2-.9-.4-1.4-.7-1.7-.9-3.3-1.7-4.8-.4C.8 42.2 2 44.4 4 47.3c.8 1.2 1.5 2.3 1.8 3.2.4 1.1.6 2.3.8 3.3.2.9.4 2.1.6 2.2.4.1 1.3-.9 2.3-3.5l.3-.7.5.5c1.2 1 2.5 1.8 2.5 1.8l.2.1v.3s.3 2.5.5 3.6c.2.9.3 1.4 5 1.4 5.1 0 5.1-.8 5.1-1.2 0-.9-.8-3.6-1.1-4.6l-.1-.4.4-.2c3.2-1.3 5.1-2.3 5.1-6 0-1.7-.8-4.1-2.4-7-1.1-2.1-2.3-3.7-2.7-4.4l-.5-.7-.1-.1-.2-.3-.1-.1-.4-.9V33l.1-.3c0-.1.1-.1.1-.2.1-.1.1-.2.2-.2l.3-.2h2.2c2.6.1 8 .3 9.4-.9s2.5-2.7 3.1-4.3c.8-1.9-.1-3.8-.4-4.3-.8-1.5-3-5.2-6.3-8.5l-.3-.3.2-.3c1.8-3.6 4.6-9 4.3-10.3l-.1-.1-.1.1c-.2 0-.8.3-2.1 1.2-.2.2-.4.3-.6.5s-.4.4-.7.5c-.7.6-1.5 1.4-2.4 2.2l-.3.3c-.8.8-1.6 1.7-2.3 2.4l-.3.3-.4-.2c-.3-.2-.7-.3-1-.5l.4-.9c.2.1.5.2.7.3.6-.7 1.3-1.4 2.1-2.2l.3-.3c.8-.8 1.7-1.6 2.4-2.2.2-.2.5-.4.7-.6s.4-.3.7-.5c1.1-.8 1.9-1.3 2.5-1.4h.3c.2 0 .4 0 .5.1.1 0 .1.1.2.1l.2.2c.1.1.1.3.2.4.3 1.4-1.1 4.5-4.2 10.6 3.3 3.3 5.5 7 6.2 8.4.4.7 1.4 2.9.5 5.2-.7 1.7-1.9 3.4-3.4 4.7s-6 1.3-10.1 1.1h-1.4l-.5.1.4.8.1.1.2.3.1.1.2.3.1.1.1.1c.5.7 1.7 2.4 2.8 4.5 1.7 3.1 2.5 5.6 2.5 7.5 0 4.1-2.1 5.5-5.3 6.8.3 1 1 3.4 1 4.4-.1 2-1.7 2.6-6.2 2.6z" fill="url(#b)"/><path d="M19.6.1c-2.8-.2-5.1.2-7.2.9-.2.1-.3.3-.2.5L15.1 9c.6-.2 1.1-.3 1.7-.4.8-.1 1.5-.1 2.2-.1l1.1-8c-.1-.1-.3-.4-.5-.4z" fill="url(#c)"/><path d="M11.1 1.5c-2.1.9-3.7 2.2-5 3.6-.1.1-.1.4 0 .5l5.2 5.3c1-.7 2.1-1.4 3.2-1.8l-2.9-7.5c-.1-.1-.3-.1-.5-.1z" fill="url(#d)"/><path d="M6.4 19.1L3 19c-.3 0-.6.3-.5.6.7 3.1 2.4 5.1 2.5 6.8.1.7.1 1.7.1 2.4 0 .3 0 .5.3.6.4.1 1.2.1 2.2 0-.7-2-1.3-4-1.6-5.9-.1-1.3 0-2.8.4-4.4z" fill="url(#e)"/><path d="M27.8 1.9C25.4 1 23.2.5 21.1.3c-.2 0-.4.1-.5.4l-1.1 8.1c1.7.2 3.3.6 4.8 1.3.4-.8 3.4-7.4 3.5-7.7.3-.4.1-.5 0-.5z" fill="url(#f)"/><path d="M2.6 12.5c-.5 2.1-.6 3.8-.4 5.4 0 .3.3.6.6.6l3.7.1c.4-1.4.9-2.8 1.7-4L3 12.4c-.3-.1-.4 0-.4.1z" fill="url(#g)"/><path d="M5.3 6.1c-.6.8-1.1 1.7-1.4 2.5-.4 1-.8 1.9-1 2.8-.1.2 0 .4.2.5l5.3 2.3c.7-1 1.5-2 2.4-2.8L5.7 6.2c0-.3-.3-.2-.4-.1z" fill="url(#h)"/><path d="M16.9 6c-1-.3-4 4.5-3.8 5.5.2.9 3.7 2 4.7 1.1.4-.4.9-2.2.7-2.8-.4-1.1-.6-3.5-1.6-3.8z" fill="#fff"/><path d="M17.2 6.2c.7.7 1 2.7 1.3 3.6.2.6-.3 2.4-.7 2.8-.3.2-.7.3-1.2.3-.5-6 .1-7.2.6-6.7z" fill="#cceaff"/></g></svg>
+                        </div>
+                        <div class="text">
+                            <strong>Save time.</strong> New jobs, straight to your inbox.
+                        </div>
+                        <div class="-close js-job-alert-tooltip-close">
+                            <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z"/></svg>
+                        </div>
+                    </div>
+                
+                    <div class="-item">
+                        <button class="s-btn s-btn__md s-btn__outlined js-alert-trigger create-alert" data-context="CreateAlert" role="button"  tabindex="43">Create alert</button>
+                    </div>
+            </div>
+        </div>
+    </div>    <div class="js-help-advanced">
+    </div>
+    <div class="grid fd-column filters-wrapper">
+        <div class="filter-pane js-filters">
+            <nav class="-nav js-nav">
+                
+                <ul class="_tabs">
+                    <li class="remote pl12 pr8 tab">
+                        <div class="checkbox pt12">
+                            <label>
+                                <input class="js-submit-on-toggle s-checkbox" type="checkbox" name="r" id="r" value="true"  />
+                                Remote
+                            </label>
+                        </div>
+                    </li>
+                    <li class="tab">
+                        <div class="js-tab-wrapper" data-tab="Tech">
+                            <a href="#">
+                                <i class="icon _tech"></i>
+                                <span class="js-filter-indicator filter-indicator"></span>
+                                <span>Tech</span>
+                            </a>
+                        </div>
+                        <div class="popover js-popover bg-white bs-sm bar-md ba bc-black-2 _tech">
+                            <div class="popover--arrow"></div>
+                            <fieldset data-pane="Tech">
+                                <div class="input-group">
+                                    <label for="tl">Tech you like</label>
+                                    <div class="tag-editor-wrapper">
+                                        <input autocomplete="none" class="tag-editor js-tag-editor" data-separator=" " id="tl" maxlength="240" name="tl" placeholder="Add up to 10 (e.g. html, c#)" type="text" value="" />
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group">
+                                    <label for="td">Tech you dislike</label>
+                                    <div class="tag-editor-wrapper">
+                                        <input autocomplete="none" class="tag-editor js-tag-editor" data-separator=" " id="td" maxlength="240" name="td" placeholder="Add up to 10 (e.g. c, php)" type="text" value="" />
+                                    </div>
+                                </div>
+                            </fieldset>
+                                    <div class="actions">
+            <button class="btn _primary js-submit js-trigger" role="button">Apply filters</button>
+            <button class="btn-clear cancel js-trigger js-cancel" role="button">Cancel</button>
+        </div>
+
+                        </div>
+                    </li>
+                    <li class="tab">
+                        <div class="js-tab-wrapper" data-tab="Compensation">
+                            <a href="#">
+                                <i class="icon _compensation"></i>
+                                <span class="js-filter-indicator filter-indicator"></span>
+                                <span>Compensation</span>
+                            </a>
+                        </div>
+                        <div class="popover js-popover bg-white bs-sm bar-md ba bc-black-2 _compensation">
+                            <div class="popover--arrow"></div>
+                            <fieldset data-pane="Compensation">
+                                <div class="input-group">
+                                    <label for="s">Minimum Annual Salary</label>
+                                    <div class="-row">
+                                        <div class="field-with-defined-option">
+                                            <span class="option">+</span>
+                                            <input autocomplete="none" class="js-salary-field" id="s" name="s" type="text" value="" />
+                                        </div>
+                                        &nbsp;
+                                        <div class="-item select _inline"><select id="c" name="c"><option selected="selected" value="USD">USD ($)</option>
+<option value="EUR">EUR (€)</option>
+<option value="GBP">GBP (&#163;)</option>
+<option value="CAD">CAD (C$)</option>
+<option value="AUD">AUD (A$)</option>
+<option value="INR">INR (₹)</option>
+<option value="SEK">SEK</option>
+<option value="PLN">PLN (zł)</option>
+<option value="CHF">CHF</option>
+<option value="DKK">DKK</option>
+<option value="NZD">NZD</option>
+</select></div>
+                                    </div>
+                                </div>
+
+                                <div class="input-group">
+                                    <label>Other Compensation</label>
+                                    <div class="-list">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="e" id="e" class="s-checkbox" value="true"  />
+                                                Offers Equity
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                                    <div class="actions">
+            <button class="btn _primary js-submit js-trigger" role="button">Apply filters</button>
+            <button class="btn-clear cancel js-trigger js-cancel" role="button">Cancel</button>
+        </div>
+
+                        </div>
+                    </li>
+                    <li class="tab">
+                        <div class="js-tab-wrapper" data-tab="Perks">
+                            <a href="#">
+                                <i class="icon _perks"></i>
+                                <span class="js-filter-indicator filter-indicator"></span>
+                                <span>Perks</span>
+                            </a>
+                        </div>
+                        <div class="popover js-popover bg-white bs-sm bar-md ba bc-black-2 _perks">
+                            <div class="popover--arrow"></div>
+                            <fieldset data-pane="Perks">
+                                <div class="input-group">
+                                    <label>Location options</label>
+                                    <div class="-list">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" class="s-checkbox" name="v" id="v" value="true"  />
+                                                Visa sponsor
+                                            </label>
+                                        </div>
+
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" class="s-checkbox" name="t" id="t" value="true"  />
+                                                Offers relocation
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <label>Perks</label>
+                                    <div class="-list">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="s-checkbox" id="bEducation" name="b" type="checkbox" value="Education" />
+                                                    Education and tuition benefits
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="s-checkbox" id="bGenerousVacation" name="b" type="checkbox" value="GenerousVacation" />
+                                                    10+ vacation days
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="s-checkbox" id="bGreatEngineeringCulture" name="b" type="checkbox" value="GreatEngineeringCulture" />
+                                                    Great engineering culture
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input class="s-checkbox" id="bGymAndFitness" name="b" type="checkbox" value="GymAndFitness" />
+                                                    Gym and fitness perks
+                                                </label>
+                                            </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                                    <div class="actions">
+            <button class="btn _primary js-submit js-trigger" role="button">Apply filters</button>
+            <button class="btn-clear cancel js-trigger js-cancel" role="button">Cancel</button>
+        </div>
+
+                        </div>
+                    </li>
+                    <li class="tab">
+                        <div class="js-tab-wrapper" data-tab="Background">
+                            <a href="#">
+                                <i class="icon _background"></i>
+                                <span class="js-filter-indicator filter-indicator"></span>
+                                <span>Background</span>
+                            </a>
+                        </div>
+                        <div class="popover js-popover bg-white bs-sm bar-md ba bc-black-2 _background">
+                            <div class="popover--arrow"></div>
+                            <fieldset data-pane="Background">
+                                <div class="input-group">
+                                    <label for="ms">Experience Level</label>
+                                    <div class="-row">
+                                        <div class="select"><select class="js-seniority-min" id="ms" name="ms"><option value="">Select min. experience</option>
+<option value="Student">Student</option>
+<option value="Junior">Junior</option>
+<option value="MidLevel">Mid-Level</option>
+<option value="Senior">Senior</option>
+<option value="Lead">Lead</option>
+<option value="Manager">Manager</option>
+</select></div>
+                                        <div class="-fill _clean">to</div>
+                                        <div class="select"><select class="js-seniority-max" id="mxs" name="mxs"><option value="">Select max. experience</option>
+<option value="Student">Student</option>
+<option value="Junior">Junior</option>
+<option value="MidLevel">Mid-Level</option>
+<option value="Senior">Senior</option>
+<option value="Lead">Lead</option>
+<option value="Manager">Manager</option>
+</select></div>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <label for="dr">Role</label>
+                                    <select multiple name="dr" id="dr" data-placeholder="Add up to 5 (e.g. Full Stack Developer)" class="chosen-select js-roles">
+                                            <option value="BackendDeveloper" >Backend Developer</option>
+                                            <option value="DataScientist" >Data Scientist</option>
+                                            <option value="DatabaseAdministrator" >Database Administrator</option>
+                                            <option value="Designer" >Designer</option>
+                                            <option value="DesktopDeveloper" >Desktop Developer</option>
+                                            <option value="DevOpsDeveloper" >DevOps</option>
+                                            <option value="EmbeddedDeveloper" >Embedded Developer</option>
+                                            <option value="FrontendDeveloper" >Frontend Developer</option>
+                                            <option value="FullStackDeveloper" >Full Stack Developer</option>
+                                            <option value="GameDeveloper" >Graphics/Game Developer</option>
+                                            <option value="MobileDeveloper" >Mobile Developer</option>
+                                            <option value="ProductManager" >Product Manager</option>
+                                            <option value="QATestDeveloper" >QA/Test Developer</option>
+                                            <option value="SystemAdministrator" >System Administrator</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label>Job Type</label>
+                                    <div class="-list">
+                                            <div class="checkbox">
+                                                <label for="jPermanent">
+                                                    <input Id="jPermanent" class="s-checkbox" name="j" type="checkbox" value="permanent" />
+                                                    Full-time
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label for="jContract">
+                                                    <input Id="jContract" class="s-checkbox" name="j" type="checkbox" value="contract" />
+                                                    Contract
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label for="jInternship">
+                                                    <input Id="jInternship" class="s-checkbox" name="j" type="checkbox" value="internship" />
+                                                    Internship
+                                                </label>
+                                            </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                                    <div class="actions">
+            <button class="btn _primary js-submit js-trigger" role="button">Apply filters</button>
+            <button class="btn-clear cancel js-trigger js-cancel" role="button">Cancel</button>
+        </div>
+
+                        </div>
+                    </li>
+
+                    <li class="tab">
+                        <div class="js-tab-wrapper" data-tab="More">
+                            <a href="#">
+                                
+                                <span class="js-filter-indicator filter-indicator"></span>
+                                <span>More</span>
+                            </a>
+                        </div>
+                        <div class="popover js-popover bg-white bs-sm bar-md ba bc-black-2 _more">
+                            <div class="popover--arrow"></div>
+                            <fieldset data-pane="More">
+                                <div class="input-group">
+                                    <label>Job Features</label>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input class="s-checkbox" id="bFirstApplicants" name="b" type="checkbox" value="FirstApplicants" />
+                                            Be one of the first applicants
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input class="s-checkbox" id="bHighResponse" name="b" type="checkbox" value="HighResponse" />
+                                            High response rate
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <div class="input-group">
+                                    <label for="cl">Companies to include</label>
+                                    <input autocomplete="none" class="s-input js-company" data-separator=";" id="cl" maxlength="140" name="cl" placeholder="Add up to 5 (e.g. Initrode)" type="text" value="" />
+                                </div>
+                                <div class="input-group">
+                                    <label for="cd">Companies to exclude</label>
+                                    <input autocomplete="none" class="s-input js-company" data-separator=";" id="cd" maxlength="140" name="cd" placeholder="Add up to 5 (e.g. Initech)" type="text" value="" />
+                                </div>
+                                <div class="input-group">
+                                    <label for="i">Industry</label>
+                                    <select multiple name="i" id="i" data-placeholder="Add up to 5 (e.g. Finance)" class="chosen-select js-industries">
+                                            <option value="Accounting" >Accounting</option>
+                                            <option value="Advertising" >Advertising</option>
+                                            <option value="Aerospace" >Aerospace</option>
+                                            <option value="Agriculture" >Agriculture</option>
+                                            <option value="Architecture" >Architecture</option>
+                                            <option value="Arts" >Arts</option>
+                                            <option value="Automotive" >Automotive</option>
+                                            <option value="Beauty" >Beauty</option>
+                                            <option value="Business Intelligence" >Business Intelligence</option>
+                                            <option value="Charity" >Charity</option>
+                                            <option value="Chemicals" >Chemicals</option>
+                                            <option value="Collaboration Tools" >Collaboration Tools</option>
+                                            <option value="Communications" >Communications</option>
+                                            <option value="Construction" >Construction</option>
+                                            <option value="Consulting" >Consulting</option>
+                                            <option value="Customer Service" >Customer Service</option>
+                                            <option value="Data &amp; Analytics" >Data &amp; Analytics</option>
+                                            <option value="Dating" >Dating</option>
+                                            <option value="Design" >Design</option>
+                                            <option value="Education" >Education</option>
+                                            <option value="Electronics" >Electronics</option>
+                                            <option value="Energy &amp; Utilities" >Energy &amp; Utilities</option>
+                                            <option value="Enterprise" >Enterprise</option>
+                                            <option value="Entertainment" >Entertainment</option>
+                                            <option value="Events" >Events</option>
+                                            <option value="Fashion" >Fashion</option>
+                                            <option value="Finance" >Finance</option>
+                                            <option value="Food &amp; Beverage" >Food &amp; Beverage</option>
+                                            <option value="Gambling" >Gambling</option>
+                                            <option value="Gaming" >Gaming</option>
+                                            <option value="Geophysics" >Geophysics</option>
+                                            <option value="Government" >Government</option>
+                                            <option value="Hardware" >Hardware</option>
+                                            <option value="Health &amp; Fitness" >Health &amp; Fitness</option>
+                                            <option value="Health Care" >Health Care</option>
+                                            <option value="Home and Garden" >Home and Garden</option>
+                                            <option value="Hospitality" >Hospitality</option>
+                                            <option value="Information Technology" >Information Technology</option>
+                                            <option value="Insurance" >Insurance</option>
+                                            <option value="Language Services" >Language Services</option>
+                                            <option value="Legal" >Legal</option>
+                                            <option value="Life Sciences" >Life Sciences</option>
+                                            <option value="Location Services" >Location Services</option>
+                                            <option value="Logistics &amp; Distribution" >Logistics &amp; Distribution</option>
+                                            <option value="Manufacturing" >Manufacturing</option>
+                                            <option value="Marketing" >Marketing</option>
+                                            <option value="Media" >Media</option>
+                                            <option value="Meteorology" >Meteorology</option>
+                                            <option value="Military" >Military</option>
+                                            <option value="Mobile" >Mobile</option>
+                                            <option value="Pets" >Pets</option>
+                                            <option value="Platforms" >Platforms</option>
+                                            <option value="Politics" >Politics</option>
+                                            <option value="Price Comparison" >Price Comparison</option>
+                                            <option value="Printing" >Printing</option>
+                                            <option value="Publishing" >Publishing</option>
+                                            <option value="Q&amp;A" >Q&amp;A</option>
+                                            <option value="Real Estate" >Real Estate</option>
+                                            <option value="Recreation &amp; Leisure" >Recreation &amp; Leisure</option>
+                                            <option value="Recruiting" >Recruiting</option>
+                                            <option value="Retail" >Retail</option>
+                                            <option value="Reviews" >Reviews</option>
+                                            <option value="Science" >Science</option>
+                                            <option value="Search" >Search</option>
+                                            <option value="Security" >Security</option>
+                                            <option value="Social Media" >Social Media</option>
+                                            <option value="Software Development" >Software Development</option>
+                                            <option value="Sports" >Sports</option>
+                                            <option value="Telecommunications" >Telecommunications</option>
+                                            <option value="Transportation" >Transportation</option>
+                                            <option value="Travel &amp; Tourism" >Travel &amp; Tourism</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                                    <div class="actions">
+            <button class="btn _primary js-submit js-trigger" role="button">Apply filters</button>
+            <button class="btn-clear cancel js-trigger js-cancel" role="button">Cancel</button>
+        </div>
+
+                        </div>
+                    </li>
+                    <li class="sort-by-tab pl2 pr2">
+                        <div class="select">
+                            <select name="sort" id="sorting-options" class="js-sort-options">
+                                    <option value="i" >
+                                        Sort By: Matches
+                                    </option>
+                                    <option value="p" selected>
+                                        Sort By: Newest
+                                    </option>
+                                    <option value="y" >
+                                        Sort By: Salary
+                                    </option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear-filters-container js-clear-filters-container mt12">
+        </div>
+
+    </div>
+    <div class="js-added-filters added-filters">
+            <div class="-list grid added-filters-list">
+                <div class="js-list grid--cell">
+                </div>
+            </div>    </div>
+    <script>
+        StackExchange.ready(function () {
+            var $trigger = $('.js-search-trigger'),
+                $form = $('.js-search-form');
+
+            $trigger.on('click', function (e) {
+                e.preventDefault();
+                $form.addClass('search-form__open').find('#q').focus();
+            });
+        });
+    </script>
+</form>
+<div class="js-header">
+
+
+    <div id="index-hed">
+        <div class="js-search-title -header h4 seo-header">
+            <span class="description">
+9,498 results            </span>
+                <span class="description"> | </span><h1 class="h1 description">Developer jobs</h1>
+        </div>
+
+            <div class="sort">
+                <label for="sorting-options">Sort by:</label>
+                <div class="select">
+                    <select name="sort" id="sorting-options" class="js-sort-options">
+                            <option value="i" >
+                                matches
+                            </option>
+                            <option value="p" selected>
+                                newest
+                            </option>
+                            <option value="y" >
+                                salary
+                            </option>
+                    </select>
+                </div>
+            </div><!-- / sort -->
+        
+
+        <div class="show-filters">
+            <a data-active-count="0" class="js-show-filters">Show Filters </a>
+        </div>
+
+    </div>
+</div>
+<div class="js-search-results flush-left">
+    <div class="listResults">
+        <div data-jobid="217562" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container _highlighted   pt32">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217562">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217562"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+    <span class="tt-uppercase bg-yellow-300 fc-yellow-900 px8 py4 fw-bold fs-fine ps-absolute t0 l0">featured</span>
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217562%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217562" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Carbon Black | Senior Software Engineer in Test | 217562" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217562/senior-software-engineer-in-test-carbon-black" title="Senior Software Engineer in Test" class="s-link s-link__visited">Senior Software Engineer in Test</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t32">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Carbon Black
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Boston, MA        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-automation" class="post-tag job-link no-tag-menu">automation</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="227175" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="227175">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="227175"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f227175%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="227175" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Saunders Scott | Graphic / UX Developer | 227175" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/227175/graphic-ux-developer-saunders-scott" title="Graphic / UX Developer" class="s-link s-link__visited">Graphic / UX Developer</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Saunders Scott
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Dallas, TX        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-user-experience" class="post-tag job-link no-tag-menu">user-experience</a><a href="/jobs/developer-jobs-using-php" class="post-tag job-link no-tag-menu">php</a><a href="/jobs/developer-jobs-using-user-interface" class="post-tag job-link no-tag-menu">user-interface</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="227174" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="227174">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="227174"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f227174%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="227174" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Visa | Cybersecurity Platform System Administrator | 227174" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/227174/cybersecurity-platform-system-administrator-visa" title="Cybersecurity Platform System Administrator" class="s-link s-link__visited">Cybersecurity Platform System Administrator</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Visa
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Austin, TX        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-oracle" class="post-tag job-link no-tag-menu">oracle</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a>
+        </div>
+
+
+        <div class="pt8 -job-badges">
+                                        <div class="fs-caption d-inline-flex ai-center fc-black-500 ba bc-black-2 bg-white py4 px8 bar-sm"><svg aria-hidden="true" class="svg-icon fc-green-400 mr4 iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"/></svg> Be one of the first applicants</div>
+        </div>
+</div>        </div>
+
+        <div data-jobid="217568" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217568">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217568"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217568%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217568" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="S&#252;wag Energie AG | Chief Development Officer / Lead Developer (m/w/i) Web und Mobile – Inhouse | 217568" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217568/chief-development-officer-lead-developer-m-w-s%C3%BCwag-energie-ag" title="Chief Development Officer / Lead Developer (m/w/i) Web und Mobile – Inhouse" class="s-link s-link__visited">Chief Development Officer / Lead Developer (m/w/i) Web und Mobile – Inhouse</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>S&#252;wag Energie AG
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Frankfurt am Main, Deutschland        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/mobile-developer-jobs" class="post-tag job-link no-tag-menu">mobile</a><a href="/jobs/designer-jobs" class="post-tag job-link no-tag-menu">design</a><a href="/jobs/developer-jobs-using-ruby" class="post-tag job-link no-tag-menu">ruby</a><a href="/jobs/developer-jobs-using-agile" class="post-tag job-link no-tag-menu">agile</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217566" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217566">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217566"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217566%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217566" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="ABOUT YOU GmbH | Senior Frontend Developer - Shop Applications | 217566" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217566/senior-frontend-developer-shop-applications-about-you-gmbh" title="Senior Frontend Developer - Shop Applications" class="s-link s-link__visited">Senior Frontend Developer - Shop Applications</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>ABOUT YOU GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Hamburg, Germany        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                                        <span class="-visa pr16">
+                    Visa sponsor
+                </span>
+                            <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-reactjs" class="post-tag job-link no-tag-menu">reactjs</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="227173" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="227173">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="227173"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f227173%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="227173" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="eHire | Infrastructure Engineer (Linux) | 227173" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/227173/infrastructure-engineer-linux-ehire" title="Infrastructure Engineer (Linux)" class="s-link s-link__visited">Infrastructure Engineer (Linux)</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>eHire
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Atlanta, GA        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a>
+        </div>
+
+
+        <div class="pt8 -job-badges">
+                                        <div class="fs-caption d-inline-flex ai-center fc-black-500 ba bc-black-2 bg-white py4 px8 bar-sm"><svg aria-hidden="true" class="svg-icon fc-green-400 mr4 iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"/></svg> Be one of the first applicants</div>
+        </div>
+</div>        </div>
+
+        <div data-jobid="196447" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container   can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="196447">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="196447"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f196447%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="196447" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="cap hpi | .NET Developer - Set the standard in Automotive Data! | 196447" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/196447/net-developer-set-the-standard-in-automotive-cap-hpi" title=".NET Developer - Set the standard in Automotive Data!" class="s-link s-link__visited">.NET Developer - Set the standard in Automotive Data!</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>cap hpi
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Leeds, UK        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-.net" class="post-tag job-link no-tag-menu">.net</a><a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-asp.net" class="post-tag job-link no-tag-menu">asp.net</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="227171" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="227171">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="227171"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f227171%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="227171" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Brain Corporation | Firmware Engineer | 227171" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/227171/firmware-engineer-brain-corporation" title="Firmware Engineer" class="s-link s-link__visited">Firmware Engineer</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Brain Corporation
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+San Diego, CA        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-c" class="post-tag job-link no-tag-menu">c</a><a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a>
+        </div>
+
+
+        <div class="pt8 -job-badges">
+                                        <div class="fs-caption d-inline-flex ai-center fc-black-500 ba bc-black-2 bg-white py4 px8 bar-sm"><svg aria-hidden="true" class="svg-icon fc-green-400 mr4 iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"/></svg> Be one of the first applicants</div>
+        </div>
+</div>        </div>
+
+        <div data-jobid="227170" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="227170">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="227170"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f227170%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="227170" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Brain Corporation | Software Engineer, Linux | 227170" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/227170/software-engineer-linux-brain-corporation" title="Software Engineer, Linux" class="s-link s-link__visited">Software Engineer, Linux</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Brain Corporation
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+San Diego, CA        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a>
+        </div>
+
+
+        <div class="pt8 -job-badges">
+                                        <div class="fs-caption d-inline-flex ai-center fc-black-500 ba bc-black-2 bg-white py4 px8 bar-sm"><svg aria-hidden="true" class="svg-icon fc-green-400 mr4 iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"/></svg> Be one of the first applicants</div>
+        </div>
+</div>        </div>
+
+        <div data-jobid="217561" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container _highlighted  can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217561">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217561"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217561%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217561" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Varen Technologies | Fully Cleared Java Software Developer Opportunity | 217561" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217561/fully-cleared-java-software-developer-opportunity-varen-technologies" title="Fully Cleared Java Software Developer Opportunity" class="s-link s-link__visited">Fully Cleared Java Software Developer Opportunity</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Varen Technologies
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Columbia, MD        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                <span class="-salary pr16">
+                    $100k - 160k
+
+                         | 
+Equity                </span>
+                                                    <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-jquery" class="post-tag job-link no-tag-menu">jquery</a><a href="/jobs/developer-jobs-using-elasticsearch" class="post-tag job-link no-tag-menu">elasticsearch</a><a href="/jobs/developer-jobs-using-hadoop" class="post-tag job-link no-tag-menu">hadoop</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217560" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container _highlighted  can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217560">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217560"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217560%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217560" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Varen Technologies | Rapid Prototyping Software Engineer | 217560" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217560/rapid-prototyping-software-engineer-varen-technologies" title="Rapid Prototyping Software Engineer" class="s-link s-link__visited">Rapid Prototyping Software Engineer</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Varen Technologies
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Columbia, MD        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                <span class="-salary pr16">
+                    $90k - 170k
+
+                         | 
+Equity                </span>
+                                                    <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-php" class="post-tag job-link no-tag-menu">php</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-bash" class="post-tag job-link no-tag-menu">bash</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="195165" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container   can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="195165">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="195165"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f195165%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="195165" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="pro!vision GmbH | Web Frontend Developer (m/w) in Frankfurt am Main | 195165" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/195165/web-frontend-developer-m-w-in-frankfurt-am-main-pro-vision-gmbh" title="Web Frontend Developer (m/w) in Frankfurt am Main" class="s-link s-link__visited">Web Frontend Developer (m/w) in Frankfurt am Main</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>pro!vision GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Frankfurt am Main, Deutschland        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-html" class="post-tag job-link no-tag-menu">html</a><a href="/jobs/developer-jobs-using-css" class="post-tag job-link no-tag-menu">css</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-angularjs" class="post-tag job-link no-tag-menu">angularjs</a><a href="/jobs/developer-jobs-using-jquery" class="post-tag job-link no-tag-menu">jquery</a>
+        </div>
+
+
+        <div class="pt8 -job-badges">
+                            <div class="fs-caption d-inline-flex ai-center fc-black-500 ba bc-black-2 bg-white py4 px8 mr8 bar-sm"><svg aria-hidden="true" class="svg-icon fc-green-400 mr4 iconTrendingUp" width="18" height="18" viewBox="0 0 18 18"><path d="M11 4l2.29 2.29L10.5 9l-3-3L1 12.5 2.5 14l5-5 3 3 4.21-4.29L17 10V4z"/></svg> High response rate</div>
+                    </div>
+</div>        </div>
+
+        <div data-jobid="217559" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container _highlighted  can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217559">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217559"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217559%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217559" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Varen Technologies | Big Data Software Engineer - Opportunity to Gain/Hold Clearance | 217559" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217559/big-data-software-engineer-opportunity-to-gain-varen-technologies" title="Big Data Software Engineer - Opportunity to Gain/Hold Clearance" class="s-link s-link__visited">Big Data Software Engineer - Opportunity to Gain/Hold Clearance</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Varen Technologies
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Columbia, MD        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                <span class="-salary pr16">
+                    $90k - 130k
+
+                         | 
+Equity                </span>
+                                                    <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-scala" class="post-tag job-link no-tag-menu">scala</a><a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-hadoop" class="post-tag job-link no-tag-menu">hadoop</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="207432" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container   can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="207432">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="207432"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f207432%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="207432" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Cathedral Plumbing of Texas | Senior Full-Stack Web Engineer | 207432" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/207432/senior-full-stack-web-engineer-cathedral-plumbing-of-texas" title="Senior Full-Stack Web Engineer" class="s-link s-link__visited">Senior Full-Stack Web Engineer</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Cathedral Plumbing of Texas
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Carrollton, TX        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-.net-core" class="post-tag job-link no-tag-menu">.net-core</a><a href="/jobs/developer-jobs-using-react-native" class="post-tag job-link no-tag-menu">react-native</a><a href="/jobs/developer-jobs-using-azure" class="post-tag job-link no-tag-menu">azure</a><a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-sql-server" class="post-tag job-link no-tag-menu">sql-server</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217558" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217558">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217558"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217558%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217558" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Crytek GmbH | Senior Animation Programmer - HUNT | 217558" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217558/senior-animation-programmer-hunt-crytek-gmbh" title="Senior Animation Programmer - HUNT" class="s-link s-link__visited">Senior Animation Programmer - HUNT</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Crytek GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Frankfurt, Germany        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                                        <span class="-visa pr16">
+                    Visa sponsor
+                </span>
+                            <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-multithreading" class="post-tag job-link no-tag-menu">multithreading</a><a href="/jobs/developer-jobs-using-cryengine" class="post-tag job-link no-tag-menu">cryengine</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="167750" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="167750">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="167750"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f167750%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="167750" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Bloomberg LP | Senior Machine Learning Engineer - Communications Intelligence | 167750" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/167750/senior-machine-learning-engineer-communications-bloomberg-lp" title="Senior Machine Learning Engineer - Communications Intelligence" class="s-link s-link__visited">Senior Machine Learning Engineer - Communications Intelligence</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Bloomberg LP
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+New York, NY        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                                                    <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-reactjs" class="post-tag job-link no-tag-menu">reactjs</a><a href="/jobs/developer-jobs-using-sql" class="post-tag job-link no-tag-menu">sql</a><a href="/jobs/developer-jobs-using-nlp" class="post-tag job-link no-tag-menu">nlp</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="227169" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container   can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="227169">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="227169"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f227169%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="227169" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Legalesign | Frontend Web Developer | 227169" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/227169/frontend-web-developer-legalesign" title="Frontend Web Developer" class="s-link s-link__visited">Frontend Web Developer</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Legalesign
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Cambridge, UK        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                <span class="-salary pr16">
+                    &#163;25k - 50k
+
+                         | 
+Equity                </span>
+                                                    <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-reactjs" class="post-tag job-link no-tag-menu">reactjs</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-node.js" class="post-tag job-link no-tag-menu">node.js</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="167749" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="167749">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="167749"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f167749%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="167749" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Bloomberg LP | Senior C++ Engineer - Financial Applications | 167749" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/167749/senior-c-plus-plus-engineer-financial-applications-bloomberg-lp" title="Senior C++ Engineer - Financial Applications" class="s-link s-link__visited">Senior C++ Engineer - Financial Applications</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Bloomberg LP
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+New York, NY        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                                                    <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217557" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container _highlighted   ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217557">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217557"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217557%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217557" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="BASF | Product Manager Digital Farming Solutions (m/f) | 217557" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217557/product-manager-digital-farming-solutions-m-f-basf" title="Product Manager Digital Farming Solutions (m/f)" class="s-link s-link__visited">Product Manager Digital Farming Solutions (m/f)</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>BASF
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+M&#252;nster, Germany        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-sap" class="post-tag job-link no-tag-menu">sap</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217556" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217556">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217556"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217556%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217556" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Crytek GmbH | Senior Server Programmer - HUNT | 217556" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217556/senior-server-programmer-hunt-crytek-gmbh" title="Senior Server Programmer - HUNT" class="s-link s-link__visited">Senior Server Programmer - HUNT</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Crytek GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Frankfurt, Germany        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                                        <span class="-visa pr16">
+                    Visa sponsor
+                </span>
+                            <span class="-relocation">
+                    Paid relocation
+                </span>
+        </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-sql-server" class="post-tag job-link no-tag-menu">sql-server</a><a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-cryengine" class="post-tag job-link no-tag-menu">cryengine</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217555" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217555">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217555"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217555%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217555" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="GEOMAGIC GmbH | JavaScript Entwickler (m/w) | 217555" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217555/javascript-entwickler-m-w-geomagic-gmbh" title="JavaScript Entwickler (m/w)" class="s-link s-link__visited">JavaScript Entwickler (m/w)</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>GEOMAGIC GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Leipzig, Germany        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-node.js" class="post-tag job-link no-tag-menu">node.js</a><a href="/jobs/developer-jobs-using-mongodb" class="post-tag job-link no-tag-menu">mongodb</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217554" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217554">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217554"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217554%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217554" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="GEOMAGIC GmbH | Java Entwickler (m/w) | 217554" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217554/java-entwickler-m-w-geomagic-gmbh" title="Java Entwickler (m/w)" class="s-link s-link__visited">Java Entwickler (m/w)</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>GEOMAGIC GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Leipzig, Germany        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-java-ee" class="post-tag job-link no-tag-menu">java-ee</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="207430" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container   can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="207430">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="207430"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f207430%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="207430" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="MTIC HD Co Ltd | Senior Web Developer, Frontend | 207430" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/207430/senior-web-developer-frontend-mtic-hd-co-ltd" title="Senior Web Developer, Frontend" class="s-link s-link__visited">Senior Web Developer, Frontend</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>MTIC HD Co Ltd
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Minato, Japan        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                <span class="-salary pr16">
+                    $50k - 100k
+
+                         | 
+Equity                </span>
+                                        <span class="-visa pr16">
+                    Visa sponsor
+                </span>
+                    </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-css" class="post-tag job-link no-tag-menu">css</a><a href="/jobs/developer-jobs-using-html" class="post-tag job-link no-tag-menu">html</a><a href="/jobs/developer-jobs-using-git" class="post-tag job-link no-tag-menu">git</a><a href="/jobs/developer-jobs-using-github" class="post-tag job-link no-tag-menu">github</a>
+        </div>
+
+
+        <div class="pt8 -job-badges">
+                            <div class="fs-caption d-inline-flex ai-center fc-black-500 ba bc-black-2 bg-white py4 px8 mr8 bar-sm"><svg aria-hidden="true" class="svg-icon fc-green-400 mr4 iconTrendingUp" width="18" height="18" viewBox="0 0 18 18"><path d="M11 4l2.29 2.29L10.5 9l-3-3L1 12.5 2.5 14l5-5 3 3 4.21-4.29L17 10V4z"/></svg> High response rate</div>
+                    </div>
+</div>        </div>
+
+        <div data-jobid="173177" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container   can-apply ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="173177">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="173177"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f173177%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="173177" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="AERA EDV-Programm GmbH | Softwareentwickler C#/.NET (m/w) B2B-Marktplatz | 173177" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/173177/softwareentwickler-c-sharp-net-m-w-b2b-marktplatz-aera-edv-programm-gmbh" title="Softwareentwickler C#/.NET (m/w) B2B-Marktplatz" class="s-link s-link__visited">Softwareentwickler C#/.NET (m/w) B2B-Marktplatz</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>AERA EDV-Programm GmbH
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+Vaihingen an der Enz, Deutschland        </span>
+    </div>
+
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-vb.net" class="post-tag job-link no-tag-menu">vb.net</a><a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-.net" class="post-tag job-link no-tag-menu">.net</a>
+        </div>
+
+
+</div>        </div>
+
+        <div data-jobid="217553" class="-item -job p24 pl48 bb ps-relative bc-black-2 js-dismiss-overlay-container    ">
+
+            <div class="dismiss-overlay ps-absolute ta-center p16 t0 r0 b0 l0 grid ai-center jc-center o90 bg-black-050 fs-body3">
+                <p class="mb0">Okay, you won’t see this job anymore. <a href="#" class="js-undismiss-job" data-id="217553">Undo</a></p>
+            </div>
+            <div class="dismiss-trigger js-dismiss-job ps-absolute r12 fc-black-500 c-pointer" data-id="217553"  data-referrer="JobSearch" title="Dismiss job"><svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7z"/></svg></div>
+            
+
+<div class="-job-summary">
+    <div class="-title">
+        <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f217553%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs" data-jobid="217553" class="fav-toggle ps-absolute l16 c-pointer js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Aula | Remote DevOps/Automation Engineer (Node.js/Terraform/Docker) | 217553" )>
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"/></svg>
+        </span>
+
+        <h2 class="fs-subheading job-details__spaced mb4">
+<a href="/jobs/217553/remote-devops-automation-engineer-nodejs-aula" title="Remote DevOps/Automation Engineer (Node.js/Terraform/Docker)" class="s-link s-link__visited">Remote DevOps/Automation Engineer (Node.js/Terraform/Docker)</a>        </h2>
+
+            <span class="ps-absolute pt2 r0 fc-black-500 fs-body1 pr12 t24">2d ago</span>
+
+    </div>
+
+
+
+    <div class="fc-black-700 fs-body2 -company">
+        <span>Aula
+        </span>
+        
+        <span class="fc-black-500">
+             - 
+No office location        </span>
+    </div>
+
+        <div class="mt2 -perks">
+                <span class="-salary pr16">
+                    &#163;50k - 90k
+
+                         | 
+Equity                </span>
+                            <span class="-remote pr16">
+                    Remote
+                </span>
+                                </div>
+
+        <div class="mt12 -tags">
+            <a href="/jobs/developer-jobs-using-node.js" class="post-tag job-link no-tag-menu">node.js</a><a href="/jobs/developer-jobs-using-reactjs" class="post-tag job-link no-tag-menu">reactjs</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-terraform" class="post-tag job-link no-tag-menu">terraform</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a>
+        </div>
+
+
+</div>        </div>
+
+<script>document.write('<img class="impression" src="/jobs/a/i?a=1aXK2gnRBUGI-1ebCyoX5w6kw-1ebBgtqy8VKo-1aXRBQ5Mbi4U-1aXP1Z2HqWUE-1ebzYxU0LLag-13SHimyDPajC-1ebxoGQW1q00-1ebw6LkoEfpS-1aXIKkRkeK4w-1aXHspkMRzuo-13s2ATKyIlgc-1aXGatOfuoUg-17z6HsBI9bz2-1aXEIyQorAfC-Ug0jJ3s9TOM-1ebuOPNRh4PK-UfZ1NwUMJeE-1aXDACLaK3K0-1aXC8HNjHf5m-1aXAQMgMk4ve-1aXzyQKeWTV6-17z47ByDoQoM-W4QA0cJleh2-1aXygVdHzJkY" style="display:none">');</script>
+</div>
+</div>
+
+<div class="jobsfooter js-footer mb32 pt32">
+    <div class="grid gs16 sm:fd-column">
+            <div class="grid--cell">        <div class="pagination ">
+                            <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p&pg=29" title="page 29 of 380" class="prev-next job-link">
+                    <i class="material-icons">chevron_left</i><span class="text">previous</span>
+                </a>
+            
+
+                    <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p" title="page 1 of 380" class="job-link">
+                        <span>1</span>
+                    </a>
+                    <span class="ellipsis">...</span>
+                    <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p&pg=29" title="page 29 of 380" class="job-link">
+                        <span>29</span>
+                    </a>
+                    <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p&pg=30" title="page 30 of 380" class="job-link selected">
+                        <span>30</span>
+                    </a>
+                    <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p&pg=31" title="page 31 of 380" class="job-link">
+                        <span>31</span>
+                    </a>
+                    <span class="ellipsis">...</span>
+                    <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p&pg=380" title="page 380 of 380" class="job-link">
+                        <span>380</span>
+                    </a>
+        
+                <a href="/jobs?med=site-ui&ref=jobs-tab&sort=p&pg=31" title="page 31 of 380" class="prev-next job-link test-pagination-next">
+                    <span class="text">next</span><i class="material-icons">chevron_right</i>
+                </a>
+        </div>
+</div>
+
+        
+        <div class="grid--cell">
+            <a href="/jobs/feed" data-feedurl="/jobs/subscribe-to-rss?feedUrl=https%3a%2f%2fstackoverflow.com%2fjobs%2ffeed" rel="nofollow" title="Subscribe to RSS" class="js-feed fc-black-400"><svg aria-hidden="true" class="svg-icon iconRss" width="18" height="18" viewBox="0 0 18 18"><path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z"/></svg> Subscribe to RSS</a>
+        </div>
+    </div>
+
+        <div>
+
+    <div class="related-links">
+                <div class="-category">
+            <span class="-category-title">Popular Searches</span>
+            <ul class="-links">
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-android?f=rl" class="-link">android developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-c%2b%2b?f=rl" class="-link">c++ developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-node.js?f=rl" class="-link">node.js developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-machine-learning?f=rl" class="-link">machine-learning developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-amazon-web-services?f=rl" class="-link">amazon-web-services developer jobs</a>
+                    </li>
+            </ul>
+        </div>
+
+        
+                <div class="-category">
+            <span class="-category-title">Experience Level</span>
+            <ul class="-links">
+                    <li class="-page">
+                        <a href="/jobs/student-developer-jobs?f=rl" class="-link">Student developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/junior-developer-jobs?f=rl" class="-link">Junior developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/senior-developer-jobs?f=rl" class="-link">Senior developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/lead-developer-jobs?f=rl" class="-link">Lead developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/manager-developer-jobs?f=rl" class="-link">Manager developer jobs</a>
+                    </li>
+            </ul>
+        </div>
+
+                <div class="-category">
+            <span class="-category-title">Top Cities</span>
+            <ul class="-links">
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-in-new-york?f=rl" class="-link">Developer jobs in New York, NY</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-in-amsterdam?f=rl" class="-link">Developer jobs in Amsterdam, Netherlands</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-in-stockholm?f=rl" class="-link">Developer jobs in Stockholm, Sweden</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-in-toronto?f=rl" class="-link">Developer jobs in Toronto, ON, Canada</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-in-singapore?f=rl" class="-link">Developer jobs in Singapore</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/remote-developer-jobs?f=rl" class="-link">Remote developer jobs</a>
+                    </li>
+            </ul>
+        </div>
+
+                <div class="-category">
+            <span class="-category-title">Top Technologies</span>
+            <ul class="-links">
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-go?f=rl" class="-link">go developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-angularjs?f=rl" class="-link">angularjs developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-scala?f=rl" class="-link">scala developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-.net?f=rl" class="-link">.net developer jobs</a>
+                    </li>
+                    <li class="-page">
+                        <a href="/jobs/developer-jobs-using-rust?f=rl" class="-link">rust developer jobs</a>
+                    </li>
+            </ul>
+        </div>
+
+    </div>
+
+        </div>
+</div>
+
+    </div>
+<div class="sidebar js-sidebar">
+
+
+<section id="profile-summary">
+            <div class="-popout">
+                <strong class="-title">Are you looking for a job?</strong>
+                <p>When you create a Developer Story, we’ll accelerate your matches and get you in front of employers ASAP.</p>
+                <a href="/jobs/cv/sign-up-and-create?returnUrl=https%3A%2F%2Fstackoverflow.com%2Fjobs%3Fmed%3Dsite-ui%26ref%3Djobs-tab%26sort%3Di%26pg%3D30%26scv%3Dt" class="-cta btn-secondary" rel="nofollow"  data-ga="[&quot;Jobs Engagement&quot;,&quot;Jobs Onboarding Start&quot;,&quot;Create a Developer Story&quot;,null,null]">Create a Developer Story</a>
+            </div>
+</section>
+
+<div id="activity-status-dialog" class="container"></div>
+
+
+
+        <div id="featured-company-page" style="display: none">
+            <div id="featured-company-page-ad"></div>
+        </div>
+    
+
+
+
+    <div id="post-job" class="s-sidebarwidget">
+        <div class="post-job-header">
+            <div class="header-img"></div>
+        </div>
+        <div class="post-job-content">
+            <p>Hiring developers? We have Talent Solutions.</p>
+            <a target="_blank" class="s-sidebarwidget--action float-none fs-body1 ml0" href="/jobs/post-job?r=JobsSearchSidebar">Learn more&nbsp;&raquo;</a>
+        </div>
+    </div>
+
+  
+</div>
+</div>
+
+    <script id="fav-tip" type="text/html">
+        <div class="fav-tip js-tooltip">
+            <p>
+                <a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f-1%3freturnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs">Sign up</a> in order to add this job to your favorites.
+            </p>
+        </div>
+    </script>
+    <script id="dismiss-tip-job" type="text/html">
+        <div class="dismiss-tip js-tooltip">
+            <p>
+                <a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fdismiss-job%3fjobId%3d-1%26returnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dUnknown&amp;ssrc=jobs">Sign up</a> in order to dismiss this job.
+            </p>
+        </div>
+    </script>
+    <script id="dismiss-tip-company" type="text/html">
+        <div class="dismiss-tip js-tooltip">
+            <p>
+                <a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fdismiss-company%3fid%3d-1%26returnUrl%3d%252Fjobs%253Fmed%253Dsite-ui%2526ref%253Djobs-tab%2526sort%253Di%2526pg%253D30%26referrer%3dUnknown&amp;ssrc=jobs">Sign up</a> in order to dismiss this company.
+            </p>
+        </div>
+    </script>
+
+
+<!-- End Careers Body --><!-- End SO: 2:Body -->
+<!-- Start SO: 3:JavaScript -->
+<!-- Begin Careers Javascript -->
+        <script>
+            window._trackJs = {
+                token: 'ab6d9997c71d45d082e65135f148be49',
+                application: "stack-overflow-jobs",
+                userId: '0',
+                version: '9615'
+            };
+        </script>
+<script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/trackjs/2.10.2/tracker.min.js?v=9b876b27b5d7" type="text/javascript"></script>    <script type="text/javascript">
+        if (!window.jQuery) {
+            document.write('<script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/jquery/1.12.4/jquery-1.12.4.min.js?v=bc2444e2951c" type="text/javascript"><\/script>');
+        }
+    </script>
+    <script>
+        
+        
+        (function (i, r) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date();
+        })(window, 'ga');
+
+        
+        if (navigator.sendBeacon) {
+            var _sendBeacon = navigator.sendBeacon.bind(navigator);
+            if (_sendBeacon) {
+                navigator.sendBeacon = function (url, data) {
+                    if (url == "/gps/event") {
+                        url = "/jobs/n/prizm/event";
+                    }
+                    return _sendBeacon(url, data);
+                };
+            }
+        }
+
+        
+        $.ajaxPrefilter(function (options) {
+            if (options.url == "/gps/event") {
+                options.url = "/jobs/n/prizm/event";
+            }
+        });
+    </script>
+
+
+<script>if (!window.Promise) document.writeln("\u003cscript crossorigin=\"anonymous\" src=\"https://cdn.sstatic.net/careers/Js/third-party/es6-promise/es6-promise.min.js?v=edf6449d00e9\" type=\"text/javascript\"\u003e\u003c/script\u003e");</script>
+
+<script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/systemjs/system-polyfill.min.js?v=90d9ef787026" type="text/javascript"></script>
+<script>
+    
+    System.baseURL = "https://cdn.sstatic.net/careers/Ts/Jobs/";
+</script>
+<script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Ts/Jobs/Desktop/jobs.min.js?v=6adfd4f8b0e3" type="text/javascript"></script>
+
+
+
+
+<script>if (window.StackOverflow && window.StackOverflow.Jobs) StackOverflow.Jobs.init({"Desktop/profileSummary":{"redirectToStoryAfterStatusUpdate":false,"searchStatusUrl":"/jobs/cv/set-search-state","storyUrl":"/users/story/create?r=JobsSidebar","successMessage":"Your job search status has been updated."},"Desktop/featuredCompanyAds":{"url":"/jobs/a/featured-company-js"},"Desktop/jobSearch":{"companySearchUrl":"/jobs/get-companies","anonymousAlertModalUrl":"/jobs/alerts/anonymous/subscribe/modal","saveSearchUrl":"/jobs/saved-search/save?getMobilePanel=False","unsaveSearchUrl":"/jobs/saved-search/unsave","savedSearchesPanelUrl":"/jobs/saved-searches-panel","savedSearchSendEmailsUrl":"/jobs/saved-search/set-send-emails","defaultRange":20,"seniorityMap":{"Student":1,"Junior":2,"MidLevel":3,"Senior":4,"Lead":5,"Manager":6},"startOpenToTagFilter":false,"queryStringKeys":{"referer":"f","salaryCalculatorCta":"fsc","analytic":"a","createAlertCta":"ca"}},"Desktop/favorites":{"addTitleText":"Click to add this job to your favorites.","removeTitleText":"This job is currently in your favorites. Click if you\u0027d like to remove."},"Desktop/dismiss":{"DismissJobUrl":"https://stackoverflow.com/jobs/dismiss-job","UndismissJobUrl":"https://stackoverflow.com/jobs/undo-dismiss-job","DismissCompanyUrl":"https://stackoverflow.com/jobs/dismiss-company","UndismissCompanyUrl":"https://stackoverflow.com/jobs/undo-dismiss-company"},"Shared/forms":{"XSRF_KEY":"aa9f20da8afc6d52dc3ea8c58e3bb4bdf6936b25e9fa0488d002f86840b86662"},"Shared/user":{"isAnonymous":true}});</script>
+<!-- End Careers Javascript --><!-- End SO: 3:JavaScript -->
+
+        </div>
+    </div>
+
+    <footer id="footer" class="site-footer js-footer" role="contentinfo">
+        <div class="site-footer--container">
+                <div class="site-footer--logo">
+
+                    
+                    <a href="https://stackoverflow.com"><svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37"><g><path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z"/><path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024"/></g></svg></a>
+                </div>
+            
+            <nav class="site-footer--nav">
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 15})">Stack Overflow</a></h5>
+                        <ul class="-list js-primary-footer-links">
+                            <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 16})">Questions</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 17})">Jobs</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 11})">Developer Jobs Directory</a></li>
+                                     <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 28})">Salary Calculator</a></li>
+                                                            <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 3 })">Help</a></li>
+                                <li class="-item"><a onclick='StackExchange.switchMobile("on")' class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 12 })">Mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://www.stackoverflowbusiness.com" class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 19 })">Products</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/teams" class="js-gps-track -link" 
+                                                 data-ga="[&quot;teams traffic&quot;,&quot;footer - site nav&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]"
+                                                 data-gps-track="footer.click({ location: 29, link: 29 })">Teams</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 20 })">Talent</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 21 })">Engagement</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 22 })">Enterprise</a></li>
+                        </ul>
+                    </div>
+                <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                    <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5>
+                    <ul class="-list">
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li>
+                                                <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 7 })" href="https://stackoverflow.com/legal">Legal</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer--col site-footer--categories-nav site-footer--col__visible">
+                    <a href="#" class="site-footer--back js-footer-back"><svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewBox="0 0 18 18"><path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z"/></svg></a>
+                    <div>
+                        <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Technology">Technology</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Life / Arts">Life / Arts</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Science">Science</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Other">Other</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="site-footer--categories">
+                    <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+        <ul class="-list">
+                <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="system and network administrators">Server Fault</a></li>
+                <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="computer enthusiasts and power users">Super User</a></li>
+                <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="power users of web applications">Web Applications</a></li>
+                <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="pro webmasters">Webmasters</a></li>
+                <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="professional and independent game developers">Game Development</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li>
+                <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li>
+                <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="information security professionals">Information Security</a></li>
+                <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li>
+                <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li>
+                <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="user experience researchers and experts">User Experience</a></li>
+                <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Portugu&#234;s</a></li>
+                <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li>
+                <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="network engineers">Network Engineering</a></li>
+                <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="peer programmer code reviews">Code Review</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li>
+                <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li>
+                <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li>
+                <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="программистов">Stack Overflow на русском</a></li>
+                <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="programadores y profesionales de la inform&#225;tica">Stack Overflow en espa&#241;ol</a></li>
+                <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li>
+                <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li>
+                <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li>
+                <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 26 })">
+                        <strong>
+                            more (30)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+        <ul class="-list">
+                <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li>
+                <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"><ul class="-list">
+                <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li>
+                <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li>
+                <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 26 })">
+                        <strong>
+                            more (15)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+        <ul class="-list">
+                <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="scientific skepticism">Skeptics</a></li>
+                <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li>
+                <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li>
+                <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"><ul class="-list">
+                <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li>
+                <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li>
+                <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 26 })">
+                        <strong>
+                            more (33)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+        <ul class="-list">
+                <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="professional mathematicians">MathOverflow</a></li>
+                <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li>
+                <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="scientists, academics, teachers, and students in the field of chemistry">Chemistry</a></li>
+                <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="biology researchers, academics, and students">Biology</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Science"><ul class="-list">
+                <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 26 })">
+                        <strong>
+                            more (10)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Other">
+        <ul class="-list">
+                <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li>
+                <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li>
+                <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 1, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                    </ul>
+    </div>
+                </div>
+            </nav>
+            <div class="site-footer--copyright fs-fine">
+                <ul class="-list">
+                    <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li>
+                    <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li>
+                    <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li>
+                    <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li>
+                </ul>
+
+                <p class="mt-auto mb24">
+site design / logo &#169; 2019 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a>
+                            with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>.
+                    <span id="svnrev">rev&nbsp;2019.1.7.32550</span>
+                </p>
+            </div>
+        </div>
+
+            </footer>
+            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher(); })</script>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled
+            <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno">
+        </div>
+    </noscript>
+
+<script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ]
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Jobs: Jobs/Index');
+
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>
+            
+    </body>
+    </html>

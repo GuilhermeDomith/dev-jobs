@@ -1,0 +1,116 @@
+{% extends 'base/base.html'%}
+
+{% load static %}
+
+{% block main %}
+
+<!-- Descrição da vaga -->
+<div class="section section-card">
+    <div class="row">
+        <div class="col s12">
+                
+            <h5>{{ job.title }}</h5>
+            
+            <div class="divider" style="width: 100%;"></div>
+
+            <div class="row">
+                <div class="col s12 mt-2">
+                    <p> <b>Postagem:</b> {{ job.posted }} </p>
+                    <p> <b>Empresa:</b> {{job.company}} </p>
+                    <p> <b>Local:</b> {{ job.location }} </p>
+                    <p> <b>Tamanho da Empresa:</b> {{job.company_size}} employee{{job.company_size|pluralize}} </p>
+                    <p> <b>Tipo de Empresa:</b> {{job.company_type}} </p>
+                    <p> <b>Cargo:</b> {{job.role}} </p>
+                    <p> <b>Salário:</b> R$ {{job.salary_mean}} </p>
+                </div>
+                <div class="col s12 mt-2">
+                    {{job.description|linebreaks}}
+                </div>
+                <br>
+                <div class="col s12 mt-2">
+                    {% for tag in job.tags %}
+                        <div class="chip"> {{tag}} </div>
+                    {% endfor %}
+                </div>
+                <div class="col s12 mt-2">
+                    <a class="waves-effect waves-light btn right">
+                        <i class="material-icons left">done</i>
+                        Candidatar
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+{% if user.is_authenticated %}
+
+<div class="divider"></div>
+
+<!-- Sugestão de cursos -->
+<div class="section section-card">
+    <div class="row">
+        <div class="col s12">
+            <div class="card grey lighten-5">
+                <blockquote>
+                    <div class="card-content">
+                        {% if nao_competencias %}
+                        <p>
+                            Parece que você não domina 
+                            {% if nao_competencias|length > 1 %}
+                                <span class="bold">{{nao_competencias|slice:':-1'|join:', '}}</span>
+                                e
+                            {% endif %}
+                            <span class="bold">{{nao_competencias|last}}</span>.
+                            Que tal fazer algum destes cursos
+                            abaixo e ficar mais apto para a vaga ofertada.
+                        </p>
+                        {% else %}
+                        <p>
+                            Você possui todas as competências para esta vaga! Você pode fazer algum dos cursos abaixo e ficar ainda mais apto para se candidatar.
+                        </p>
+                        {% endif %}
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <ul>
+            {% for c in cursos %}
+            {% if not forloop.counter|divisibleby:2  %}
+            <div class="row">
+                {% endif %}
+                <li>
+                    <div class="col m6 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="{{c.image_480x270}}">
+                                <a href="{{c.url}}" target="_blank"
+                                    class="btn-floating halfway-fab waves-effect waves-light red">
+                                    <i class="material-icons">add</i>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title" style="min-height: 60px">{{c.title}}</span>
+                                <p>{{c.what_learn|truncatechars:200}}</p>
+                            </div>
+                            <div class="card-action">
+                                {% for tag in c.tags %}
+                                <div class="chip"> {{ tag }} </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {% if forloop.counter|divisibleby:2  %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

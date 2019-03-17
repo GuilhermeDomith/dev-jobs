@@ -1,0 +1,58 @@
+{% extends 'base/base.html'%}
+{% load static %}
+{% block main %}
+<div class="section section-card login-screen">
+
+    <h5 class="center">Login</h5>
+
+
+    <form method="post" class="center">
+        {% csrf_token %}
+
+        <div class="row">
+            <!-- Username -->
+            <div class="input-field col s12">
+                {% if form.username.errors %}
+                <input id="username" name="username" type="text" class="validate invalid" value="{{ form.username.value|default_if_none:'' }}">
+                {% else %}
+                <input id="username" name="username" type="text" class="validate" value="{{ form.username.value|default_if_none:'' }}">
+                {% endif %}
+                <label for="username">Nome de Usuário</label>
+                <span class="helper-text" data-error="{{form.username.errors|first}}">
+                </span>
+            </div>
+
+            <!-- Senha -->
+            <div class="input-field col s12">
+                {% if form.password.errors %}
+                <input id="password" name="password" type="password" class="validate invalid" value="{{ form.password.value|default_if_none:'' }}">
+                {% else %}
+                <input id="password" name="password" type="password" class="validate" value="{{ form.password.value|default_if_none:'' }}">
+                {% endif %}
+                <label for="password">Senha</label>
+                <span class="helper-text" data-error="{{form.password.errors|first}}">
+                </span>
+
+            </div>
+
+            <div class="col s12">
+                <button class="btn waves-effect waves-light right" type="submit" name="action">Logar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
+
+
+{% block script %}
+
+<script>
+    $(document).ready(() => {
+        {% for error in form.non_field_errors %}
+        M.toast({ html: '{{error}}', displayLength: 9000, classes: 'rounded' })
+        {% endfor %}
+    })
+</script>
+
+{% endblock%}

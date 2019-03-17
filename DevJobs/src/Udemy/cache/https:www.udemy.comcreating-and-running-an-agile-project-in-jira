@@ -1,0 +1,3386 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+    <head>
+        <title>Creating and Running an Agile Project in JIRA | Udemy</title>
+
+        
+            
+<meta name="description" content="Plan, track, and release great software"><meta name="apple-itunes-app" content="app-id=562413829, affiliate-data=ct=Safari_SmartBanner&amp;amp;pt=1240482"><meta name="google-play-app" content="app-id=com.udemy.android"><meta name="title" content="Creating and Running an Agile Project in JIRA | Udemy"><meta name="twitter:card" content="summary_large_image"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"><meta name="medium" content="mult"><meta property="fb:app_id" content="313137469260"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="udemy_com:available" content="1"><meta property="udemy_com:category" content="Development"><meta property="udemy_com:instructor" content="https://www.udemy.com/user/packtpublishing/"><meta property="udemy_com:price" content="R$354.99"><meta property="og:title" content="Creating and Running an Agile Project in JIRA | Udemy"><meta property="og:url" content="https://www.udemy.com/creating-and-running-an-agile-project-in-jira/"><meta property="og:description" content="Plan, track, and release great software"><meta property="og:image" content="https://udemy-images.udemy.com/course/480x270/1749446_6fae_2.jpg"><meta property="og:type" content="udemy_com:course"><meta property="og:site_name" content="Udemy"><meta property="og:locale" content="en_US"><meta name="twitter:domain" content="www.udemy.com"><meta name="twitter:title" content="Creating and Running an Agile Project in JIRA | Udemy"><meta name="twitter:url" content="https://www.udemy.com/creating-and-running-an-agile-project-in-jira/"><meta name="twitter:description" content="Plan, track, and release great software"><meta name="twitter:image" content="https://udemy-images.udemy.com/course/480x270/1749446_6fae_2.jpg"><meta name="twitter:site" content="@udemy"><meta itemprop="name" content="Creating and Running an Agile Project in JIRA | Udemy"><meta itemprop="url" content="https://www.udemy.com/creating-and-running-an-agile-project-in-jira/"><meta itemprop="description" content="Plan, track, and release great software"><meta itemprop="image" content="https://udemy-images.udemy.com/course/480x270/1749446_6fae_2.jpg">
+
+
+        
+
+        
+            <link type="text/css" href="/staticx/udemy/js/webpack/entry-main-legacy.d5a7f91ad139f4e5122e.css" rel="stylesheet" />
+        
+
+        
+            
+            <link rel="preconnect" href="https://udemy-images.udemy.com" crossorigin />
+            
+            <link rel="dns-prefetch" href="https://udemy-images.udemy.com" crossorigin />
+            
+        
+
+        
+            
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-57x57.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-114x114.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-72x72.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-144x144.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-60x60.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-120x120.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-76x76.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-152x152.png" />
+            
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-196x196.png" sizes="196x196" />
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-96x96.png" sizes="96x96" />
+            
+            <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-16x16.png" sizes="16x16" />
+            
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-128.png" sizes="128x128" />
+            
+            <meta name="application-name" content="Udemy"/>
+            <meta name="msapplication-TileColor" content="#EDECE6" />
+            <meta name="msapplication-TileImage" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-144x144.png" />
+            <meta name="msapplication-square70x70logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-70x70.png" />
+            <meta name="msapplication-square150x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-150x150.png" />
+            <meta name="msapplication-wide310x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x150.png" />
+            <meta name="msapplication-square310x310logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x310.png" />
+        
+
+        
+            <style>/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+        
+
+        
+            <style>
+    .org-logo {
+        background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+    }
+
+    @media (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+        @-ms-viewport { width:device-width; zoom:1.0; }
+        .org-logo {
+            /*retina display*/
+            background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+        }
+    }
+</style>
+
+        
+
+        
+    <link type="text/css" href="/staticx/udemy/js/webpack/course-landing-page/desktop/hb.5a866479f39575ebaf80.css" rel="stylesheet" />
+
+
+        <script type="text/javascript">
+    (function () {
+        var head,
+            regExp = "",
+            version = -1,
+            userAgent = navigator.userAgent;
+
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            regExp = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        } else if (navigator.appName == 'Netscape') {
+            regExp = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+        }
+        if (regExp && regExp.exec(userAgent) != null) {
+            version = parseFloat(RegExp.$1);
+        }
+
+        if (version > 9) {
+            head = document.getElementsByTagName("html")[0];
+            head.className = head.className + " ie";
+            if (version == 10) {
+                head.className = head.className + " ie10";
+            }
+        }
+    })();
+</script>
+
+
+        <script>
+    // Polyfill for IE in order to fix errors related with new Event() and new CustomEvent()
+    // https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill
+    (function () {
+      if ( typeof window.CustomEvent === "function" ) return false;
+      function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+       }
+      CustomEvent.prototype = window.Event.prototype;
+      window.CustomEvent = CustomEvent;
+      window.Event = CustomEvent;
+    })();
+
+    // Shim for requestIdleCallback.
+    // https://developers.google.com/web/updates/2015/08/using-requestidlecallback
+    window.requestIdleCallback = window.requestIdleCallback || function (cb) {
+      var start = Date.now();
+      return setTimeout(function () {
+        cb({
+          didTimeout: false,
+          timeRemaining: function () {
+            return Math.max(0, 50 - (Date.now() - start));
+          }
+        });
+      }, 1);
+    };
+</script>
+
+
+
+<script>
+    var UD = UD || {};
+    UD.me = {"encrypted_affiliate_email":"","qualaroo_survey_ids":[],"settings":{},"encrypted_affiliate_uid":"","learning_languages":[]};
+    UD.Config = {"third_party":{"filestack":{"filepicker_misc_extensions":[".gif",".jpg",".jpeg",".png",".rar",".zip",".pdf"],"presentation_extensions":[".pdf"],"key":"A0EHlHYkEQbCTpDvxEwAYz","video_extensions":[".avi",".mpg",".mpeg",".flv",".mov",".m2v",".m4v",".mp4",".rm",".ram",".vob",".ogv",".webm",".wmv"],"source_code_extensions":[".rb",".py"],"s3_fineuploader_misc_extensions":[".uoml",".sac",".mgz",".hpid",".pgb",".xdm",".sema",".ghf",".p7c",".g2w",".ddf",".hqx",".otf",".stif",".avi",".irp",".vss",".zip",".dor",".g3",".sig",".vsd",".qwd",".json-patch",".sjpg",".so",".wcm",".img",".box",".ra",".axa",".mxf",".movie",".eml",".svc",".spf",".slt",".ism",".qca",".oxt",".wmx",".fo",".bdm",".h",".taglet",".pack",".xfdf",".roa",".lzh",".dist",".jar",".cuc",".svg",".css",".n3",".fdt",".spn",".spdf",".ter",".xls",".m21",".roff",".stk",".std",".hpgl",".str",".ustar",".htm",".3gpp2",".vcard",".edm",".xif",".koz",".mp21",".uvg",".jam",".c4u",".qwt",".otp",".ndl",".uvvt",".bh2",".ptid",".ogv",".t38",".etx",".psd",".lbd",".sml",".ns4",".xyze",".meta4",".qt",".snd",".sxi",".dxp",".c4p",".tuc",".mseed",".tsa",".wqd",".lostsyncxml",".xhtml",".moml",".cpt",".svgz",".c4f",".o",".odg",".uvvz",".jpx",".bar",".unityweb",".ait",".emm",".pre",".pyv",".anx",".mc1",".teiCorpus",".8",".odt",".uo",".twds",".slaz",".ns2",".wax",".mxl",".uvvd",".class",".acn",".pnm",".sieve",".dll",".orq",".zone",".mpeg",".susp",".pkd",".xvm",".kne",".bpd",".c4g",".oxps",".tfx",".oth",".sql",".tga",".726",".gph",".xlim",".gtar",".uvvg",".iso",".m",".spp",".cxx",".ddd",".igx",".flv",".nsg",".xcs",".provx",".pyc",".mjp2",".pkg",".tpt",".pod",".stw",".dcf",".3dm",".mpp",".pfr",".pcl",".semf",".flw",".jnlp",".dsm",".wml",".docm",".wks",".sh",".or2",".qps",".clkt",".uni",".ns3",".skm",".ufdl",".ttl",".pyo",".rst",".ami",".sxd",".m15",".asf",".xsl",".uvm",".wlnk",".itp",".tsr",".csp",".spq",".m3u8",".smh",".odd",".dtd",".csh",".fcs",".xer",".finf",".wg",".jpg2",".aep",".gdl",".rng",".latex",".mp2",".fdf",".mrc",".u8msg",".lvp",".mrcx",".sjp",".rtx",".jpm",".smo",".xlsb",".ext",".nc",".amr",".ma",".mbox",".uvf",".smil",".vcx",".dxf",".ssw",".djvu",".dvi",".s1m",".sub",".igm",".nml",".wbmp",".sdkm",".xlsm",".s1w",".s14",".pqa",".qxd",".sgm",".atom",".soa",".odb",".sxg",".mp4",".mpg4",".wif",".swf",".p8",".djv",".stc",".cdbcmsg",".ifb",".lbc",".jpg",".dvc",".at3",".package",".ccc",".fts",".pkipath",".i2g",".xlm",".ief",".pls",".semd",".aal",".wgt",".3g2",".ssml",".ftc",".cap",".ccxml",".zir",".kwd",".doc",".sfs",".oda",".src",".mfm",".dpg",".silo",".gre",".x_b",".ps",".kpr",".flo",".xltm",".rct",".crx",".ggb",".rcprofile",".pgp",".jpf",".tcu",".mht",".mbk",".evb",".exe",".apk",".dwf",".model-inter",".xla",".atomdeleted",".mpe",".yang",".abc",".ic0",".oa3",".rs",".pbd",".zfo",".vbk",".cmc",".xca",".sv4cpio",".m1v",".xpr",".mpf",".wv",".m4u",".rnc",".ico",".sswf",".dtshd",".smht",".ott",".kmz",".xsm",".midi",".s3df",".wbxml",".fe_launch",".cla",".s1g",".sti",".ic8",".sfd-hdstx",".gxt",".fxpl",".ppsx",".rnd",".wtb",".1",".ac",".mesh",".wk1",".nb",".hvp",".txd",".pseg3820",".wrl",".et3",".es3",".msm",".tmo",".copyright",".gqs",".gbr",".ksp",".mus",".rep",".uri",".mwc",".asx",".mhtml",".nsh",".ppt",".sdf",".odp",".skp",".pcap",".smzip",".rlc",".ntf",".nitf",".wadl",".c11amz",".sdoc",".scd",".cnd",".texinfo",".sldx",".xhvml",".esa",".mod",".fst",".s11",".xmt_txt",".uvvp",".ecelp7470",".hbci",".fzs",".curl",".pil",".stm",".pwn",".msty",".dxr",".uvvx",".afp",".pgm",".geo",".kil",".evc",".webp",".xav",".evw",".rgb",".smp",".nnw",".dd",".apr",".oga",".rdf-crypt",".xsf",".mpm",".m4a",".uvvm",".spd",".mid",".chm",".seed",".tcl",".py",".azv",".xo",".stf",".rdf",".scsf",".sfd",".ktz",".xmt_bin",".vcd",".mxmf",".tsq",".kcm",".mods",".bkm",".mms",".rpst",".btif",".m3u",".5",".gv",".dpgraph",".si",".utz",".mxml",".fvt",".c11amc",".t",".torrent",".dcr",".srx",".uvvu",".qbo",".lrm",".png",".rm",".uvp",".ez2",".nws",".request",".ors",".smi",".provn",".3gpp",".vcg",".exi",".aso",".uvs",".dataless",".vxml",".ttf",".txf",".dm",".ims",".les",".pgn",".oa2",".o4v",".spot",".sldm",".m2v",".u8dsn",".dsc",".umj",".smv",".xul",".crtr",".vtu",".wmlc",".slc",".fpx",".gsheet",".l16",".uvv",".xml",".qxt",".pps",".see",".obj",".webm",".xns",".xel",".jfif",".mp3",".wsdl",".cii",".rp9",".edx",".portpkg",".ppam",".cpkg",".wsc",".lostxml",".hvs",".plf",".xbm",".opus",".org",".s1e",".json",".cdmiq",".dls",".gif",".tsd",".u8mdn",".wpl",".cpio",".dvb",".prz",".win",".bmml",".kon",".hxx",".acutc",".tr",".rms",".odi",".prc",".spl",".mpd",".uvva",".nnd",".gz",".sv4crc",".cmp",".cdy",".iges",".xslt",".icf",".mgp",".rsheet",".mxi",".wiz",".tpl",".mqy",".pbm",".4",".sit",".hal",".xdf",".miz",".fti",".g\u00b3",".otc",".p7s",".tra",".sis",".vsf",".ai",".pptx",".clkp",".iota",".xlsx",".ods",".sdp",".rld",".sam",".sus",".qcall",".tex",".wmls",".joda",".mcd",".wbs",".appcache",".conf",".igl",".p7m",".vsc",".cw",".dd2",".hdr",".lwp",".sru",".dmp",".dfac",".ppsm",".sc",".ahead",".aiff",".wspolicy",".xlam",".cml",".ecelp4800",".odf",".td",".ots",".js",".grv",".es",".mpga",".dotx",".pvb",".pskcxml",".imp",".cc",".uvu",".atomcat",".uris",".tlclient",".mpn",".soc",".kom",".drc",".cab",".rq",".viv",".inkml",".thmx",".ras",".tei",".ltf",".cil",".emf",".html",".pya",".msh",".cgm",".dae",".smov",".xlb",".xpdl",".woff",".mail",".fit",".nlu",".grxml",".rss",".fm",".xltx",".ogg",".karbon",".qfx",".azf",".sgml",".zirz",".swi",".omg",".wmc",".cww",".au",".sxc",".relo",".scs",".rpm",".xsd",".3gp",".f90",".669",".cl",".txt",".mov",".rsm",".or3",".ac3",".sgi",".clkx",".ica",".sem",".bed",".cdxml",".icd",".xyz",".fxm",".gim",".st",".rels",".x_t",".sla",".mmd",".xop",".text",".sgif",".s3m",".sid",".p12",".tree",".mwf",".p10",".fly",".ep",".jpe",".tau",".rtf",".cryptonote",".ngdat",".auc",".ipk",".potm",".hps",".stml",".uvz",".eot",".mpkg",".azs",".ms",".ram",".scq",".spo",".cdmia",".sandboxed",".sppt",".aa3",".jtd",".dpkg",".dis",".flac",".pptm",".wpd",".acc",".quox",".tcap",".gtm",".dot",".study-inter",".xlt",".epub",".tif",".csv",".pti",".sse",".twd",".atomsvc",".oprc",".sxls",".plb",".fcdt",".art",".nds",".icm",".atx",".xar",".icc",".gtw",".pfx",".emma",".dart",".rgbe",".xwd",".shar",".kia",".opf",".jpgm",".sl",".sms",".ccmp",".mmf",".mts",".atc",".wmv",".sic",".tnf",".oas",".ivu",".pki",".wk4",".ic1",".xht",".tur",".fxp",".gmx",".clkw",".ic6",".plj",".mseq",".el",".odc",".nsf",".ice",".mtm",".bmp",".awb",".seml",".vml",".psb",".vew",".clkk",".dts",".ppa",".gex",".dssc",".ic4",".sm",".manifest",".docx",".ic2",".qxb",".uvvi",".med",".nim",".3",".ndc",".wdb",".jisp",".osf",".xpm",".qam",".link66",".uvvs",".eol",".pm",".gsm",".kml",".msf",".xfdl",".listafp",".fla",".ez3",".plc",".nns",".xlw",".s1a",".wmlsc",".qxl",".wav",".mmr",".uvx",".paw",".otg",".cpl",".tsv",".mpy",".mpg",".xspf",".dcm",".123",".mlp",".uva",".hvd",".mag",".esf",".tag",".cellml",".mdc",".ksh",".texi",".mpt",".uvi",".mxu",".mdi",".mads",".list3820",".ez",".sxm",".vbox",".gqf",".wm",".skd",".bin",".smp3",".psid",".vrml",".pml",".vwx",".mml",".2",".tar",".hdf",".xhtm",".dotm",".ecelp9600",".xpi",".me",".ent",".bz2",".vsw",".uvvh",".gram",".ssf",".spx",".vst",".mj2",".uvd",".ppkg",".acu",".ult",".qcp",".wps",".o4a",".xpx",".ic7",".vcf",".eps",".btf",".man",".enw",".lmp",".ppd",".fnc",".msl",".ics",".ic3",".uvvf",".knp",".jad",".preminet",".cdkey",".davmount",".tnef",".nbp",".jpeg",".pdb",".7",".xz",".efif",".irm",".bcpio",".msd",".fg5",".wma",".tiff",".odm",".s1n",".pot",".scm",".igs",".hbc",".1905.1",".potx",".yin",".sdo",".rl",".uric",".mif",".xdssc",".xpw",".dms",".zmm",".a",".cif",".pwz",".chrt",".hpi",".crl",".fbs",".ktx",".gac",".rif",".kpt",".m4v",".ink",".upa",".ogx",".jlt",".s1p",".metalink",".rip",".3dml",".tfi",".cdf",".notebook",".sisx",".cdmic",".kwt",".c",".bat",".ic5",".distz",".dwg",".xdw",".apxml",".lasxml",".hh",".c4d",".vis",".xmls",".ktr",".shf",".cst",".bmi",".jp2",".uvt",".ppm",".daf",".lha",".zaz",".ufd",".wk3",".rdz",".mxs",".aif",".pdf",".xvml",".ipfix",".flx",".u8hdr",".xfd",".uvvv",".log",".ivp",".cer",".sxw",".6",".axv",".s1j",".lbe",".g3w",".mft",".tgz",".sdkd",".map",".teacher",".mp1",".pl",".skt",".mb",".quiz",".iif",".vpm",".uvh",".xbd",".entity",".dr",".siv",".ggt",".xlc",".dp",".cdmid",".aifc",".dir",".xdp",".cdmio",".rpss",".asc",".mets",".n-gage",".fits",".spng",".s1h",".oti",".sxl",".x3d",".dna",".ei6",".wvx",".saf",".smpg",".kar",".xps",".mpa",".ifm",".mpc",".s1q",".ts",".tao",".frm",".kfo",".fsc",".htke"],"audio_extensions":[".mp3",".wav"]},"raven_dsn":"https://369c830fbf534485a068ab919d71b80d@app.getsentry.com/38617","stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","paypal":{"returnurl":"https://www.udemy.com/user/paypal-login-return","appid":"ASRJrkbBfTwvxWNTn-QRakeimIbsjmBuK5hWj4zq3QJL46CKIYNb-RiKjrTSe-2iZ-EFrCCuXGZTxHjY","authend":"live"},"branch_metrics":{"ios_download_url":"http://ude.my/ios","android_download_url":"http://ude.my/android","android_ufb_download_url":"http://ude.my/android-ufb","ios_ufb_download_url":"http://ude.my/ios-ufb"},"intercom":{"app_id":"sehj53dd"},"google_analytics_id_for_ufb_only":"UA-12366301-47","s3":{"images":{"base_url":"https://udemy-images.udemy.com/"},"image_asset":{"bucket_url":"https://udemy-image-web-upload.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"asset":{"bucket_url":"https://udemy-web-upload-transitional.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"}},"google_analytics_id_for_course_taking":"UA-12366301-45","sift_science_account":false,"uft_stripe_publishable_key":"pk_live_dCyHJcZsk8NaNwx1PiRSpqqq","facebook_app_id":"313137469260","google_analytics_id":"UA-12366301-1","pusher":{"coding_exercise_event":"coding-exercise-evaluated","key":"825910825f8199bd5b21"},"google_tag_manager_id":"GTM-7BF3X","user_stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","zendesk":{"refund_form_id":406368}},"price_country":{"usd_currency_formatter":{"pattern":"!#,##0.00","locale":"en_US","currency":"usd","symbol":"$","group":",","scale":2,"decimal":"."},"currency_charm_amount":-0.01,"id":"BR","currency":"brl","currency_symbol":"R$","currency_formatter":{"pattern":"!#,##0.00","locale":"en_US","currency":"brl","symbol":"R$","group":",","scale":2,"decimal":"."},"currency_decimal_places":2,"_class":"country"},"version":"6daa92cc8547352b4d208be9e98c1004efd57f9e","brand":{"is_add_reviews_enabled":true,"is_government":false,"is_autoshow_cc_enabled":true,"is_social_sharing_enabled":true,"title":"Udemy","has_organization":false,"_class":"brand","is_discussions_enabled":true,"is_team":false,"is_udemy":true,"link_bar_nav_list_id":"ud-link-bar","is_messaging_enabled":true,"is_external_sources_enabled":true,"identifier":"br","product_logo":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_share_on_slack_enabled":false,"is_teaching_enabled":true,"is_import_courses_enabled":true,"organization":false,"is_profile_functions_enabled":true,"product_name":"Udemy","is_share_to_workplace_enabled":false,"logo_url_2x":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_feed_commenting_enabled":true,"product_logo_light":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg","is_sso_enabled":false},"marketplace_country":{"iso_code":"BRA","title":"Brazil","id":"BR","currency":"brl","_class":"country"},"url":{"to_images":"https://www.udemy.com/staticx/udemy/images/","to_root":"https://www.udemy.com/","to_app":"https://www.udemy.com/","to_page_events":"https://page-events-ustats.udemy.com/","to_js":"https://www.udemy.com/staticx/udemy/js/"},"features":{"course":{"discussions":{"view":true},"announcements":{"comments":{"view":true}},"refundable":true,"students":{"unenroll":false}},"logged_in_home":{"ufb_ad":false,"linkbar_level_2":true},"report_abuse":true,"wishlist":true,"zendesk_chat":false,"flyout":true,"notice":{"instructor_bar":false,"smart_bar":true},"invite":{"alert":true},"course_landing_page":{"money_back_guarantee":true,"reviews":{"show_user_avatar":true},"instructor_bio":{"social_links":true,"stats":true,"image":true},"incentives":{"access_tv":true,"lifetime_access":true}},"bundle":{"instructor_bio":{"social_links":true}},"ufb_notices":true,"intercom_chat":false,"hello_bar":{"instructor":false,"terms":true,"pricing":true},"shopping_cart":true,"sd_navigation":true,"social_share":{"welcome_popup":true,"email":true},"home":{"my_courses":{"revenue":true,"privacy":true,"free_label":true},"signup_cta":true},"gift_course":true,"discount":{"change_alerts":true},"course_review":{"clp_review_search":true,"leave_feedback":true},"ufb_notices_footer":{"top_com":true}},"env":"PROD","app_name":"course_landing_page"};
+    UD.site_stats = {"organizations":{"num_courses":3000},"default":{"num_courses":100000,"num_instructors":35000,"num_students":24,"num_topics":2000}};
+    UD.visiting = {"visitor_uuid":"47e0ede670934579b7cb6e18c749ce45","first_visit_time":"2019-03-16T03:21:00.565Z","is_first_time_visitor":true};
+</script>
+
+
+
+<script>
+    UD.request = {
+        locale: 'en_US',
+        language_simple_english_title: 'English',
+        termsBarType: '',
+        termsBarUrls: "",
+        isMobile: false,
+        serverTimestamp: '2019-03-16T03:21:00.736490+00:00',
+        clientTimestamp: new Date().toISOString(),
+        
+        experiment: {"clp":{"ids":{"1970":4952,"1988":4994,"1942":4880},"values":{"ufb_clp_right_rail_ad_link_params":{"utm_term":"031219-control"},"ufb_clp_right_rail_ad_link_path":"request-demo","show_matrix_fact_clp":"scb_non_personalized","reviews_from_elasticsearch":true}},"tgt":{"ids":{"19044":19048},"values":{}}},
+    };
+</script>
+
+<script>
+    
+    window.GoogleAnalyticsObject = 'ga';
+    window.ga = function () {
+        (window.ga.q = window.ga.q || []).push(arguments);
+    };
+    window.ga.l = 1 * new Date();
+
+    UD.GoogleAnalytics = UD.GoogleAnalytics || {};
+    UD.GoogleAnalytics.createAccount = function (accountId, propertyName, domainName) {
+        if (accountId) {
+            if (propertyName) {
+                // Required for multiple trackers
+                window.ga('create', accountId, 'auto', {'name': propertyName, 'cookieDomain': domainName || 'none', 'siteSpeedSampleRate': 10});
+            } else {
+                window.ga('create', accountId, 'auto', {'siteSpeedSampleRate': 10});
+                window.ga('require', 'displayfeatures'); // Enables retargeting
+            }
+        }
+    };
+    UD.GoogleAnalytics.createAccount(UD.Config.third_party.google_analytics_id);
+</script>
+
+<script>
+    if (window.performance && typeof window.performance.mark === 'function'
+            && typeof window.performance.measure === 'function') {
+        UD.performance = {
+            _trackedResources: [],
+            _eventNamePrefix: 'UD-',
+            trackResourceTiming: function (resourceName, resourceUrl) {
+                this._trackedResources.push({ name: resourceName, url: resourceUrl });
+            },
+            mark: function (name) {
+                window.performance.mark(this._eventNamePrefix + name);
+            },
+            start: function (name) {
+                window.performance.mark(this._eventNamePrefix + '_' + name + '-start');
+            },
+            end: function (name) {
+                var endMark = this._eventNamePrefix + '_' + name + '-end';
+                var startMark = this._eventNamePrefix + '_' + name + '-start';
+                window.performance.mark(endMark);
+                
+                if (window.performance.getEntriesByName(startMark).length > 0) {
+                    window.performance.measure(this._eventNamePrefix + name, startMark, endMark);
+                }
+            },
+            sync: function() {
+                
+                window.dispatchEvent(new CustomEvent('syncPerf',
+                    { detail: { trackedResources: this._trackedResources } }
+                ));
+            }
+        };
+    } else {
+        UD.performance = {
+            trackResourceTiming: Function.prototype,
+            mark: Function.prototype,
+            start: Function.prototype,
+            end: Function.prototype,
+            sync: Function.prototype
+        };
+    }
+</script>
+
+<script>
+   (function activateMyQualaroos(surveyIds) {
+        window._kiq = window._kiq || [];
+        var i, property;
+        for (i = 0; i < surveyIds.length; i++) {
+            property = {};
+            property[surveyIds[i]] = true;
+            window._kiq.push(['set', property]);
+        }
+        window._kiq.push(['identify', UD.visiting.visitor_uuid || '']);
+    })(UD.me.qualaroo_survey_ids);
+</script>
+
+
+
+<script>
+    window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};
+</script>
+
+
+
+
+
+    
+        <script>
+            UD.browse = {
+                navigation_categories: [{"absolute_url":"/courses/development/","type":"category","title_cleaned":"development","children":[{"absolute_url":"/courses/development/web-development/","type":"subcategory","title_cleaned":"web-development","children":null,"title":"Web Development","id":8,"icon_name":"web-development"},{"absolute_url":"/courses/development/mobile-apps/","type":"subcategory","title_cleaned":"mobile-apps","children":null,"title":"Mobile Apps","id":10,"icon_name":"mobile-apps"},{"absolute_url":"/courses/development/programming-languages/","type":"subcategory","title_cleaned":"programming-languages","children":null,"title":"Programming Languages","id":12,"icon_name":"programming-languages"},{"absolute_url":"/courses/development/game-development/","type":"subcategory","title_cleaned":"game-development","children":null,"title":"Game Development","id":14,"icon_name":"game-development"},{"absolute_url":"/courses/development/databases/","type":"subcategory","title_cleaned":"databases","children":null,"title":"Databases","id":16,"icon_name":"databases"},{"absolute_url":"/courses/development/software-testing/","type":"subcategory","title_cleaned":"software-testing","children":null,"title":"Software Testing","id":18,"icon_name":"software-testing"},{"absolute_url":"/courses/development/software-engineering/","type":"subcategory","title_cleaned":"software-engineering","children":null,"title":"Software Engineering","id":20,"icon_name":"software-engineering"},{"absolute_url":"/courses/development/development-tools/","type":"subcategory","title_cleaned":"development-tools","children":null,"title":"Development Tools","id":362,"icon_name":"development-tools"},{"absolute_url":"/courses/development/e-commerce/","type":"subcategory","title_cleaned":"e-commerce","children":null,"title":"E-Commerce","id":354,"icon_name":"e-commerce"}],"title":"Development","id":288,"icon_name":"development"},{"absolute_url":"/courses/business/","type":"category","title_cleaned":"business","children":[{"absolute_url":"/courses/business/finance/","type":"subcategory","title_cleaned":"finance","children":null,"title":"Finance","id":24,"icon_name":"finance"},{"absolute_url":"/courses/business/entrepreneurship/","type":"subcategory","title_cleaned":"entrepreneurship","children":null,"title":"Entrepreneurship","id":26,"icon_name":"entrepreneurship"},{"absolute_url":"/courses/business/communications/","type":"subcategory","title_cleaned":"communications","children":null,"title":"Communications","id":28,"icon_name":"communications"},{"absolute_url":"/courses/business/management/","type":"subcategory","title_cleaned":"management","children":null,"title":"Management","id":30,"icon_name":"management"},{"absolute_url":"/courses/business/sales/","type":"subcategory","title_cleaned":"sales","children":null,"title":"Sales","id":32,"icon_name":"sales"},{"absolute_url":"/courses/business/strategy/","type":"subcategory","title_cleaned":"strategy","children":null,"title":"Strategy","id":34,"icon_name":"strategy"},{"absolute_url":"/courses/business/operations/","type":"subcategory","title_cleaned":"operations","children":null,"title":"Operations","id":36,"icon_name":"operations"},{"absolute_url":"/courses/business/project-management/","type":"subcategory","title_cleaned":"project-management","children":null,"title":"Project Management","id":38,"icon_name":"project-management"},{"absolute_url":"/courses/business/business-law/","type":"subcategory","title_cleaned":"business-law","children":null,"title":"Business Law","id":40,"icon_name":"business-law"},{"absolute_url":"/courses/business/data-and-analytics/","type":"subcategory","title_cleaned":"data-and-analytics","children":null,"title":"Data \u0026 Analytics","id":44,"icon_name":"data-and-analytics"},{"absolute_url":"/courses/business/home-business/","type":"subcategory","title_cleaned":"home-business","children":null,"title":"Home Business","id":46,"icon_name":"home-business"},{"absolute_url":"/courses/business/human-resources/","type":"subcategory","title_cleaned":"human-resources","children":null,"title":"Human Resources","id":48,"icon_name":"human-resources"},{"absolute_url":"/courses/business/industry/","type":"subcategory","title_cleaned":"industry","children":null,"title":"Industry","id":50,"icon_name":"industry"},{"absolute_url":"/courses/business/media/","type":"subcategory","title_cleaned":"media","children":null,"title":"Media","id":52,"icon_name":"media"},{"absolute_url":"/courses/business/real-estate/","type":"subcategory","title_cleaned":"real-estate","children":null,"title":"Real Estate","id":58,"icon_name":"real-estate"},{"absolute_url":"/courses/business/other-business/","type":"subcategory","title_cleaned":"other-business","children":null,"title":"Other","id":60,"icon_name":"line-star"}],"title":"Business","id":268,"icon_name":"business"},{"absolute_url":"/courses/it-and-software/","type":"category","title_cleaned":"it-and-software","children":[{"absolute_url":"/courses/it-and-software/it-certification/","type":"subcategory","title_cleaned":"it-certification","children":null,"title":"IT Certification","id":132,"icon_name":"it-certification"},{"absolute_url":"/courses/it-and-software/network-and-security/","type":"subcategory","title_cleaned":"network-and-security","children":null,"title":"Network \u0026 Security","id":134,"icon_name":"network-and-security"},{"absolute_url":"/courses/it-and-software/hardware/","type":"subcategory","title_cleaned":"hardware","children":null,"title":"Hardware","id":136,"icon_name":"hardware"},{"absolute_url":"/courses/it-and-software/operating-systems/","type":"subcategory","title_cleaned":"operating-systems","children":null,"title":"Operating Systems","id":138,"icon_name":"operating-systems"},{"absolute_url":"/courses/it-and-software/other-it-and-software/","type":"subcategory","title_cleaned":"other-it-and-software","children":null,"title":"Other","id":140,"icon_name":"line-star"}],"title":"IT \u0026 Software","id":294,"icon_name":"it-and-software"},{"absolute_url":"/courses/office-productivity/","type":"category","title_cleaned":"office-productivity","children":[{"absolute_url":"/courses/office-productivity/microsoft/","type":"subcategory","title_cleaned":"microsoft","children":null,"title":"Microsoft","id":96,"icon_name":"microsoft"},{"absolute_url":"/courses/office-productivity/apple/","type":"subcategory","title_cleaned":"apple","children":null,"title":"Apple","id":98,"icon_name":"apple"},{"absolute_url":"/courses/office-productivity/google/","type":"subcategory","title_cleaned":"google","children":null,"title":"Google","id":100,"icon_name":"google"},{"absolute_url":"/courses/office-productivity/sap/","type":"subcategory","title_cleaned":"sap","children":null,"title":"SAP","id":102,"icon_name":"sap"},{"absolute_url":"/courses/office-productivity/oracle/","type":"subcategory","title_cleaned":"oracle","children":null,"title":"Oracle","id":106,"icon_name":"oracle"},{"absolute_url":"/courses/office-productivity/other-productivity/","type":"subcategory","title_cleaned":"other-productivity","children":null,"title":"Other","id":108,"icon_name":"line-star"}],"title":"Office Productivity","id":292,"icon_name":"office-productivity"},{"absolute_url":"/courses/personal-development/","type":"category","title_cleaned":"personal-development","children":[{"absolute_url":"/courses/personal-development/personal-transformation/","type":"subcategory","title_cleaned":"personal-transformation","children":null,"title":"Personal Transformation","id":142,"icon_name":"personal-transformation"},{"absolute_url":"/courses/personal-development/productivity/","type":"subcategory","title_cleaned":"productivity","children":null,"title":"Productivity","id":144,"icon_name":"productivity"},{"absolute_url":"/courses/personal-development/leadership/","type":"subcategory","title_cleaned":"leadership","children":null,"title":"Leadership","id":146,"icon_name":"leadership"},{"absolute_url":"/courses/personal-development/personal-finance/","type":"subcategory","title_cleaned":"personal-finance","children":null,"title":"Personal Finance","id":148,"icon_name":"personal-finance"},{"absolute_url":"/courses/personal-development/career-development/","type":"subcategory","title_cleaned":"career-development","children":null,"title":"Career Development","id":150,"icon_name":"career-development"},{"absolute_url":"/courses/personal-development/parenting-and-relationships/","type":"subcategory","title_cleaned":"parenting-and-relationships","children":null,"title":"Parenting \u0026 Relationships","id":152,"icon_name":"parenting-and-relationships"},{"absolute_url":"/courses/personal-development/happiness/","type":"subcategory","title_cleaned":"happiness","children":null,"title":"Happiness","id":156,"icon_name":"happiness"},{"absolute_url":"/courses/personal-development/religion-and-spirituality/","type":"subcategory","title_cleaned":"religion-and-spirituality","children":null,"title":"Religion \u0026 Spirituality","id":158,"icon_name":"religion-and-spirituality"},{"absolute_url":"/courses/personal-development/personal-brand-building/","type":"subcategory","title_cleaned":"personal-brand-building","children":null,"title":"Personal Brand Building","id":160,"icon_name":"personal-brand-building"},{"absolute_url":"/courses/personal-development/creativity/","type":"subcategory","title_cleaned":"creativity","children":null,"title":"Creativity","id":164,"icon_name":"creativity"},{"absolute_url":"/courses/personal-development/influence/","type":"subcategory","title_cleaned":"influence","children":null,"title":"Influence","id":166,"icon_name":"influence"},{"absolute_url":"/courses/personal-development/self-esteem/","type":"subcategory","title_cleaned":"self-esteem","children":null,"title":"Self Esteem","id":168,"icon_name":"self-esteem"},{"absolute_url":"/courses/personal-development/stress-management/","type":"subcategory","title_cleaned":"stress-management","children":null,"title":"Stress Management","id":170,"icon_name":"stress-management"},{"absolute_url":"/courses/personal-development/memory/","type":"subcategory","title_cleaned":"memory","children":null,"title":"Memory \u0026 Study Skills","id":172,"icon_name":"memory"},{"absolute_url":"/courses/personal-development/motivation/","type":"subcategory","title_cleaned":"motivation","children":null,"title":"Motivation","id":176,"icon_name":"motivation"},{"absolute_url":"/courses/personal-development/other-personal-development/","type":"subcategory","title_cleaned":"other-personal-development","children":null,"title":"Other","id":178,"icon_name":"line-star"}],"title":"Personal Development","id":296,"icon_name":"personal-development"},{"absolute_url":"/courses/design/","type":"category","title_cleaned":"design","children":[{"absolute_url":"/courses/design/web-design/","type":"subcategory","title_cleaned":"web-design","children":null,"title":"Web Design","id":6,"icon_name":"web-design"},{"absolute_url":"/courses/design/graphic-design/","type":"subcategory","title_cleaned":"graphic-design","children":null,"title":"Graphic Design","id":110,"icon_name":"graphic-design"},{"absolute_url":"/courses/design/design-tools/","type":"subcategory","title_cleaned":"design-tools","children":null,"title":"Design Tools","id":112,"icon_name":"design-tools"},{"absolute_url":"/courses/design/user-experience/","type":"subcategory","title_cleaned":"user-experience","children":null,"title":"User Experience","id":114,"icon_name":"user-experience"},{"absolute_url":"/courses/design/game-design/","type":"subcategory","title_cleaned":"game-design","children":null,"title":"Game Design","id":116,"icon_name":"game-design"},{"absolute_url":"/courses/design/design-thinking/","type":"subcategory","title_cleaned":"design-thinking","children":null,"title":"Design Thinking","id":118,"icon_name":"design-thinking"},{"absolute_url":"/courses/design/3d-and-animation/","type":"subcategory","title_cleaned":"3d-and-animation","children":null,"title":"3D \u0026 Animation","id":120,"icon_name":"3d-and-animation"},{"absolute_url":"/courses/design/fashion/","type":"subcategory","title_cleaned":"fashion","children":null,"title":"Fashion","id":122,"icon_name":"fashion"},{"absolute_url":"/courses/design/architectural-design/","type":"subcategory","title_cleaned":"architectural-design","children":null,"title":"Architectural Design","id":124,"icon_name":"architectural-design"},{"absolute_url":"/courses/design/interior-design/","type":"subcategory","title_cleaned":"interior-design","children":null,"title":"Interior Design","id":128,"icon_name":"interior-design"},{"absolute_url":"/courses/design/other-design/","type":"subcategory","title_cleaned":"other-design","children":null,"title":"Other","id":130,"icon_name":"line-star"}],"title":"Design","id":269,"icon_name":"design"},{"absolute_url":"/courses/marketing/","type":"category","title_cleaned":"marketing","children":[{"absolute_url":"/courses/marketing/digital-marketing/","type":"subcategory","title_cleaned":"digital-marketing","children":null,"title":"Digital Marketing","id":62,"icon_name":"digital-marketing"},{"absolute_url":"/courses/marketing/search-engine-optimization/","type":"subcategory","title_cleaned":"search-engine-optimization","children":null,"title":"Search Engine Optimization","id":64,"icon_name":"search-engine-optimization"},{"absolute_url":"/courses/marketing/social-media-marketing/","type":"subcategory","title_cleaned":"social-media-marketing","children":null,"title":"Social Media Marketing","id":66,"icon_name":"social-media-marketing"},{"absolute_url":"/courses/marketing/branding/","type":"subcategory","title_cleaned":"branding","children":null,"title":"Branding","id":68,"icon_name":"branding"},{"absolute_url":"/courses/marketing/marketing-fundamentals/","type":"subcategory","title_cleaned":"marketing-fundamentals","children":null,"title":"Marketing Fundamentals","id":70,"icon_name":"marketing-fundamentals"},{"absolute_url":"/courses/marketing/analytics-and-automation/","type":"subcategory","title_cleaned":"analytics-and-automation","children":null,"title":"Analytics \u0026 Automation","id":72,"icon_name":"analytics-and-automation"},{"absolute_url":"/courses/marketing/public-relations/","type":"subcategory","title_cleaned":"public-relations","children":null,"title":"Public Relations","id":74,"icon_name":"public-relations"},{"absolute_url":"/courses/marketing/advertising/","type":"subcategory","title_cleaned":"advertising","children":null,"title":"Advertising","id":76,"icon_name":"advertising"},{"absolute_url":"/courses/marketing/video-and-mobile-marketing/","type":"subcategory","title_cleaned":"video-and-mobile-marketing","children":null,"title":"Video \u0026 Mobile Marketing","id":78,"icon_name":"video-and-mobile-marketing"},{"absolute_url":"/courses/marketing/content-marketing/","type":"subcategory","title_cleaned":"content-marketing","children":null,"title":"Content Marketing","id":80,"icon_name":"content-marketing"},{"absolute_url":"/courses/marketing/growth-hacking/","type":"subcategory","title_cleaned":"growth-hacking","children":null,"title":"Growth Hacking","id":86,"icon_name":"growth-hacking"},{"absolute_url":"/courses/marketing/affiliate-marketing/","type":"subcategory","title_cleaned":"affiliate-marketing","children":null,"title":"Affiliate Marketing","id":88,"icon_name":"affiliate-marketing"},{"absolute_url":"/courses/marketing/product-marketing/","type":"subcategory","title_cleaned":"product-marketing","children":null,"title":"Product Marketing","id":90,"icon_name":"product-marketing"},{"absolute_url":"/courses/marketing/other-marketing/","type":"subcategory","title_cleaned":"other-marketing","children":null,"title":"Other","id":94,"icon_name":"line-star"}],"title":"Marketing","id":290,"icon_name":"marketing"},{"absolute_url":"/courses/lifestyle/","type":"category","title_cleaned":"lifestyle","children":[{"absolute_url":"/courses/lifestyle/arts-and-crafts/","type":"subcategory","title_cleaned":"arts-and-crafts","children":null,"title":"Arts \u0026 Crafts","id":180,"icon_name":"arts-and-crafts"},{"absolute_url":"/courses/lifestyle/food-and-beverage/","type":"subcategory","title_cleaned":"food-and-beverage","children":null,"title":"Food \u0026 Beverage","id":182,"icon_name":"food-and-beverage"},{"absolute_url":"/courses/lifestyle/beauty-and-makeup/","type":"subcategory","title_cleaned":"beauty-and-makeup","children":null,"title":"Beauty \u0026 Makeup","id":184,"icon_name":"beauty-and-makeup"},{"absolute_url":"/courses/lifestyle/travel/","type":"subcategory","title_cleaned":"travel","children":null,"title":"Travel","id":186,"icon_name":"travel"},{"absolute_url":"/courses/lifestyle/gaming/","type":"subcategory","title_cleaned":"gaming","children":null,"title":"Gaming","id":188,"icon_name":"gaming"},{"absolute_url":"/courses/lifestyle/home-improvement/","type":"subcategory","title_cleaned":"home-improvement","children":null,"title":"Home Improvement","id":190,"icon_name":"home-improvement"},{"absolute_url":"/courses/lifestyle/pet-care-and-training/","type":"subcategory","title_cleaned":"pet-care-and-training","children":null,"title":"Pet Care \u0026 Training","id":192,"icon_name":"pet-care-and-training"},{"absolute_url":"/courses/lifestyle/other-lifestyle/","type":"subcategory","title_cleaned":"other-lifestyle","children":null,"title":"Other","id":194,"icon_name":"line-star"}],"title":"Lifestyle","id":274,"icon_name":"lifestyle"},{"absolute_url":"/courses/photography/","type":"category","title_cleaned":"photography","children":[{"absolute_url":"/courses/photography/digital-photography/","type":"subcategory","title_cleaned":"digital-photography","children":null,"title":"Digital Photography","id":370,"icon_name":"digital-photography"},{"absolute_url":"/courses/photography/photography-fundamentals/","type":"subcategory","title_cleaned":"photography-fundamentals","children":null,"title":"Photography Fundamentals","id":196,"icon_name":"photography-fundamentals"},{"absolute_url":"/courses/photography/portraits/","type":"subcategory","title_cleaned":"portraits","children":null,"title":"Portraits","id":204,"icon_name":"portraits"},{"absolute_url":"/courses/photography/photography-tools/","type":"subcategory","title_cleaned":"photography-tools","children":null,"title":"Photography Tools","id":198,"icon_name":"photography-tools"},{"absolute_url":"/courses/photography/commercial-photography/","type":"subcategory","title_cleaned":"commercial-photography","children":null,"title":"Commercial Photography","id":208,"icon_name":"commercial-photography"},{"absolute_url":"/courses/photography/video-design/","type":"subcategory","title_cleaned":"video-design","children":null,"title":"Video Design","id":218,"icon_name":"video-design"},{"absolute_url":"/courses/photography/other-photography/","type":"subcategory","title_cleaned":"other-photography","children":null,"title":"Other","id":220,"icon_name":"line-star"}],"title":"Photography","id":273,"icon_name":"photography"},{"absolute_url":"/courses/health-and-fitness/","type":"category","title_cleaned":"health-and-fitness","children":[{"absolute_url":"/courses/health-and-fitness/fitness/","type":"subcategory","title_cleaned":"fitness","children":null,"title":"Fitness","id":222,"icon_name":"fitness"},{"absolute_url":"/courses/health-and-fitness/general-health/","type":"subcategory","title_cleaned":"general-health","children":null,"title":"General Health","id":224,"icon_name":"general-health"},{"absolute_url":"/courses/health-and-fitness/sports/","type":"subcategory","title_cleaned":"sports","children":null,"title":"Sports","id":226,"icon_name":"sports"},{"absolute_url":"/courses/health-and-fitness/nutrition/","type":"subcategory","title_cleaned":"nutrition","children":null,"title":"Nutrition","id":228,"icon_name":"nutrition"},{"absolute_url":"/courses/health-and-fitness/yoga/","type":"subcategory","title_cleaned":"yoga","children":null,"title":"Yoga","id":230,"icon_name":"yoga"},{"absolute_url":"/courses/health-and-fitness/mental-health/","type":"subcategory","title_cleaned":"mental-health","children":null,"title":"Mental Health","id":232,"icon_name":"mental-health"},{"absolute_url":"/courses/health-and-fitness/dieting/","type":"subcategory","title_cleaned":"dieting","children":null,"title":"Dieting","id":234,"icon_name":"dieting"},{"absolute_url":"/courses/health-and-fitness/self-defense/","type":"subcategory","title_cleaned":"self-defense","children":null,"title":"Self Defense","id":236,"icon_name":"self-defense"},{"absolute_url":"/courses/health-and-fitness/safety-and-first-aid/","type":"subcategory","title_cleaned":"safety-and-first-aid","children":null,"title":"Safety \u0026 First Aid","id":238,"icon_name":"safety-and-first-aid"},{"absolute_url":"/courses/health-and-fitness/dance/","type":"subcategory","title_cleaned":"dance","children":null,"title":"Dance","id":240,"icon_name":"dance"},{"absolute_url":"/courses/health-and-fitness/meditation/","type":"subcategory","title_cleaned":"meditation","children":null,"title":"Meditation","id":242,"icon_name":"meditation"},{"absolute_url":"/courses/health-and-fitness/other-health-and-fitness/","type":"subcategory","title_cleaned":"other-health-and-fitness","children":null,"title":"Other","id":244,"icon_name":"line-star"}],"title":"Health \u0026 Fitness","id":276,"icon_name":"health-and-fitness"},{"absolute_url":"/courses/music/","type":"category","title_cleaned":"music","children":[{"absolute_url":"/courses/music/instruments/","type":"subcategory","title_cleaned":"instruments","children":null,"title":"Instruments","id":296,"icon_name":"instruments"},{"absolute_url":"/courses/music/production/","type":"subcategory","title_cleaned":"production","children":null,"title":"Production","id":298,"icon_name":"production"},{"absolute_url":"/courses/music/music-fundamentals/","type":"subcategory","title_cleaned":"music-fundamentals","children":null,"title":"Music Fundamentals","id":300,"icon_name":"music-fundamentals"},{"absolute_url":"/courses/music/vocal/","type":"subcategory","title_cleaned":"vocal","children":null,"title":"Vocal","id":302,"icon_name":"vocal"},{"absolute_url":"/courses/music/music-techniques/","type":"subcategory","title_cleaned":"music-techniques","children":null,"title":"Music Techniques","id":304,"icon_name":"music-techniques"},{"absolute_url":"/courses/music/music-software/","type":"subcategory","title_cleaned":"music-software","children":null,"title":"Music Software","id":306,"icon_name":"music-software"},{"absolute_url":"/courses/music/other-music/","type":"subcategory","title_cleaned":"other-music","children":null,"title":"Other","id":308,"icon_name":"line-star"}],"title":"Music","id":278,"icon_name":"music"},{"absolute_url":"/courses/teaching-and-academics/","type":"category","title_cleaned":"teaching-and-academics","children":[{"absolute_url":"/courses/teaching-and-academics/engineering/","type":"subcategory","title_cleaned":"engineering","children":null,"title":"Engineering","id":366,"icon_name":"development-tools"},{"absolute_url":"/courses/teaching-and-academics/humanities/","type":"subcategory","title_cleaned":"humanities","children":null,"title":"Humanities","id":380,"icon_name":"humanities"},{"absolute_url":"/courses/teaching-and-academics/math/","type":"subcategory","title_cleaned":"math","children":null,"title":"Math","id":310,"icon_name":"educational-development"},{"absolute_url":"/courses/teaching-and-academics/science/","type":"subcategory","title_cleaned":"science","children":null,"title":"Science","id":312,"icon_name":"math-and-science"},{"absolute_url":"/courses/teaching-and-academics/online-education/","type":"subcategory","title_cleaned":"online-education","children":null,"title":"Online Education","id":523,"icon_name":"instructional-design"},{"absolute_url":"/courses/teaching-and-academics/social-science/","type":"subcategory","title_cleaned":"social-science","children":null,"title":"Social Science","id":376,"icon_name":"social-science"},{"absolute_url":"/courses/teaching-and-academics/language/","type":"subcategory","title_cleaned":"language","children":null,"title":"Language","id":521,"icon_name":"language"},{"absolute_url":"/courses/teaching-and-academics/teacher-training/","type":"subcategory","title_cleaned":"teacher-training","children":null,"title":"Teacher Training","id":527,"icon_name":"teacher-training"},{"absolute_url":"/courses/teaching-and-academics/test-prep/","type":"subcategory","title_cleaned":"test-prep","children":null,"title":"Test Prep","id":529,"icon_name":"test-prep"},{"absolute_url":"/courses/teaching-and-academics/other-teaching-academics/","type":"subcategory","title_cleaned":"other-teaching-academics","children":null,"title":"Other Teaching \u0026 Academics","id":525,"icon_name":"academics"}],"title":"Teaching \u0026 Academics","id":300,"icon_name":"academics"}],
+                organization_categories: [],
+            };
+        </script>
+    
+
+
+
+
+        
+
+
+
+
+        
+    <div class="clp-component-render">
+
+    <base href="/creating-and-running-an-agile-project-in-jira/">
+    <link rel="canonical" href="https://www.udemy.com/creating-and-running-an-agile-project-in-jira/">
+
+</div>
+
+    </head>
+    <body id="br"
+          class="
+    landing-page ud-app-loader
+  udemy "
+            
+    
+    data-clp-course-id="1749446"
+    
+    
+        data-hotjar-page="clp"
+        data-hotjar-device="desktop"
+    
+    data-hotjar-bw="hb"
+
+
+    data-module-id="course-landing-components"
+    
+        
+        data-module-args="{&quot;datadogTags&quot;:{&quot;localized&quot;:false,&quot;frame&quot;:&quot;visitor&quot;,&quot;root&quot;:&quot;course_landing_page/frames/desktop/hb&quot;},&quot;is_private&quot;:false,&quot;is_wishlisted&quot;:false,&quot;rating&quot;:4.29216,&quot;title&quot;:&quot;Creating and Running an Agile Project in JIRA&quot;,&quot;course_id&quot;:1749446,&quot;sourcePage&quot;:&quot;clp&quot;,&quot;initial_components&quot;:[&quot;buy_button&quot;,&quot;discount_expiration&quot;,&quot;gift_this_course&quot;,&quot;introduction_asset&quot;,&quot;purchase&quot;,&quot;deal_badge&quot;,&quot;redeem_coupon&quot;],&quot;vectors&quot;:{&quot;device&quot;:&quot;desktop&quot;,&quot;bandwidth&quot;:&quot;hb&quot;},&quot;subcategoryId&quot;:362,&quot;is_published&quot;:true,&quot;grouped_components&quot;:[[&quot;curriculum&quot;,&quot;frequently_bought_together&quot;,&quot;practice_test_bundle&quot;,&quot;instructor_bio&quot;,&quot;topic_menu&quot;]],&quot;url&quot;:&quot;/creating-and-running-an-agile-project-in-jira/&quot;}"
+    
+>
+
+        
+    
+
+
+
+        
+
+        <div class="main-content-wrapper">
+            
+            
+                
+                    <div class="ud-app-loader ud-component--smart-bar--app"
+                         data-module-id="smart-bar"
+                         data-module-priority="-10"></div>
+                
+                
+                    
+
+
+
+<div class="c_header c_header--v6 c_header--desktop
+            
+            ud-app-loader 
+            "
+     data-module-id="header-v6"
+     data-module-args="{&quot;mobileNav&quot;:{&quot;mobileApp&quot;:{&quot;url&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;},&quot;teachHub&quot;:{&quot;url&quot;:&quot;https://teach.udemy.com/home&quot;},&quot;ufb&quot;:{&quot;url&quot;:&quot;https://business.udemy.com/?ref=ufb_header&quot;,&quot;text&quot;:&quot;Udemy for Business&quot;},&quot;support&quot;:{&quot;url&quot;:&quot;/support/&quot;},&quot;performanceEnabled&quot;:false,&quot;instructor&quot;:{&quot;url&quot;:&quot;/teaching/?ref=teach_header&quot;,&quot;text&quot;:&quot;Become an instructor&quot;,&quot;trackingDetail&quot;:&quot;become-an-instructor&quot;},&quot;browse&quot;:{&quot;text&quot;:&quot;Categories&quot;}},&quot;cartDropdown&quot;:{&quot;listName&quot;:&quot;cart&quot;},&quot;app&quot;:{&quot;user&quot;:null,&quot;isStudent&quot;:false,&quot;isUFB&quot;:false,&quot;isMobile&quot;:false,&quot;features&quot;:{&quot;teaching&quot;:true,&quot;signup&quot;:true,&quot;messaging&quot;:true,&quot;wishlist&quot;:true,&quot;instructor_signup_modal&quot;:false,&quot;notifications&quot;:true,&quot;teach_link&quot;:true,&quot;invite&quot;:true,&quot;browse&quot;:true,&quot;public_profile&quot;:true,&quot;payments&quot;:true,&quot;discussions&quot;:true,&quot;revenue_report&quot;:false,&quot;ufb_link&quot;:true,&quot;profile&quot;:true,&quot;language_select&quot;:false,&quot;reviews&quot;:true,&quot;exp_mobile_header&quot;:false,&quot;payout_settings&quot;:false},&quot;isInstructor&quot;:false,&quot;navMode&quot;:null,&quot;navUserType&quot;:null},&quot;wishlistDropdown&quot;:{&quot;listName&quot;:&quot;wishlist&quot;},&quot;manageUFBDropdownButton&quot;:{&quot;badges&quot;:{}},&quot;creditMessage&quot;:null}"
+     data-module-priority="-10">
+
+    <div class="c_header__inner "
+         aria-label="Main navigation"
+         role="navigation">
+        
+            
+                
+                    <div class="c_header__logo-container">
+    
+        
+
+<a class="js-tracked-without-react c_header__logo-wrap"
+   href="/"
+   target="_self"
+   data-tracking-event="logo">
+    <img class="udemy-logo"
+         src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+         alt="Udemy"
+         width="110" height="32"
+         data-purpose="udemy-brand-logo"/>
+</a>
+
+    
+</div>
+
+                
+            
+        
+
+        
+            <div class="c_header__left">
+                <div class="ud-component--header-v6--mobile-nav-trigger">
+                    <button class="btn btn-link c_header__mobile-bt"
+                            aria-label="Menu"
+                            data-purpose="side-menu-opener">
+                        
+                            <span class="udi udi-menu"></span>
+                        
+                    </button>
+                </div>
+                
+                    
+                        
+
+
+
+    <div class="ud-component--header-v6--category-dropdown-button hidden-xs hidden-xxs">
+        <div class="dropdown dropdown--open-on-hover dropdown--topics">
+            <a class="dropdown-toggle"
+   data-purpose="browse-courses-link"
+   id="header.browse"
+   data-tracking-event="topics.main"
+   role="button"
+   aria-haspopup="true"
+   aria-expanded="false"
+   href="javascript:void(0)">
+    <span class="udi udi-explore"></span>
+    <span>Categories</span>
+</a>
+
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="header.browse">
+                <li class="h100p" id="header.browse.categories">
+    <ul class="dropdown-menu__list dropdown-menu__list--level-one">
+        
+        
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.94">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 94px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.61">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 61px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.93">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 93px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.128">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 128px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.159">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 159px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.47">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 47px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.70">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 70px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.57">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 57px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.90">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 90px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.113">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 113px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.116">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 116px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.40">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 40px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.74">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 74px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.67">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 67px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.65">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 65px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+        
+    </ul>
+</li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+<div class="c_header__search-wrapper ud-component--header-v6--header-es-autocomplete">
+    <div class="c_header__search">
+        
+        <button class="btn btn-link c_header__mobile-bt"
+                aria-label="Search">
+            <span class="udi udi-search"></span>
+        </button>
+        
+        <div class="c_quick-search__form">
+            <form action="/courses/search/"
+                  class="es-autocomplete es-autocomplete--primary">
+                <input type="hidden" name="src" value="ukw" />
+                <label for="header-search-field" class="sr-only">Search for anything</label>
+                <div class="input-group">
+                    <input type="text"
+                           name="q"
+                           id="header-search-field"
+                           data-purpose="search-input"
+                           class="form-control"
+                           placeholder="Search for anything"
+                           value=""
+                           autocomplete="off"
+                           maxlength="200" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-link"
+                                type="submit"
+                                aria-label="Search">
+                            <span class="udi udi-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+                    
+                
+            </div>
+            <div class="c_header__mobile-spacer">&nbsp;</div>
+        
+
+        
+            
+                
+
+
+<div class="c_header__right">
+    
+        
+            <div class="ud-component--header-v6--try-ufb-dropdown-button visible-lg-block visible-xl-block">
+                <div class="dropdown dropdown--ufb zero-state">
+                    <a class="dropdown-toggle dropdown__toggle dropdown__main-link"
+                       data-purpose="ufb-link"
+                       data-tracking-event="ufb.main"
+                       id="header.try-ufb"
+                       role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false"
+                       href="https://business.udemy.com/?ref=ufb_header"
+                       target="_blank"
+                       rel="noopener"
+                       data-allow-referrer>
+                        Udemy for Business
+                    </a>
+                </div>
+
+                <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.try-ufb">
+                    <li id="header.try-ufb.detail">
+                        <div class="zero-state__detail">
+                            
+                            Get your team access to Udemy’s top 3,000 courses anytime, anywhere.
+                        </div>
+                        <div class="mt-space-sm">
+                            <a class="zero-state__cta a11 semibold"
+                               data-tracking-event="ufb.learn-more"
+                               href="https://business.udemy.com/?ref=ufb_header"
+                               target="_blank"
+                               rel="noopener"
+                               data-allow-referrer>
+                                Try Udemy for Business
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        
+    
+
+    
+
+
+    <div class="ud-component--header-v6--instructor-dropdown-button visible-lg-block visible-xl-block">
+        <div class="dropdown dropdown--open-on-hover dropdown--instructor zero-state">
+            <a class="dropdown-toggle"
+               data-purpose="instructor-dropdown"
+               data-tracking-event="teaching.main"
+               data-tracking-detail="become-an-instructor"
+               id="header.instructor"
+               role="button"
+               aria-haspopup="true"
+               aria-expanded="false"
+               href="/teaching/?ref=teach_header"
+               target="_self">
+                
+                    Become an instructor
+                
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.instructor">
+                
+                    <li id="header.instructor.first-course-creation">
+                        <div class="zero-state__detail">
+                            Turn what you know into an opportunity and reach millions around the world.
+                        </div>
+                        <div class="mt-space-sm">
+                            <a class="zero-state__cta a11 semibold"
+                               data-tracking-event="teaching.learn-more"
+                               href="/teaching/?ref=teach_header"
+                               target="_self">
+                                Learn more
+                            </a>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="shopping-cart">
+        <div class="ud-component--header-v6--cart-dropdown"
+             data-purpose="cart-icon">
+            <div class="dropdown dropdown--open-on-hover dropdown--icon dropdown--shopping-list">
+                <a class="dropdown-toggle"
+                   href="/cart/"
+                   target="_self">
+                    <div class="fx pos-r text-center">
+                        <span class="sr-only">Shopping cart</span>
+                        <span class="udi udi-cart-line dropdown__main-icon" data-purpose="cart-icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="ml-space-sm hidden-xs hidden-xxs"></div>
+
+<div class="dropdown dropdown--login ud-component--header-v6--login-button hidden-xs hidden-xxs">
+    <button class="btn btn-quaternary">Log In</button>
+</div>
+
+
+
+    <div class="dropdown dropdown--signup ud-component--header-v6--signup-button hidden-xs hidden-xxs">
+        <button class="btn btn-primary">Sign Up</button>
+    </div>
+
+
+    
+</div>
+
+            
+        
+    </div>
+    <div class="ud-component--header-v6--mobile-nav"></div>
+    <div class="ud-component--header-v6--dropdown-overlay"></div>
+</div>
+
+
+                
+            
+
+            
+
+
+
+
+            <div class="main-content">
+                
+    
+    
+
+    
+    
+    <div class="clp-component-render">
+
+    
+
+<div id="schema_markup" data-purpose="schema_markup">
+    <script type="application/ld+json">
+    [{"description":"Plan, track, and release great software","about":{"name":"Development"},"image":"https://udemy-images.udemy.com/course/750x422/1749446_6fae_2.jpg","creator":[{"name":"Packt Publishing","@type":"Person"}],"name":"Creating and Running an Agile Project in JIRA","publisher":{"sameAs":"www.udemy.com","name":"Udemy","@type":"Organization"},"@id":"https://www.udemy.com/creating-and-running-an-agile-project-in-jira/","aggregateRating":{"bestRating":5,"worstRating":0.5,"@type":"AggregateRating","reviewCount":29,"ratingValue":"4.3"},"inLanguage":"en","provider":{"sameAs":"www.udemy.com/user/packtpublishing/","name":"Packt Publishing","@type":"Organization"},"audience":{"audienceType":["If you want to get started with JIRA Software and learn how to run your JIRA projects the agile way, then this is the perfect video for you."],"@type":"Audience"},"@type":"Course","isAccessibleForFree":false,"@context":"http://schema.org"},{"name":"Creating and Running an Agile Project in JIRA","@type":"Product","description":"Plan, track, and release great software","@context":"http://schema.org","aggregateRating":{"bestRating":5,"worstRating":0.5,"@type":"AggregateRating","reviewCount":29,"ratingValue":"4.3"}}]
+    </script>
+</div>
+
+
+</div>
+    
+    
+    
+    
+    <div class="clp-component-render"><div class="ud-component--clp--topic-menu"></div></div>
+    
+
+    <div class="full-width full-width--streamer streamer--fixed">
+        <div class="streamer__inner">
+            <div class="container">
+                <div class="col-xxs-8 left-col">
+                    <div class="clp-component-render">
+
+<div class="clp-lead clp-lead--fixed" data-purpose="fixed-lead">
+    <div class="clp-lead__title clp-lead__title--fixed">
+        Creating and Running an Agile Project in JIRA
+    </div>
+    <div class="clp-lead__element-row">
+        <div class="clp-lead__element-item clp-lead__element-item--fixed">
+            <div class="clp-component-render">
+
+    <div class="rating"
+         data-purpose="ratings">
+        
+        <div class="rating__stars">
+            <a href="/creating-and-running-an-agile-project-in-jira/#reviews"
+               target="_self"
+               class="js-user-tracker-click"
+               data-user-tracker-page="clp"
+               data-user-tracker-schema="clp-activity"
+               data-user-tracker-action="streamer-review-link-clicked"
+               data-user-tracker-object-id="1749446"
+               aria-labelledby="rate-count-value--00f9edef"
+               >
+                <div class="clp-component-render"><div class="ud-component--clp--rating"></div></div>
+            </a>
+        </div>
+        <div class="rate-count">
+            <span class="tooltip-container">
+                
+                    <span aria-label="Rating: 4.3 out of 5" id="rate-count-value--00f9edef">4.3</span>
+                    (29 ratings)
+                
+                <span class="tooltip tooltip-neutral tooltip--rate-count">
+                    <div class="tooltip-inner">
+                        Course Ratings are calculated from individual students’ ratings and a variety of other signals, like age of rating and reliability, to ensure that they reflect course quality fairly and accurately.
+                    </div>
+                </span>
+            </span>
+        </div>
+        
+    </div>
+
+</div>
+        </div>
+        <div class="clp-lead__element-item clp-lead__element-item--fixed">
+            <div class="clp-component-render">
+
+    <div data-purpose="enrollment">
+        
+            147 students enrolled
+        
+    </div>
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width full-width--streamer streamer--complete"
+         data-content-group="Landing Page"
+         data-course-id="1749446">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 non-purchase-actions">
+                    <div class="clp-component-render"><div class="ud-component--clp--gift-this-course"></div></div>
+                    <div class="clp-component-render">
+
+    <div class="wishlist__container">
+         <div class="ud-component--clp--wishlist"
+              data-component-args="{&quot;bsStyle&quot;:&quot;inverse&quot;,&quot;withStatusText&quot;:true}">
+         </div>
+    </div>
+
+</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxs-8 left-col">
+                    <div class="clp-lead">
+                        <div class="clp-component-render">
+
+    
+    
+    <div class="clp-component-render">
+
+    <h1 class="clp-lead__title " data-purpose="lead-title">
+        Creating and Running an Agile Project in JIRA
+    </h1>
+
+    <div class="clp-lead__headline" data-purpose="lead-headline">
+        Plan, track, and release great software
+    </div>
+
+</div>
+
+
+    <div class="clp-lead__element-row">
+        
+            
+        
+
+        
+    <div class="clp-lead__element-item">
+        <div class="clp-component-render">
+
+    <div class="rating"
+         data-purpose="ratings">
+        
+        <div class="rating__stars">
+            <a href="/creating-and-running-an-agile-project-in-jira/#reviews"
+               target="_self"
+               class="js-user-tracker-click"
+               data-user-tracker-page="clp"
+               data-user-tracker-schema="clp-activity"
+               data-user-tracker-action="streamer-review-link-clicked"
+               data-user-tracker-object-id="1749446"
+               aria-labelledby="rate-count-value--d1cda1ab"
+               >
+                <div class="clp-component-render"><div class="ud-component--clp--rating"></div></div>
+            </a>
+        </div>
+        <div class="rate-count">
+            <span class="tooltip-container">
+                
+                    <span aria-label="Rating: 4.3 out of 5" id="rate-count-value--d1cda1ab">4.3</span>
+                    (29 ratings)
+                
+                <span class="tooltip tooltip-neutral tooltip--rate-count">
+                    <div class="tooltip-inner">
+                        Course Ratings are calculated from individual students’ ratings and a variety of other signals, like age of rating and reliability, to ensure that they reflect course quality fairly and accurately.
+                    </div>
+                </span>
+            </span>
+        </div>
+        
+    </div>
+
+</div>
+    </div>
+    <div class="clp-lead__element-item">
+        <div class="clp-component-render">
+
+    <div data-purpose="enrollment">
+        
+            147 students enrolled
+        
+    </div>
+
+</div>
+    </div>
+
+    </div>
+
+    <div class="clp-lead__element-row">
+        <div class="clp-lead__element-item">
+            <div class="clp-component-render">
+
+    <span data-purpose="instructor-name-top">
+        Created by
+        
+            
+                <a href="/creating-and-running-an-agile-project-in-jira/#instructor-1" target="_self" class="instructor-links__link">
+                    Packt Publishing</a>
+            
+        
+    </span>
+
+</div>
+        </div>
+        <div class="clp-lead__element-item">
+            <div class="clp-component-render">
+
+    <div data-purpose="last-update-date">
+        
+            Last updated 6/2018
+
+        
+    </div>
+
+</div>
+        </div>
+        <div class="clp-lead__element-item" data-purpose="lead-course-locale">
+            <div class="clp-lead__language">
+                <div class="clp-lead__locale">
+                    <span><i class="udi udi-comment"></i></span>
+                    English
+                </div>
+                <div class="clp-lead__caption">
+                    <div class="clp-component-render">
+
+    <span class="caption" data-purpose="caption">
+        <span><i class="udi udi-closed-caption"></i></span>
+        
+            English [Auto-generated]
+        
+    </span>
+
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clp-lead__element-row">
+        <div class="clp-lead__element-item">
+            
+        </div>
+    </div>
+
+</div>
+                    </div>
+                </div>
+                <div class="col-xxs-4 right-col js-right-col">
+                    <div class="js-right-col__content right-col__content">
+                        <div class="right-col__module">
+                            <div class="clp-component-render">
+
+    <div class="ud-component--clp--introduction-asset introduction-asset" data-purpose="introduction-asset">
+        
+            <a href="javascript:void(0)" role="button">
+                <div class="introduction-asset__placeholder play-button-trigger">
+                    <div class="play-button"></div>
+                    <span class="introduction_asset__text">Preview this course</span>
+                </div>
+                <img src="https://udemy-images.udemy.com/course/240x135/1749446_6fae_2.jpg"
+                     srcset="https://udemy-images.udemy.com/course/240x135/1749446_6fae_2.jpg 1x, https://udemy-images.udemy.com/course/480x270/1749446_6fae_2.jpg 2x"
+                     class="introduction-asset__img"
+                     alt="Creating and Running an Agile Project in JIRA"
+                     width="240"
+                     height="135" />
+            </a>
+        
+    </div>
+
+</div>
+                            
+                            <div class="right-col__inner">
+                                <div class="clp-component-render">
+    
+    
+
+    
+
+
+    <div class="buy-box">
+        <div class="buy-box__element">
+            
+                
+            
+        </div>
+
+        <div class="buy-box__element">
+            <div class="clp-component-render">
+
+    
+    <div class="ud-component--clp--price-text ">
+        <div class="price-text">
+             
+
+
+
+
+    <span class="price-text__current" data-purpose="discount-price-text">
+        <span class="sr-only">Current price:</span> R$23.99
+    </span>
+
+    <span class="price-text__old price-text__old--price" data-purpose="course-price-text">
+        <span class="sr-only">Original price:</span> R$354.99
+    </span>
+    
+        <span class="price-text__old" data-purpose="discount-rate">
+            <span class="sr-only">Discount:</span>
+            93% off
+        </span>
+    
+
+
+
+        </div>
+    </div>
+
+</div>
+        </div>
+
+        <div class="buy-box__element buy-box__element--discount-expiration">
+            <div class="clp-component-render">
+
+    <div class="discount-expiration ud-component--clp--discount-expiration"
+         data-purpose="discount-expiration">
+        <i class="discount-expiration__clock-icon udi udi-stress-management"></i>
+        <span>
+            <b>3 hours</b> left at this price!
+        </span>
+    </div>
+
+</div>
+            
+        </div>
+
+        <div class="buy-box__element buy-box__element--add-to-cart-button">
+            <div class="clp-component-render">
+
+    
+        <div class="ud-component--clp--add-to-cart"
+             data-component-args="{&quot;buyables&quot;:[{&quot;buyable_object_type&quot;:&quot;course&quot;,&quot;id&quot;:1749446,&quot;buyableContext&quot;:{&quot;contentLocaleId&quot;:null}}],&quot;addedButtonBsStyle&quot;:&quot;primary&quot;,&quot;onAddRedirectUrl&quot;:&quot;/cart/added/course/1749446/&quot;}"
+             data-purpose="add-to-cart">
+            <button class="btn btn-lg btn-primary mt0 course-cta course-cta--add-to-cart disabled" disabled>
+                <span class="cart-load-spinner">
+                    <span class="udi udi-circle-loader udi-small"></span>
+                </span>
+                <span class="text--add-to-cart">
+                    Add to cart
+                </span>
+            </button>
+        </div>
+    
+
+</div>
+            
+        </div>
+        <div class="buy-box__element buy-box__element--row">
+            <div class="clp-component-render">
+
+    <div class="ud-component--clp--buy-button">
+        <a href="/cart/checkout/express/course/1749446/?discountCode=1903BRCONSUMER2"
+           class="btn btn-lg btn-quaternary btn-block ellipsis course-cta course-cta--buy
+                  
+                  
+                  "
+           >
+            
+            Buy now
+        </a>
+    </div>
+
+</div>
+            
+            
+                
+            
+        </div>
+
+        <script type="text/javascript">
+            UD.performance.mark('CLP.buy-button-rendered');
+            UD.performance.sync();
+        </script>
+    </div>
+
+</div>
+                                
+                                <div class="clp-component-render">
+
+    <div class="buy-box__element buy-box__element--money-back">
+        <span class="money-back">
+            30-Day Money-Back Guarantee
+        </span>
+    </div>
+
+</div>
+                                
+                                <div class="incentives">
+                                    <div class="clp-component-render">
+
+    <div>
+        <span id="incentives" class="in-page-offset-anchor"></span>
+        <span class="incentives__header">This course includes</span>
+    </div>
+
+    <ul class="incentives__list">
+        
+            <li class="incentives__item">
+                <i class="incentives__icon incentives__icon--bold udi udi-video-design"></i>
+                <span class="incentives__text" data-purpose="video-content-length">
+                    2 hours on-demand video
+                </span>
+            </li>
+        
+
+        
+
+        
+
+        
+
+        
+            
+
+            
+
+            
+        
+
+        
+            <li class="incentives__item">
+                <i class="incentives__icon incentives__icon--bold udi udi-what-lifetime"></i>
+                <span class="incentives__text" data-purpose="incentive-lifetime-access">
+                    Full lifetime access
+                </span>
+            </li>
+        
+
+        <li class="incentives__item">
+            <i class="incentives__icon incentives__icon--bold udi udi-mobile-apps"></i>
+            <span class="incentives__text">
+                Access on mobile and TV
+            </span>
+        </li>
+
+        
+            
+        
+
+        
+    </ul>
+
+</div>
+                                    <div class="clp-component-render">
+
+    <ul class="incentives__list">
+        <li class="incentives__item">
+            <i class="incentives__icon incentives__icon--bold udi udi-academics"></i>
+            <span class="incentives__text" data-purpose="incentive-certificate">
+                Certificate of Completion
+            </span>
+        </li>
+    </ul>
+
+</div>
+                                </div>
+                                
+                                <div class="clp-component-render"><div class="ud-component--clp--redeem-coupon"></div></div>
+                                <div class="clp-component-render"><div class="ud-component--clp--social-share-button"></div></div>
+                            </div>
+                        </div>
+                        <div class="clp-component-render">
+
+    <div class="right-col__module mt10">
+        <div class="right-col__inner">
+            <div class="buy-for-team__title">Training 5 or more people?</div>
+            <p class="buy-for-team__text">
+                
+                Get your team access to Udemy's top 3,000+ courses anytime, anywhere.
+            </p>
+            <a class="js-user-tracker-click buy-for-team__link"
+               href="https://business.udemy.com/request-demo?ref=marketplace_development"
+               data-user-tracker-page="clp"
+               data-user-tracker-schema="clp-activity"
+               data-user-tracker-object-id="1749446"
+               data-user-tracker-action="buy-for-team-clicked"
+               data-user-tracker-detail="marketplace"
+               data-purpose="buy-for-team-link"
+               >
+                
+                Try Udemy for Business
+                
+            </a>
+        </div>
+    </div>
+
+</div>
+                        <div class="referral-terms">
+                            <div class="clp-component-render"><div class="ud-component--clp--referral-terms"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container--component-margin">
+
+        <div class="row">
+            <div class="col-xxs-8 left-col">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <span id="objective" class="in-page-offset-anchor"></span>
+    <div class="what-you-get">
+        <div class="js-simple-collapse js-simple-collapse--what-you-get"
+             data-purpose="course-objectives"
+             data-more="See more"
+             >
+            <div class="js-simple-collapse-inner">
+                <div class="what-you-get__content">
+                    <div class="what-you-get__title">
+                        What you'll learn
+                    </div>
+                    <ul class="what-you-get__items">
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Create your first project (and manage existing projects) in JIRA</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <h3 class="what-you-get__text what-you-get__text--h3">Manage your board view and backlogs in JIRA</h3>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <h3 class="what-you-get__text what-you-get__text--h3">Run a Scrum Sprint Project in JIRA</h3>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Create reports (including topic-based reports)</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Forecast using versions</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Search for issues with JQL</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Execute bulk changes to issues</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Create custom filters, dashboards, and widgets</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Create epics, stories, bugs, and tasks.</span>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+
+        
+            <div class="row row--component-margin">
+                <div class="col-xxs-8 left-col" data-purpose="curriculum-development">
+                    <div class="clp-component-render">
+
+    <div class="curriculum-wrapper" data-purpose="course-curriculum">
+        <span id="curriculum" class="in-page-offset-anchor"></span>
+        <div class="ud-component--clp--curriculum">
+            <div class="curriculum-header-container">
+                <div class="header-left">
+                    <div class="curriculum-header-title">
+                        
+                            Course content
+                        
+                    </div>
+                </div>
+                
+                    <div class="header-right">
+                        <span>
+                            <a class="sections-toggle" href="javascript:void(0)">
+                                Expand all
+                            </a>
+                            <span class="dib">
+                                
+                                    26 lectures
+                                
+                            </span>
+                        </span>
+                        <span class="curriculum-header-length">
+                            01:50:17
+                        </span>
+                    </div>
+                
+            </div>
+
+            
+                <div>
+                    <a class="section-container section-container--expanded"
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">What Is JIRA?</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    5 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                20:20
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse in">
+                        
+                            <div class="lecture-container lecture-container--preview
+                                        "
+                                 data-purpose="lecture-item-1-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video provides an overview of the entire course.</p></div>
+                                        
+                                        <div class="title">
+                                            
+                                                <a href="javascript:void(0)">
+                                                    Course Overview
+                                                </a>
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-1-1">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                        
+                                            <a href="javascript:void(0)" data-purpose="preview-course">
+                                                <span class="preview-text">Preview</span>
+                                            </a>
+                                        
+                                    
+                                    <span class="content-summary">
+                                        04:47
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-1-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will give a small introduction to JIRA and also start by showing how to use projects to keep you work organised.<br></p><ul>
+                           <li> Get a small introduction to JIRA</li>
+                           <li> Learn how to use projects to keep your work organized&nbsp;&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Projects Keep Your Work Organized
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-1-2">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        03:41
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-1-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will show how to create an account with Atlassian.<br></p><ul>
+                           <li> Create an account </li>
+                           <li> Get a free trial </li>
+                           <li> Start using JIRA&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Creating an Account with Atlassian
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-1-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        01:41
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-1-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>Projects allow you to organize all of your different streams of work within JIRA. This video will show you how to create your project and manage them as well.<br></p><ul>
+                           <li> Create a project </li>
+                           <li> View your projects </li>
+                           <li> Manage your projects&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Project Creation and Management
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-1-4">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        04:23
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-1-5">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>Screens, workflows, permissions, and notifications give you many options to tailor JIRA to your work. This video will deal with just that.<br></p><ul>
+                           <li> Learn what screens are and how to configure them </li>
+                           <li> Learn what workflows are and how to configure them</li>
+                           <li> Learn what permissions are and how to configure them</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Schemes, Screens, Workflows, and Permissions
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-1-5">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        05:48
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Managing All of Those Work Items</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    4 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                28:34
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container lecture-container--preview
+                                        "
+                                 data-purpose="lecture-item-2-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will show how to use epics, stories, bugs, and tasks in JIRA. <br></p><ul>
+                           <li> Learn the different issue types </li>
+                           <li> Learn how they are different from each other </li>
+                           <li> Learn why to use each one&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                <a href="javascript:void(0)">
+                                                    Epics, Stories, Bugs, and Tasks
+                                                </a>
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-2-1">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                        
+                                            <a href="javascript:void(0)" data-purpose="preview-course">
+                                                <span class="preview-text">Preview</span>
+                                            </a>
+                                        
+                                    
+                                    <span class="content-summary">
+                                        08:30
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will show the different work item attributes are and how to customize them to fit your needs.<br></p><ul>
+                           <li> Learn the different issue attributes </li>
+                           <li> Learn how to use the different attributes </li>
+                           <li> Learn how to customize the attributes&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Issue Type Attributes, Adding, and Removing Them
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-2-2">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        05:52
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will show how to use your backlog to get all of that work defined, prioritized, and refined.<br></p><ul>
+                           <li> Learn what a backlog is </li>
+                           <li> Learn how to organize and prioritize your backlog </li>
+                           <li> Learn how to get your backlog refined&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Managing the Items in Your Backlog
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-2-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        06:26
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will show how to run your Sprints with a board and how to use the columns and Swimlanes.</p><ul>
+                           <li> Learn what a JIRA board is</li>
+                           <li> Learn how to use your board </li>
+						   <li> Learn how to customize your board&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Creating and Configuring Your Board
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-2-4">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        07:46
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Running Your Project in JIRA</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    4 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                22:39
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video will show how use the backlog to refine work, plan and then begin your Sprint iteration.<br></p><ul>
+                           <li> Learn how to create a Sprint  </li>
+                           <li> Learn how to make sure work is ready for a Sprint </li>
+                           <li> Start your Sprint&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Creating and Starting a Sprint
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-3-1">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        07:15
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows how to use JIRA to keep the team all on the same page and know if you are on track to meet your commitment.<br></p><ul>
+                           <li> Use JIRA for the daily scrum </li>
+                           <li> Confirm that all work is visible to everyone for high alignment </li>
+                           <li> Use burndowns for tracking progress against the team commitment&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    The Daily Scrum
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-3-2">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        05:16
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows how to optimize your Sprint work items for your team.<br></p><ul>
+                           <li> Learn the different methods of breaking down actionable work </li>
+                           <li> Learn if you should use smaller stories or tasks to organize  </li>
+                           <li> Learn what works best for your team and your work&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Smaller Stories or Tasks?
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-3-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        06:15
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows how to end a Sprint and what to do with any undone work.<br></p><ul>
+                           <li> Learn how to know if your Sprint is finished</li>
+                           <li> Learn how to close your Sprint  </li>
+                           <li> Learn what to do with work items that are not completed at the end of the Sprint&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Closing the Sprint — the Sprint Report
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-3-4">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        03:53
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Reporting</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    6 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                16:58
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video is about versions and how to use them to create releases that meet your milestones.<br></p><ul>
+                           <li> Learn what versions and releases are </li>
+                           <li> Learn how to assign items to a version</li>
+                           <li> Learn how to do a release</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Versions and Releases
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-1">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        03:38
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video is about burndown reports, how to read them and what data can be used to populate them.<br></p><ul>
+                           <li> Learn what a burndown report is </li>
+                           <li> Learn how to read a burndown report </li>
+						   <li> Learn what data can be used to populate a burndown&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Burndown Report
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-2">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        03:34
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video talks about Sprint reports, how to read them and how you can use them to highlight team wins.<br></p><ul>
+                           <li> Learn what a Sprint report is </li>
+                           <li> Learn how to read a Sprint report </li>
+						   <li> Learn how to use a Sprint report to broadcast team accomplishments&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Sprint Report
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        01:39
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video talks about velocity charts, how to read them and how to use the data to get insights about your team&nbsp;performance.<br></p><ul>
+                           <li> Learn what a velocity chart is </li>
+                           <li> Learn how to read a velocity chart </li>
+                           <li> Learn how to use a velocity chart to estimate future Sprint commitments&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Velocity Chart
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-4">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        01:40
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-5">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows how to release and epic burndowns, how to read them and how to use them to estimate deliveries.<br></p><ul>
+                           <li> Learn what a release burndown is</li>
+                           <li> Learn how to read a release burndown </li>
+                           <li> Learn how to use a release burndown to estimate delivery of a Release&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Release and Epic Burndowns
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-5">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:56
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-6">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video speaks about version and epic reports, how to read them and how to use them to estimate deliveries.<br></p><ul>
+                           <li> Learn what a version report is </li>
+                           <li> Learn how to read a version report </li>
+                           <li> Learn how to use a version report to estimate delivery of a Release&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Version and Epic Reports
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-6">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        03:31
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Searching and Filtering on Issues</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    4 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                12:17
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video speaks about what JQL is, how to write queries in JIRA using the simple and advanced editors and how to export your results.<br></p><ul>
+                           <li> Learn what JQL is </li>
+                           <li> Learn how to write queries in JIRA </li>
+						   <li> Learn how to export results&nbsp;&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Issue Searching Using JQL
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-5-1">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        04:07
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video show to how to save your query into a filter, how to set permissions and manage them.<br></p><ul>
+                           <li> Learn what a filter is </li>
+                           <li> Learn how to set rights for filters</li>
+                           <li> Learn how to manage your filters</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Saving and Managing Filters
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-5-2">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:05
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows how to make bulk changes so that you can change the attributes or move many items at once in JIRA.<br></p><ul>
+                           <li> Learn why you might use a bulk change </li>
+                           <li> Execute a bulk change  </li>
+						   <li> Confirm that you made a bulk change correctly&nbsp;&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Executing Bulk Changes
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-5-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:07
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video tells us how to visualize the results of a filter with a new custom board.<br></p><ul>
+                           <li> Learn why you might want a new board </li>
+                           <li> Create a board </li>
+						   <li> Learn how to use your new custom board&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Creating New Boards from Saved Filters
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-5-4">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        03:58
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Dashboards and Widgets</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    3 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                09:29
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-6-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows what a dashboard is, why you would want to use one and how to create it.<br></p><ul>
+                           <li> Learn what a dashboard is </li>
+                           <li> Learn how to create a dashboard </li>
+                           <li> Learn how to manage your created dashboards&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Creating and Managing Dashboards
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-6-1">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:23
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-6-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video tells what a gadget is, check some example gadgets that&nbsp;the author thinks are useful, how to add them and configure for your own use.<br></p><ul>
+                           <li> Learn what gadget is </li>
+                           <li> Learn how to add a gadget </li>
+                           <li> Learn how to configure a gadget&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Adding Gadgets to Your Dashboard
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-6-2">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        04:49
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-6-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This video shows how to distribute the dashboard that you created so team performance is visible to all stakeholders.<br></p><ul>
+                           <li> Learn how to share a dashboard&nbsp;</li></ul></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Sharing Your Dashboard
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-6-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:17
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </div>
+    </div>
+
+</div>
+                </div>
+            </div>
+        
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="requirements" data-purpose="course-requirements">
+        <div class="requirements__title">
+            Requirements
+        </div>
+        <div class="requirements__content">
+            <ul class="requirements__list">
+                
+                    <li class="requirements__item">You will need to be familiar with the basics of JIRA, from both the end user and administrator perspectives. Experience with workflows, custom fields, and other administrative functions of JIRA will be useful.</li>
+                
+            </ul>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xs-8 left-col" data-purpose="curriculum-practice-test">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="description js-user-tracker-click"
+         data-purpose="course-description"
+         data-user-tracker-schema="action-logs"
+         data-user-tracker-object-id="1749446"
+         data-user-tracker-action="full-description-read"
+         data-user-tracker-target-selector-class="js-simple-collapse-more-btn">
+
+        <div data-more="+ See more"
+             
+                 class="js-simple-collapse js-simple-collapse--description"
+                 data-purpose="collapse-description-btn"
+             
+             >
+            <div class="js-simple-collapse-inner" data-purpose="collapse-description-text">
+                <div class="description__title">
+                    Description
+                </div>
+
+                <p>JIRA Software is an agile project management tool that supports any agile methodology, be it scrum, Kanban, or your own unique flavor. From agile boards to reports, you can plan, track, and manage all your agile software development projects from a single tool. JIRA Software brings the power of the agile methodology to Atlassian's JIRA Software.</p>
+
+<p>With this course, you will dive straight into the action, exploring critical agile terminologies and concepts in the context of JIRA Software. You will learn how to plan, track, and release great software. This course will teach you how to choose a workflow, set issue types and assign permissions.You will learn to stay connected with your team from anywhere to ensure great development.You will also be able to use JIRA Dashboards to broadcast your project results to all stakeholders so everyone is aligned.</p>
+
+<p>By the end of this course, you will have developed a great working knowledge of JIRA Software, thus making your project management much more efficient.</p><p><strong>About the Author</strong></p><p><strong>David Harned</strong> is a PMO Director for Monotype and is a motivated and inspired leader of Agile thinkers, driving adoption within enterprises that have numerous parallel-distributed, highly autonomous, and self-organized teams. He is a design, usability, and customer experience advocate. He has managed developer group building in the e-commerce retail business. David is an Agile believer and uses Scrum, Kanban, and Lean as well as hybrid approaches for project management. David is an expert in the implementation of Scrum at scale using standards and tools for process and visibility across the enterprise.</p>
+
+<p>David holds many certifications in the project management and Agile domains including: PMI Project Management Professional, Digital Project Manager, Certified ScrumMaster, Certified Scrum Product Owner, PMI Agile Certified Practitioner, Certified Scrum Professional, and as Certified Scrum @ Scale Practitioner. David has used JIRA since 2005 and he uses it nearly every day to execute projects with Agile teams.</p>
+
+<p>David is a husband and the father of two amazing kids. He loves cars, motorcycles, and craft beer. You'll find him on summer days either in the garage or out for a drive.</p>
+
+                
+                    <div class="audience" data-purpose="course-audience">
+                        <div class="audience__title">
+                            Who this course is for:
+                        </div>
+                        <ul class="audience__list">
+                            
+                                <li>If you want to get started with JIRA Software and learn how to run your JIRA projects the agile way, then this is the perfect video for you.</li>
+                            
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="recommendations" data-purpose="recommendations-unit">
+        <span class="in-page-offset-anchor" data-purpose="recommendations-offset-anchor"></span>
+        <div class="recommendations__course-cards ud-app-loader ud-component--course-comparison--app"
+             data-module-id="course-comparison"
+             data-module-args="{&quot;sourcePage&quot;:&quot;course_landing_page&quot;,&quot;currentCourseId&quot;:1749446,&quot;discoveryContext&quot;:&quot;landing-page&quot;,&quot;funnelTrackingSubcontext2&quot;:&quot;view-coursecomparison&quot;,&quot;funnelTrackingContext&quot;:&quot;landing-page&quot;,&quot;funnelTrackingSubcontext&quot;:&quot;best-seller&quot;}">
+            <div class="recommendations__content recommendations__content--course-comparison">
+                <div class="recommendations__title">
+                    <div class="content-loader__cc-content"></div>
+                </div>
+                <ul class="content-loader--list">
+                    
+                        <li class="content-loader__cc-row">
+                            <span class="content-loader__cc-image">
+                                <div class="content-loader__cc-content content-loader__cc-content--full-height"></div>
+                            </span>
+                            <span class="content-loader__cc-text">
+                                <div class="content-loader__cc-content"></div>
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                        </li>
+                    
+                        <li class="content-loader__cc-row">
+                            <span class="content-loader__cc-image">
+                                <div class="content-loader__cc-content content-loader__cc-content--full-height"></div>
+                            </span>
+                            <span class="content-loader__cc-text">
+                                <div class="content-loader__cc-content"></div>
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                        </li>
+                    
+                        <li class="content-loader__cc-row">
+                            <span class="content-loader__cc-image">
+                                <div class="content-loader__cc-content content-loader__cc-content--full-height"></div>
+                            </span>
+                            <span class="content-loader__cc-text">
+                                <div class="content-loader__cc-content"></div>
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        
+
+        
+            <div class="row row--component-margin">
+                <div class="col-xxs-8 left-col">
+                    <div class="clp-component-render"><div class="ud-component--clp--frequently-bought-together"></div></div>
+                </div>
+            </div>
+        
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render"><div class="ud-component--clp--practice-test-bundle"></div></div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="instructor">
+        <span id="instructor" class="in-page-offset-anchor"></span>
+
+        
+
+        <div class="ud-component--clp--instructors"></div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div data-purpose="course-reviews">
+        <span id="reviews" class="in-page-offset-anchor"></span>
+        
+            <div class="ud-component--clp--course-reviews-display"
+                 data-component-args="{&quot;averageRating&quot;:4.29216,&quot;page&quot;:&quot;clp&quot;,&quot;courseId&quot;:1749446,&quot;ratingDistribution&quot;:[{&quot;rating&quot;:1,&quot;count&quot;:0},{&quot;rating&quot;:2,&quot;count&quot;:1},{&quot;rating&quot;:3,&quot;count&quot;:6},{&quot;rating&quot;:4,&quot;count&quot;:10},{&quot;rating&quot;:5,&quot;count&quot;:12}],&quot;showUserAvatar&quot;:true,&quot;topReviewAttributes&quot;:[]}">
+            </div>
+        
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8">
+                <div class="clp-component-render">
+
+    <div class="more-from-instructor ud-component--clp--more-courses-by-instructors"
+         data-component-args="{&quot;subContext&quot;:&quot;morefrominstructor&quot;,&quot;instructors&quot;:[{&quot;title&quot;:&quot;Packt Publishing&quot;,&quot;id&quot;:5058914}],&quot;organizationCoursesOnly&quot;:false,&quot;courseId&quot;:1749446,&quot;context&quot;:&quot;landing-page&quot;}">
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxs-8">
+                <div class="clp-component-render"><div class="ud-component--clp--price-disclaimer"></div></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxs-8">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8">
+                <div class="clp-component-render">
+
+    
+        <div class="ud-component--clp--report-abuse report-abuse" data-purpose="report-abuse-link">
+        </div>
+    
+
+</div>
+            </div>
+        </div>
+    </div>
+
+
+
+            </div>
+
+            
+                
+            
+
+            
+                
+
+
+
+
+<div class="footer-v6 footer--marketplace ud-app-loader ud-component--footer--app
+            footer--en-us
+            
+            "
+     data-module-id="footer"
+     data-module-args="{&quot;mobileAppDownload&quot;:{&quot;link&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;},&quot;localeDropdown&quot;:{&quot;items&quot;:[{&quot;prefix&quot;:&quot;en&quot;,&quot;name&quot;:&quot;English&quot;,&quot;id&quot;:&quot;en_US&quot;},{&quot;prefix&quot;:&quot;de&quot;,&quot;name&quot;:&quot;Deutsch&quot;,&quot;id&quot;:&quot;de_DE&quot;},{&quot;prefix&quot;:&quot;es&quot;,&quot;name&quot;:&quot;Espa\u00f1ol&quot;,&quot;id&quot;:&quot;es_ES&quot;},{&quot;prefix&quot;:&quot;fr&quot;,&quot;name&quot;:&quot;Fran\u00e7ais&quot;,&quot;id&quot;:&quot;fr_FR&quot;},{&quot;prefix&quot;:&quot;id&quot;,&quot;name&quot;:&quot;Bahasa Indonesia&quot;,&quot;id&quot;:&quot;id_ID&quot;},{&quot;prefix&quot;:&quot;it&quot;,&quot;name&quot;:&quot;Italiano&quot;,&quot;id&quot;:&quot;it_IT&quot;},{&quot;prefix&quot;:&quot;ja&quot;,&quot;name&quot;:&quot;\u65e5\u672c\u8a9e&quot;,&quot;id&quot;:&quot;ja_JP&quot;},{&quot;prefix&quot;:&quot;ko&quot;,&quot;name&quot;:&quot;\ud55c\uad6d\uc5b4&quot;,&quot;id&quot;:&quot;ko_KR&quot;},{&quot;prefix&quot;:&quot;nl&quot;,&quot;name&quot;:&quot;Nederlands&quot;,&quot;id&quot;:&quot;nl_NL&quot;},{&quot;prefix&quot;:&quot;pl&quot;,&quot;name&quot;:&quot;Polski&quot;,&quot;id&quot;:&quot;pl_PL&quot;},{&quot;prefix&quot;:&quot;pt&quot;,&quot;name&quot;:&quot;Portugu\u00eas&quot;,&quot;id&quot;:&quot;pt_BR&quot;},{&quot;prefix&quot;:&quot;ro&quot;,&quot;name&quot;:&quot;Rom\u00e2n\u0103&quot;,&quot;id&quot;:&quot;ro_RO&quot;},{&quot;prefix&quot;:&quot;ru&quot;,&quot;name&quot;:&quot;\u0420\u0443\u0441\u0441\u043a\u0438\u0439&quot;,&quot;id&quot;:&quot;ru_RU&quot;},{&quot;prefix&quot;:&quot;th&quot;,&quot;name&quot;:&quot;\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22&quot;,&quot;id&quot;:&quot;th_TH&quot;},{&quot;prefix&quot;:&quot;tr&quot;,&quot;name&quot;:&quot;T\u00fcrk\u00e7e&quot;,&quot;id&quot;:&quot;tr_TR&quot;},{&quot;prefix&quot;:&quot;zh-cn&quot;,&quot;name&quot;:&quot;\u4e2d\u6587(\u7b80\u4f53)&quot;,&quot;id&quot;:&quot;zh_CN&quot;},{&quot;prefix&quot;:&quot;zh-tw&quot;,&quot;name&quot;:&quot;\u4e2d\u6587(\u7e41\u9ad4)&quot;,&quot;id&quot;:&quot;zh_TW&quot;}],&quot;currentLanguage&quot;:&quot;English&quot;},&quot;ufbNotice&quot;:{&quot;link&quot;:&quot;https://business.udemy.com/request-demo/&quot;}}"
+     data-module-priority="-20"
+     data-purpose="footer-bar">
+    <div class="fixed-message-container">
+        <div class="ud-component--footer--legal-message"></div>
+
+        <div class="ud-app-loader ud-component--footer--eu-cookie-message"
+     data-module-id="eu-cookie-message"
+     data-module-priority="-20">
+</div>
+
+    </div>
+    <footer>
+        
+            
+            
+                <hr />
+                <div class="container-fluid footer__main">
+                    <div class="row">
+                        <div class="hidden-xxs hidden-xs col-sm-9 footer__links--main">
+                            
+
+
+<ul class="links ">
+    
+            
+                
+                    <li>
+                        
+
+<a class="ud-click-tracking bold"
+    data-purpose="footer.links.business"
+    href="https://business.udemy.com/?ref=footer"
+    
+    data-type="udemy-business-footer-clicked"
+    >
+    Udemy for Business
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" bold"
+    data-purpose="footer.links.teach"
+    href="/teaching/?ref=teach_footer"
+    
+    
+    >
+    Become an instructor
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.mobile"
+    href="/mobile/"
+    
+    
+    >
+    Udemy app
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.about"
+    href="https://about.udemy.com/?locale=en-us"
+    
+    
+    >
+    About us
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.careers"
+    href="https://about.udemy.com/careers?locale=en-us"
+    
+    
+    >
+    Careers
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.blog"
+    href="https://about.udemy.com/blog?ref=footer"
+    
+    
+    >
+    Blog
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+            
+    
+            
+                
+            
+    
+            
+                <li>
+                    
+                        
+                            
+
+<a class=" breadcrumb"
+    data-purpose="footer.links.topics"
+    href="/topics/"
+    
+    
+    >
+    Topics
+</a>
+
+                        
+                    
+                        
+                            
+
+<a class=" "
+    data-purpose="footer.links.concepts"
+    href="/concept/"
+    
+    
+    >
+    Concepts
+</a>
+
+                        
+                    
+                </li>
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.support"
+    href="/support/"
+    
+    
+    >
+    Support
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.affiliates"
+    href="/affiliate/"
+    
+    
+    title="Udemy Affiliate Program">
+    Affiliate
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+</ul>
+
+                        </div>
+                        <div class="col-sm-3">
+                            
+
+<div class="ud-component--footer--locale-dropdown text-right footer__locale-dropdown">
+    
+    <div class="dropup btn-group locale-dropdown">
+        <button aria-label="Select language"
+                data-purpose="locale-dropdown-btn"
+                id="locale-dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                type="button"
+                class="dropdown-toggle btn btn-sm btn-quaternary">
+            <span>
+                <span class="mr15">
+                    <span class="ml10 mr10 udi udi-globe"></span>
+                    <span class="mr10">English</span>
+                </span>
+                <span class="pos-a" style="right: 12px;">
+                    <span class="dropdown-caret udi udi-angle-down"></span>
+                </span>
+            </span>
+        </button>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+                    <hr />
+                    <div class="ud-component--footer--ufb-notice"></div>
+                
+
+                <hr />
+                <div class="container-fluid footer__bottom">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            
+
+
+
+<a class="dib mr20"
+    href="/">
+    <img alt="Udemy"
+        class="ufb-logo"
+        src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+        width="110" height="32" />
+</a>
+
+
+    <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+    <span class="footer__copyright dib mr20 text-midnight-lighter">
+        Copyright &copy; 2019 Udemy, Inc.
+    </span>
+    <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+
+
+                        </div>
+                        <div class="col-sm-6 text-right footer__links--bottom">
+                            
+
+<ul class="links list-inline">
+    <li>
+        <a data-purpose="terms-link"
+           href="/terms/">
+            Terms
+        </a>
+    </li>
+    <li>
+        <a data-purpose="privacy-link"
+           href="/terms/privacy/">
+            Privacy Policy and Cookie Policy
+        </a>
+    </li>
+    <li>
+        <a data-purpose="copyright-link"
+           href="/terms/copyright/">
+            Intellectual Property
+        </a>
+    </li>
+    <li class="footer__app-download-link ud-component--footer--mobile-app-download-link">
+        <a data-purpose="app-download-link"
+           href="https://udemy.app.link/garBkjjtDO"
+           target="_blank">
+            Get The App
+        </a>
+    </li>
+</ul>
+
+                        </div>
+                    </div>
+                </div>
+            
+            <hr class="hr-primary" />
+            <div class="ud-component--footer--incentive-signup"></div>
+            <div class="ud-component--footer--share-welcome-popup"></div>
+        
+    </footer>
+</div>
+
+                
+
+
+
+
+                
+
+            
+        </div>
+        
+
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-manifest.076fdc5d48bb8a3e4545.js" defer></script>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-legacy-vendor.4130483268c737567f86.js" defer></script>
+
+    <script type="text/javascript" src="/staticx/udemy/js/webpack/jsi18n-en-us.1e0be33caff403551dac.js" defer></script>
+
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-legacy.3759f7a06da883b6e91e.js" defer></script>
+
+    </body>
+</html>
