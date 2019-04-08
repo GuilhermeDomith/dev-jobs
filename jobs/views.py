@@ -7,24 +7,33 @@ from accounts.models import Profile
 def get_competencias_user(request):
     profile = Profile.objects.get(username=request.user.username)
     comp = [p.nome for p in profile.competencias.all()]
-    print(comp)
     return comp
 
 
-def jobs_list(request):
+def jobs_list(request, page_num=None):
+    page_num = 1 if not page_num or page_num < 0 else page_num
     context = {'jobs': ''}
 
     if not request.POST:
         if request.user.is_authenticated:
             comp = ' '.join(get_competencias_user(request))
-            context['jobs'] = SearchJobs.jobs_similares(comp, 20)
+            context['jobs'] = SearchJobs.jobs_similares(comp, -2)
             context['descricao'] = 'Vagas baseadas no seu perfil'
         else:
-            context['jobs'] = SearchJobs.df_jobs.iloc[:20].to_dict(orient='records')
+            context['jobs'] = SearchJobs.df_jobs.to_dict(orient='records')
             context['descricao'] = 'Vagas disponíveis'
     else:
-        context['jobs'] = SearchJobs.jobs_similares(request.POST['search_jobs'], 20)
+        context['jobs'] = SearchJobs.jobs_similares(request.POST['search_jobs'], -2)
         context['descricao'] = 'Vagas baseadas na sua busca'
+
+    context['page_num'] = page_num
+    page_num = page_num - 1 if page_num > 1 else page_num
+    context['n_pages'] = [x for x in range(page_num, page_num+7)]
+    context['n_pages'] = ['-'] + context['n_pages'] if page_num == 1 else context['n_pages']
+
+    min = (page_num-1) * 20
+    max = min + 20
+    context['jobs'] = context['jobs'][min:max]
 
     # Transforma as tags em lista
     for i, _ in enumerate(context['jobs']):
@@ -41,18 +50,19 @@ def job_detail(request, codigo):
     context['job']['tags'] = context['job']['tags'].split(', ')
 
     # Verifica as competencias que o usuário não tem para a vaga.
-    competencias = get_competencias_user(request)
     context['nao_competencias'] = []
-    for t in context['job']['tags']:
-        if t not in competencias:
-            context['nao_competencias'].append(t)
+
+    if request.user.is_authenticated:
+        competencias = get_competencias_user(request)
+        for t in context['job']['tags']:
+            if t not in competencias:
+                context['nao_competencias'].append(t)
 
     # Se não houver competencia compatível, obtem cursos similares para essas competencias
     competencias_curso = context['job']['tags'].copy()
     if context['nao_competencias']:
         competencias_curso += (context['nao_competencias'] * 3)
     context['cursos'] = Cursos.cursos_similares(' '.join(competencias_curso), 6)
-    print('comp cursos', competencias_curso)
 
     # Descobri as tags de cada curso
     for c in context['cursos']:

@@ -31,19 +31,12 @@ class UserCreate(CreateView):
     def form_valid(self, form):
         user = form.save(commit=False)
         user.set_password(user.password)
-
-        '''
-        if form.cleaned_data['cpassword'] != form.cleaned_data['password']:
-            print('senhas diferentes')
-            messages.add_message(self.request, messages.ERROR, 'A confirmação de senha é diferente da senha.')
-            return render(self.request, 'auth/user_form.html', {'form':form})
-        '''
         user.save()
 
         for comp in form.cleaned_data['comp']:
+            # Se a competência nao existir no BD, armazena.
             try:
                 obj_comp = Competencia.objects.get(nome__iexact=comp)
-                #Competencia(nome=comp).save()
             except:
                 obj_comp = Competencia(nome=comp)
                 obj_comp.save()

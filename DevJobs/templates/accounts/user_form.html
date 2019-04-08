@@ -40,14 +40,14 @@
                 </span>
             </div>
         </div>
-
+        
+        <!-- 
         <div class="row">
-            <!-- Interesses -->
             <div class="input-field col s12 m8">
                 <textarea id="vagas_desejadas" name="vagas_desejadas" class="materialize-textarea">{{ form.vagas_desejadas.value|default_if_none:'' }}</textarea>
                 <label for="vagas_desejadas">Vagas Desejadas</label>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col s12 m6 quadro-competencia">
@@ -78,6 +78,9 @@
 
                 <div id="competencias" class="quadro-2">
                     
+                </div>
+                <div class="input-field">
+                    <span class="helper-text" style="color: red"> {{form.comp.errors|first}}</span>
                 </div>
             </div>
         </div>

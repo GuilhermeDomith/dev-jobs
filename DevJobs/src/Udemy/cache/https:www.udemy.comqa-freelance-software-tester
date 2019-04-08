@@ -1,0 +1,2975 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+    <head>
+        <title>Quality Assurance -  Become a Freelance Software Tester | Udemy</title>
+
+        
+            
+<meta name="description" content="Introduction to Freelance Opportunities for Software Quality Assurance Testers"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"><meta name="apple-itunes-app" content="app-id=562413829, affiliate-data=ct=Safari_SmartBanner&amp;amp;pt=1240482"><meta name="medium" content="mult"><meta name="twitter:card" content="summary_large_image"><meta name="title" content="Quality Assurance -  Become a Freelance Software Tester"><meta name="google-play-app" content="app-id=com.udemy.android"><meta property="fb:app_id" content="313137469260"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="udemy_com:available" content="1"><meta property="udemy_com:category" content="Development"><meta property="udemy_com:instructor" content="https://www.udemy.com/user/khallai/"><meta property="udemy_com:price" content="R$69.99"><meta property="og:title" content="Quality Assurance -  Become a Freelance Software Tester"><meta property="og:url" content="https://www.udemy.com/qa-freelance-software-tester/"><meta property="og:description" content="Introduction to Freelance Opportunities for Software Quality Assurance Testers"><meta property="og:image" content="https://udemy-images.udemy.com/course/480x270/1834168_14ed_3.jpg"><meta property="og:type" content="udemy_com:course"><meta property="og:site_name" content="Udemy"><meta property="og:locale" content="en_US"><meta name="twitter:domain" content="www.udemy.com"><meta name="twitter:title" content="Quality Assurance -  Become a Freelance Software Tester"><meta name="twitter:url" content="https://www.udemy.com/qa-freelance-software-tester/"><meta name="twitter:description" content="Introduction to Freelance Opportunities for Software Quality Assurance Testers"><meta name="twitter:image" content="https://udemy-images.udemy.com/course/480x270/1834168_14ed_3.jpg"><meta name="twitter:site" content="@udemy"><meta itemprop="name" content="Quality Assurance -  Become a Freelance Software Tester"><meta itemprop="url" content="https://www.udemy.com/qa-freelance-software-tester/"><meta itemprop="description" content="Introduction to Freelance Opportunities for Software Quality Assurance Testers"><meta itemprop="image" content="https://udemy-images.udemy.com/course/480x270/1834168_14ed_3.jpg">
+
+
+        
+
+        
+            <link type="text/css" href="/staticx/udemy/js/webpack/entry-main-desktop.9312c9ceaa743ea4d45c.css" rel="stylesheet" />
+        
+
+        
+            
+            <link rel="preconnect" href="https://udemy-images.udemy.com" crossorigin />
+            
+            <link rel="dns-prefetch" href="https://udemy-images.udemy.com" crossorigin />
+            
+        
+
+        
+            
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-57x57.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-114x114.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-72x72.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-144x144.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-60x60.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-120x120.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-76x76.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-152x152.png" />
+            
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-196x196.png" sizes="196x196" />
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-96x96.png" sizes="96x96" />
+            
+            <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-16x16.png" sizes="16x16" />
+            
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-128.png" sizes="128x128" />
+            
+            <meta name="application-name" content="Udemy"/>
+            <meta name="msapplication-TileColor" content="#EDECE6" />
+            <meta name="msapplication-TileImage" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-144x144.png" />
+            <meta name="msapplication-square70x70logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-70x70.png" />
+            <meta name="msapplication-square150x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-150x150.png" />
+            <meta name="msapplication-wide310x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x150.png" />
+            <meta name="msapplication-square310x310logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x310.png" />
+        
+
+        
+            <style>/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+        
+
+        
+            <style>
+    .org-logo {
+        background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+    }
+
+    @media (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+        @-ms-viewport { width:device-width; zoom:1.0; }
+        .org-logo {
+            /*retina display*/
+            background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+        }
+    }
+</style>
+
+        
+
+        
+    <link type="text/css" href="/staticx/udemy/js/webpack/course-landing-page/desktop/hb.fd116c23e7484bd86054.css" rel="stylesheet" />
+
+
+        <script type="text/javascript">
+    (function () {
+        var head,
+            regExp = "",
+            version = -1,
+            userAgent = navigator.userAgent;
+
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            regExp = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        } else if (navigator.appName == 'Netscape') {
+            regExp = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+        }
+        if (regExp && regExp.exec(userAgent) != null) {
+            version = parseFloat(RegExp.$1);
+        }
+
+        if (version > 9) {
+            head = document.getElementsByTagName("html")[0];
+            head.className = head.className + " ie";
+            if (version == 10) {
+                head.className = head.className + " ie10";
+            }
+        }
+    })();
+</script>
+
+
+        <script>
+    // Polyfill for IE in order to fix errors related with new Event() and new CustomEvent()
+    // https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill
+    (function () {
+      if ( typeof window.CustomEvent === "function" ) return false;
+      function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+       }
+      CustomEvent.prototype = window.Event.prototype;
+      window.CustomEvent = CustomEvent;
+      window.Event = CustomEvent;
+    })();
+
+    // Shim for requestIdleCallback.
+    // https://developers.google.com/web/updates/2015/08/using-requestidlecallback
+    window.requestIdleCallback = window.requestIdleCallback || function (cb) {
+      var start = Date.now();
+      return setTimeout(function () {
+        cb({
+          didTimeout: false,
+          timeRemaining: function () {
+            return Math.max(0, 50 - (Date.now() - start));
+          }
+        });
+      }, 1);
+    };
+</script>
+
+
+
+<script>
+    var UD = UD || {};
+    UD.me = {"settings":{},"encrypted_affiliate_email":"","learning_languages":[],"qualaroo_survey_ids":[],"encrypted_affiliate_uid":""};
+    UD.Config = {"brand":{"is_external_sources_enabled":true,"is_feed_commenting_enabled":true,"is_autoshow_cc_enabled":true,"_class":"brand","is_messaging_enabled":true,"logo_url_2x":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_udemy":true,"product_name":"Udemy","is_discussions_enabled":true,"is_share_to_workplace_enabled":false,"is_sso_enabled":false,"product_logo":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","product_logo_light":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg","identifier":"br","is_add_reviews_enabled":true,"has_organization":false,"is_share_on_slack_enabled":false,"is_teaching_enabled":true,"is_government":false,"title":"Udemy","is_social_sharing_enabled":true,"link_bar_nav_list_id":"ud-link-bar","is_team":false,"is_import_courses_enabled":true,"organization":false,"is_profile_functions_enabled":true},"env":"PROD","features":{"invite":{"alert":true},"course":{"refundable":true,"discussions":{"view":true},"students":{"unenroll":false},"announcements":{"comments":{"view":true}}},"logged_in_home":{"linkbar_level_2":true,"ufb_ad":false},"hello_bar":{"terms":true,"pricing":true,"instructor":false},"intercom_chat":false,"ufb_notices_footer":{"top_com":true},"course_review":{"clp_review_search":true,"leave_feedback":true},"social_share":{"welcome_popup":true,"email":true},"discount":{"change_alerts":true},"flyout":true,"course_landing_page":{"incentives":{"lifetime_access":true,"access_tv":true},"money_back_guarantee":true,"instructor_bio":{"social_links":true,"stats":true,"image":true},"reviews":{"show_user_avatar":true}},"sd_navigation":true,"ufb_notices":true,"zendesk_chat":false,"gift_course":true,"home":{"signup_cta":true,"my_courses":{"revenue":true,"privacy":true,"free_label":true}},"shopping_cart":true,"notice":{"instructor_bar":false,"smart_bar":true},"wishlist":true,"bundle":{"instructor_bio":{"social_links":true}},"report_abuse":true},"third_party":{"intercom":{"app_id":"sehj53dd"},"uft_stripe_publishable_key":"pk_live_dCyHJcZsk8NaNwx1PiRSpqqq","sift_science_account":false,"user_stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","pusher":{"coding_exercise_event":"coding-exercise-evaluated","key":"825910825f8199bd5b21"},"filestack":{"audio_extensions":[".mp3",".wav"],"presentation_extensions":[".pdf"],"s3_fineuploader_misc_extensions":[".med",".fm",".esf",".g3",".davmount",".spl",".xls",".ttf",".sse",".apk",".tsa",".etx",".p8",".pseg3820",".auc",".ppt",".ns4",".mxmf",".tau",".pnm",".xlam",".m3u",".model-inter",".xht",".evc",".provx",".fo",".sic",".fits",".ecelp4800",".twds",".pot",".scsf",".btf",".qt",".sxi",".fcdt",".qcall",".mj2",".ent",".avi",".xwd",".rgb",".midi",".vst",".sql",".so",".prc",".hqx",".qxb",".rels",".xla",".kpt",".lwp",".fla",".pwz",".exe",".kcm",".xif",".ait",".mpp",".ai",".ddd",".flv",".hh",".xpdl",".smo",".ic8",".qps",".provn",".smv",".tif",".wmv",".mesh",".zirz",".ivu",".mhtml",".mads",".nml",".aso",".kne",".stk",".plf",".acc",".chm",".wpl",".tsd",".ez",".s1h",".ktr",".pgn",".ult",".atx",".mdi",".4",".mxs",".zip",".m21",".xca",".123",".xbd",".me",".dtshd",".msm",".ktx",".uvvg",".clkp",".rpst",".igm",".es3",".sjpg",".zone",".dtd",".plb",".8",".dd",".spo",".nbp",".mpc",".jtd",".vcf",".mb",".iota",".hxx",".quox",".n-gage",".mpn",".cw",".mbk",".str",".rq",".m3u8",".wlnk",".c4u",".axa",".iges",".dataless",".hdr",".png",".svgz",".class",".xdf",".ecelp9600",".kfo",".nlu",".wax",".kpr",".ei6",".ice",".jpg",".pyv",".lostsyncxml",".pya",".ssw",".epub",".ts",".mpy",".ic1",".sfs",".kon",".c4f",".log",".ic7",".tree",".swf",".qwt",".btif",".hal",".ifm",".p7c",".rpss",".uvx",".fti",".smpg",".map",".spng",".kmz",".tar",".pil",".m2v",".uvp",".s3m",".qbo",".uni",".upa",".gdl",".odm",".ggt",".odp",".vbk",".ttl",".request",".tag",".sdkm",".sh",".sti",".xns",".xpi",".kia",".rpm",".ppsx",".azf",".sxm",".tpl",".xyze",".sv4cpio",".ief",".fdf",".xvm",".rsm",".gif",".ic4",".2",".semf",".vss",".tra",".jpg2",".uvh",".sswf",".uvvp",".tgz",".gmx",".tpt",".pack",".cdbcmsg",".dis",".xar",".wv",".edm",".rdz",".xlw",".726",".sub",".pkd",".ns2",".ptid",".ras",".p10",".omg",".grxml",".c4d",".zfo",".win",".cxx",".package",".art",".uo",".djvu",".gqf",".ic5",".ami",".s1a",".spdf",".box",".s11",".nns",".u8dsn",".cmp",".std",".csp",".ac3",".csh",".ndl",".sit",".cil",".jpeg",".nb",".gz",".t",".flw",".mpg4",".3g2",".ogg",".sppt",".paw",".msf",".vcg",".dxf",".pki",".rdf-crypt",".cdmic",".sgml",".acu",".flo",".xlm",".6",".skt",".xdm",".sxg",".twd",".tfi",".atom",".jpe",".lbe",".xsf",".fnc",".src",".sdoc",".abc",".roff",".mag",".cnd",".dxp",".vbox",".slt",".p12",".html",".swi",".appcache",".daf",".xpr",".wmx",".cellml",".sxl",".flx",".spf",".rgbe",".lzh",".mets",".plc",".tsv",".mp3",".tfx",".qxl",".smp",".slaz",".msh",".nnw",".smh",".exi",".xbm",".zaz",".dp",".mbox",".bmp",".spp",".spd",".nitf",".xo",".ppm",".fxpl",".aifc",".ter",".ppkg",".ksh",".pbm",".rm",".xpm",".s1j",".wps",".sdkd",".roa",".eps",".pwn",".org",".p7s",".link66",".skm",".amr",".c4g",".ors",".cer",".stif",".odi",".vsc",".smp3",".miz",".uvvm",".rip",".wk3",".xlsb",".svc",".wav",".nsg",".xspf",".esa",".s3df",".dvb",".xhtml",".man",".mfm",".uvg",".hvd",".crx",".mjp2",".tcu",".sxls",".apr",".3gpp",".uvu",".tr",".icm",".s1p",".bz2",".sc",".copyright",".wml",".spn",".xslt",".sdf",".dsc",".mp21",".dssc",".stf",".grv",".jisp",".7",".nim",".rs",".gbr",".fit",".azs",".yin",".dd2",".vxml",".docm",".mmr",".meta4",".pcl",".f90",".cif",".pptx",".viv",".oga",".azv",".msl",".uoml",".vis",".vcd",".pkipath",".ez3",".wspolicy",".stml",".dls",".pgb",".clkt",".plj",".wg",".uvvv",".curl",".siv",".vsw",".bmml",".rss",".pdf",".les",".sdo",".fg5",".pfr",".js",".zir",".evw",".sig",".s1m",".kar",".rct",".bpd",".cpio",".opus",".lbd",".saf",".mxi",".uvd",".et3",".stw",".sisx",".xsm",".hdf",".xltm",".wcm",".distz",".rms",".n3",".ivp",".ims",".xel",".si",".json-patch",".wqd",".smi",".sm",".uvf",".mpm",".hbci",".p7m",".xcs",".sfd-hdstx",".clkx",".dpkg",".s1n",".dae",".snd",".xdp",".jp2",".teacher",".ssf",".smht",".cww",".tur",".otf",".susp",".xlt",".oti",".sxc",".nc",".5",".texi",".es",".wiz",".mgz",".thmx",".oas",".3dm",".rng",".669",".mpeg",".potm",".pvb",".tcl",".icc",".pyc",".3",".jpgm",".wdb",".soc",".ktz",".g\u00b3",".cdmiq",".css",".odt",".kom",".stm",".finf",".odb",".knp",".study-inter",".ep",".rsheet",".anx",".cdmid",".sml",".xlsm",".odg",".seed",".mp2",".relo",".ic0",".aal",".dir",".tmo",".stc",".ods",".fst",".cdmio",".c11amc",".wsc",".uvvd",".xpx",".fsc",".m",".pqa",".mpe",".jlt",".bar",".dcf",".obj",".s1e",".psb",".jam",".mlp",".mgp",".kml",".rl",".ltf",".cdmia",".tnf",".lostxml",".dts",".fxm",".xmt_bin",".icd",".dot",".preminet",".ink",".xsd",".mts",".ogv",".bcpio",".uri",".ogx",".vpm",".mpd",".cdkey",".fts",".s1q",".xav",".wsdl",".pptm",".pti",".vcard",".rtf",".psid",".m4v",".tlclient",".bdm",".pgp",".x3d",".hvs",".xfdf",".ccxml",".ics",".emma",".chrt",".gxt",".vcx",".sla",".flac",".ssml",".irp",".rp9",".vsf",".wmlc",".shar",".atc",".uris",".asf",".tex",".shf",".eml",".oxt",".sieve",".asc",".lvp",".jad",".cst",".ext",".odf",".jpm",".xhvml",".webm",".xlim",".clkk",".or2",".hpgl",".koz",".uvvt",".umj",".sus",".xyz",".cc",".jpx",".ps",".uvz",".py",".c11amz",".dist",".potx",".webp",".tcap",".ftc",".rlc",".xhtm",".spq",".td",".qfx",".wgt",".gv",".nnd",".utz",".ez2",".fxp",".msty",".vml",".emm",".cryptonote",".skd",".s1w",".text",".mqy",".karbon",".dpgraph",".dcm",".sem",".nsf",".jnlp",".taglet",".cuc",".pgm",".mxml",".uvvs",".tsr",".latex",".portpkg",".xlb",".o",".dmp",".lha",".ecelp7470",".dna",".osf",".ac",".ram",".csv",".iif",".uvvu",".dm",".uvvx",".pls",".entity",".xmls",".ppa",".fbs",".ic3",".m4u",".sldx",".enw",".htke",".emf",".gsheet",".sgif",".list3820",".joda",".dll",".xmt_txt",".gtw",".ipfix",".tga",".seml",".drc",".wmlsc",".lasxml",".ndc",".wvx",".dvi",".sgi",".uvvi",".xdw",".xdssc",".msd",".mseq",".crtr",".xer",".1905.1",".mft",".fdt",".u8hdr",".uvva",".mod",".oa3",".bat",".mods",".qca",".wtb",".au",".wrl",".json",".xlsx",".uvs",".igx",".ism",".axv",".mpa",".awb",".texinfo",".dwg",".semd",".sam",".dor",".frm",".rnc",".aa3",".mht",".mrc",".s1g",".cml",".manifest",".vew",".gre",".spot",".aiff",".x_t",".pps",".hpi",".mxu",".qcp",".otp",".ma",".o4v",".ustar",".cgm",".o4a",".nsh",".notebook",".ic6",".ggb",".ufdl",".jfif",".wks",".ppd",".wm",".gram",".a",".m15",".u8mdn",".dart",".uvm",".cdf",".rep",".ppsm",".g2w",".3dml",".sdp",".c4p",".clkw",".cii",".icf",".odd",".cap",".sms",".hbc",".wk1",".oda",".xz",".el",".hvp",".m1v",".crl",".smzip",".igl",".doc",".xpw",".ots",".dr",".sandboxed",".acutc",".img",".bin",".ms",".hpid",".bed",".wpd",".rtx",".tiff",".soa",".dxr",".pfx",".ifb",".scq",".torrent",".otg",".txt",".orq",".mif",".otc",".movie",".pdb",".rnd",".gqs",".afp",".gex",".geo",".acn",".vrml",".mid",".pod",".evb",".h",".woff",".mp1",".tnef",".psd",".sjp",".sfd",".wmc",".ic2",".prz",".pl",".bmi",".bkm",".mseed",".mxf",".mpga",".t38",".aep",".tsq",".gsm",".rdf",".unityweb",".hps",".ufd",".vsd",".dms",".ccmp",".uvvh",".uric",".vwx",".vtu",".dotm",".scm",".1",".atomdeleted",".listafp",".lrm",".u8msg",".srx",".cpt",".mpt",".wbxml",".mml",".iso",".dfac",".fe_launch",".ott",".i2g",".tei",".mc1",".uvv",".rst",".or3",".spx",".smil",".conf",".eol",".xltx",".sxd",".ksp",".sema",".rcprofile",".zmm",".wbmp",".sv4crc",".wmls",".htm",".oxps",".quiz",".ppam",".at3",".ica",".see",".pyo",".st",".lmp",".pkg",".xul",".cdy",".pre",".sgm",".xlc",".atomcat",".g3w",".3gp",".bh2",".sldm",".rif",".gim",".mov",".rld",".gtar",".dwf",".irm",".slc",".mdc",".opf",".oth",".uvvz",".eot",".qxt",".moml",".wbs",".imp",".itp",".dvc",".fcs",".mpf",".wif",".3gpp2",".mail",".smov",".xop",".cla",".tao",".xps",".gtm",".mtm",".ddf",".wk4",".qam",".sac",".wma",".efif",".asx",".uvt",".xfd",".nws",".svg",".odc",".cpkg",".mrcx",".dsm",".c",".m4a",".mxl",".cl",".pcap",".teiCorpus",".fpx",".mus",".l16",".mwc",".fvt",".scd",".uvvf",".ra",".fzs",".dpg",".mmf",".xml",".s14",".mmd",".xvml",".kwd",".sl",".sru",".pbd",".qxd",".xsl",".inkml",".qwd",".pml",".mp4",".jpf",".dcr",".aif",".edx",".pskcxml",".dotx",".ipk",".kwt",".djv",".sxw",".kil",".igs",".jar",".gac",".ngdat",".uvi",".fly",".cdxml",".scs",".cab",".uva",".yang",".ns3",".ntf",".ccc",".txf",".ahead",".sis",".sid",".xfdl",".cmc",".cpl",".docx",".nds",".mpkg",".x_b",".ico",".gph",".atomsvc",".mwf",".skp",".silo",".oprc",".ghf",".apxml",".metalink",".oa2",".wadl",".txd",".mpg",".tuc",".pm",".mms",".lbc",".mcd"],"filepicker_misc_extensions":[".gif",".jpg",".jpeg",".png",".rar",".zip",".pdf"],"key":"A0EHlHYkEQbCTpDvxEwAYz","video_extensions":[".avi",".mpg",".mpeg",".flv",".mov",".m2v",".m4v",".mp4",".rm",".ram",".vob",".ogv",".webm",".wmv"],"source_code_extensions":[".rb",".py"]},"google_tag_manager_id":"GTM-7BF3X","google_analytics_id_for_ufb_only":"UA-12366301-47","facebook_app_id":"313137469260","zendesk":{"refund_form_id":406368},"raven_dsn":"https://369c830fbf534485a068ab919d71b80d@app.getsentry.com/38617","google_analytics_id_for_course_taking":"UA-12366301-45","s3":{"asset":{"bucket_url":"https://udemy-web-upload-transitional.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"images":{"base_url":"https://udemy-images.udemy.com/"},"image_asset":{"bucket_url":"https://udemy-image-web-upload.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"}},"google_analytics_id":"UA-12366301-1","stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","paypal":{"appid":"ASRJrkbBfTwvxWNTn-QRakeimIbsjmBuK5hWj4zq3QJL46CKIYNb-RiKjrTSe-2iZ-EFrCCuXGZTxHjY","authend":"live","returnurl":"https://www.udemy.com/user/paypal-login-return"},"branch_metrics":{"android_ufb_download_url":"http://ude.my/android-ufb","ios_ufb_download_url":"http://ude.my/ios-ufb","android_download_url":"http://ude.my/android","ios_download_url":"http://ude.my/ios"}},"url":{"to_images":"https://www.udemy.com/staticx/udemy/images/","to_app":"https://www.udemy.com/","to_js":"https://www.udemy.com/staticx/udemy/js/","to_root":"https://www.udemy.com/","to_page_events":"https://page-events-ustats.udemy.com/"},"version":"c50ada2775ad7f7a985683dbae370a0ee0a199e1","app_name":"course_landing_page","price_country":{"currency_charm_amount":-0.01,"currency_formatter":{"pattern":"!#,##0.00","locale":"en_US","group":",","scale":2,"decimal":".","symbol":"R$","currency":"brl"},"_class":"country","id":"BR","currency_decimal_places":2,"currency_symbol":"R$","usd_currency_formatter":{"pattern":"!#,##0.00","locale":"en_US","group":",","scale":2,"decimal":".","symbol":"$","currency":"usd"},"currency":"brl"},"marketplace_country":{"id":"BR","iso_code":"BRA","currency":"brl","title":"Brazil","_class":"country"}};
+    UD.site_stats = {"organizations":{"num_courses":3000},"default":{"num_students":24,"num_instructors":35000,"num_courses":100000,"num_topics":2000}};
+    UD.visiting = {"visitor_uuid":"8e4f2e47f29f4daaba930180c7174594","first_visit_time":"2019-03-25T10:31:36.535Z","is_first_time_visitor":true};
+</script>
+
+
+
+<script>
+    UD.request = {
+        locale: 'en_US',
+        language_simple_english_title: 'English',
+        termsBarType: '',
+        termsBarUrls: "",
+        isMobile: false,
+        serverTimestamp: '2019-03-25T10:31:36.807853+00:00',
+        clientTimestamp: new Date().toISOString(),
+        
+        experiment: {"clpp":{"values":{"showAddToCartOnFixedBuyBar":false,"add_to_cart_secondary__is_shown":true,"buy_box_buy_button__is_shown":false,"add_to_cart__is_shown":false,"showWishlistOnIntroductionAsset":false},"ids":{"2000":5036}},"clp":{"values":{"reviews_from_elasticsearch":true},"ids":{"1942":4880,"1991":5001}},"sw":{"values":{"ufb_header_ad":{"drop_bell":false,"show_ad":true}},"ids":{"2008":5062}}},
+    };
+</script>
+
+<script>
+    
+    window.GoogleAnalyticsObject = 'ga';
+    window.ga = function () {
+        (window.ga.q = window.ga.q || []).push(arguments);
+    };
+    window.ga.l = 1 * new Date();
+
+    UD.GoogleAnalytics = UD.GoogleAnalytics || {};
+    UD.GoogleAnalytics.createAccount = function (accountId, propertyName, domainName) {
+        if (accountId) {
+            if (propertyName) {
+                // Required for multiple trackers
+                window.ga('create', accountId, 'auto', {'name': propertyName, 'cookieDomain': domainName || 'none', 'siteSpeedSampleRate': 10});
+            } else {
+                window.ga('create', accountId, 'auto', {'siteSpeedSampleRate': 10});
+                window.ga('require', 'displayfeatures'); // Enables retargeting
+            }
+        }
+    };
+    UD.GoogleAnalytics.createAccount(UD.Config.third_party.google_analytics_id);
+</script>
+
+<script>
+    if (window.performance && typeof window.performance.mark === 'function'
+            && typeof window.performance.measure === 'function') {
+        UD.performance = {
+            _trackedResources: [],
+            _eventNamePrefix: 'UD-',
+            trackResourceTiming: function (resourceName, resourceUrl) {
+                this._trackedResources.push({ name: resourceName, url: resourceUrl });
+            },
+            mark: function (name) {
+                window.performance.mark(this._eventNamePrefix + name);
+            },
+            start: function (name) {
+                window.performance.mark(this._eventNamePrefix + '_' + name + '-start');
+            },
+            end: function (name) {
+                var endMark = this._eventNamePrefix + '_' + name + '-end';
+                var startMark = this._eventNamePrefix + '_' + name + '-start';
+                window.performance.mark(endMark);
+                
+                if (window.performance.getEntriesByName(startMark).length > 0) {
+                    window.performance.measure(this._eventNamePrefix + name, startMark, endMark);
+                }
+            },
+            sync: function() {
+                
+                window.dispatchEvent(new CustomEvent('syncPerf',
+                    { detail: { trackedResources: this._trackedResources } }
+                ));
+            }
+        };
+    } else {
+        UD.performance = {
+            trackResourceTiming: Function.prototype,
+            mark: Function.prototype,
+            start: Function.prototype,
+            end: Function.prototype,
+            sync: Function.prototype
+        };
+    }
+</script>
+
+<script>
+   (function activateMyQualaroos(surveyIds) {
+        window._kiq = window._kiq || [];
+        var i, property;
+        for (i = 0; i < surveyIds.length; i++) {
+            property = {};
+            property[surveyIds[i]] = true;
+            window._kiq.push(['set', property]);
+        }
+        window._kiq.push(['identify', UD.visiting.visitor_uuid || '']);
+    })(UD.me.qualaroo_survey_ids);
+</script>
+
+
+
+<script>
+    window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};
+</script>
+
+
+
+
+
+    
+        <script>
+            UD.browse = {
+                navigation_categories: [{"type":"category","icon_name":"development","title":"Development","children":[{"type":"subcategory","icon_name":"web-development","title":"Web Development","children":null,"title_cleaned":"web-development","absolute_url":"/courses/development/web-development/","id":8},{"type":"subcategory","icon_name":"mobile-apps","title":"Mobile Apps","children":null,"title_cleaned":"mobile-apps","absolute_url":"/courses/development/mobile-apps/","id":10},{"type":"subcategory","icon_name":"programming-languages","title":"Programming Languages","children":null,"title_cleaned":"programming-languages","absolute_url":"/courses/development/programming-languages/","id":12},{"type":"subcategory","icon_name":"game-development","title":"Game Development","children":null,"title_cleaned":"game-development","absolute_url":"/courses/development/game-development/","id":14},{"type":"subcategory","icon_name":"databases","title":"Databases","children":null,"title_cleaned":"databases","absolute_url":"/courses/development/databases/","id":16},{"type":"subcategory","icon_name":"software-testing","title":"Software Testing","children":null,"title_cleaned":"software-testing","absolute_url":"/courses/development/software-testing/","id":18},{"type":"subcategory","icon_name":"software-engineering","title":"Software Engineering","children":null,"title_cleaned":"software-engineering","absolute_url":"/courses/development/software-engineering/","id":20},{"type":"subcategory","icon_name":"development-tools","title":"Development Tools","children":null,"title_cleaned":"development-tools","absolute_url":"/courses/development/development-tools/","id":362},{"type":"subcategory","icon_name":"e-commerce","title":"E-Commerce","children":null,"title_cleaned":"e-commerce","absolute_url":"/courses/development/e-commerce/","id":354}],"title_cleaned":"development","absolute_url":"/courses/development/","id":288},{"type":"category","icon_name":"business","title":"Business","children":[{"type":"subcategory","icon_name":"finance","title":"Finance","children":null,"title_cleaned":"finance","absolute_url":"/courses/business/finance/","id":24},{"type":"subcategory","icon_name":"entrepreneurship","title":"Entrepreneurship","children":null,"title_cleaned":"entrepreneurship","absolute_url":"/courses/business/entrepreneurship/","id":26},{"type":"subcategory","icon_name":"communications","title":"Communications","children":null,"title_cleaned":"communications","absolute_url":"/courses/business/communications/","id":28},{"type":"subcategory","icon_name":"management","title":"Management","children":null,"title_cleaned":"management","absolute_url":"/courses/business/management/","id":30},{"type":"subcategory","icon_name":"sales","title":"Sales","children":null,"title_cleaned":"sales","absolute_url":"/courses/business/sales/","id":32},{"type":"subcategory","icon_name":"strategy","title":"Strategy","children":null,"title_cleaned":"strategy","absolute_url":"/courses/business/strategy/","id":34},{"type":"subcategory","icon_name":"operations","title":"Operations","children":null,"title_cleaned":"operations","absolute_url":"/courses/business/operations/","id":36},{"type":"subcategory","icon_name":"project-management","title":"Project Management","children":null,"title_cleaned":"project-management","absolute_url":"/courses/business/project-management/","id":38},{"type":"subcategory","icon_name":"business-law","title":"Business Law","children":null,"title_cleaned":"business-law","absolute_url":"/courses/business/business-law/","id":40},{"type":"subcategory","icon_name":"data-and-analytics","title":"Data \u0026 Analytics","children":null,"title_cleaned":"data-and-analytics","absolute_url":"/courses/business/data-and-analytics/","id":44},{"type":"subcategory","icon_name":"home-business","title":"Home Business","children":null,"title_cleaned":"home-business","absolute_url":"/courses/business/home-business/","id":46},{"type":"subcategory","icon_name":"human-resources","title":"Human Resources","children":null,"title_cleaned":"human-resources","absolute_url":"/courses/business/human-resources/","id":48},{"type":"subcategory","icon_name":"industry","title":"Industry","children":null,"title_cleaned":"industry","absolute_url":"/courses/business/industry/","id":50},{"type":"subcategory","icon_name":"media","title":"Media","children":null,"title_cleaned":"media","absolute_url":"/courses/business/media/","id":52},{"type":"subcategory","icon_name":"real-estate","title":"Real Estate","children":null,"title_cleaned":"real-estate","absolute_url":"/courses/business/real-estate/","id":58},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-business","absolute_url":"/courses/business/other-business/","id":60}],"title_cleaned":"business","absolute_url":"/courses/business/","id":268},{"type":"category","icon_name":"it-and-software","title":"IT \u0026 Software","children":[{"type":"subcategory","icon_name":"it-certification","title":"IT Certification","children":null,"title_cleaned":"it-certification","absolute_url":"/courses/it-and-software/it-certification/","id":132},{"type":"subcategory","icon_name":"network-and-security","title":"Network \u0026 Security","children":null,"title_cleaned":"network-and-security","absolute_url":"/courses/it-and-software/network-and-security/","id":134},{"type":"subcategory","icon_name":"hardware","title":"Hardware","children":null,"title_cleaned":"hardware","absolute_url":"/courses/it-and-software/hardware/","id":136},{"type":"subcategory","icon_name":"operating-systems","title":"Operating Systems","children":null,"title_cleaned":"operating-systems","absolute_url":"/courses/it-and-software/operating-systems/","id":138},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-it-and-software","absolute_url":"/courses/it-and-software/other-it-and-software/","id":140}],"title_cleaned":"it-and-software","absolute_url":"/courses/it-and-software/","id":294},{"type":"category","icon_name":"office-productivity","title":"Office Productivity","children":[{"type":"subcategory","icon_name":"microsoft","title":"Microsoft","children":null,"title_cleaned":"microsoft","absolute_url":"/courses/office-productivity/microsoft/","id":96},{"type":"subcategory","icon_name":"apple","title":"Apple","children":null,"title_cleaned":"apple","absolute_url":"/courses/office-productivity/apple/","id":98},{"type":"subcategory","icon_name":"google","title":"Google","children":null,"title_cleaned":"google","absolute_url":"/courses/office-productivity/google/","id":100},{"type":"subcategory","icon_name":"sap","title":"SAP","children":null,"title_cleaned":"sap","absolute_url":"/courses/office-productivity/sap/","id":102},{"type":"subcategory","icon_name":"oracle","title":"Oracle","children":null,"title_cleaned":"oracle","absolute_url":"/courses/office-productivity/oracle/","id":106},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-productivity","absolute_url":"/courses/office-productivity/other-productivity/","id":108}],"title_cleaned":"office-productivity","absolute_url":"/courses/office-productivity/","id":292},{"type":"category","icon_name":"personal-development","title":"Personal Development","children":[{"type":"subcategory","icon_name":"personal-transformation","title":"Personal Transformation","children":null,"title_cleaned":"personal-transformation","absolute_url":"/courses/personal-development/personal-transformation/","id":142},{"type":"subcategory","icon_name":"productivity","title":"Productivity","children":null,"title_cleaned":"productivity","absolute_url":"/courses/personal-development/productivity/","id":144},{"type":"subcategory","icon_name":"leadership","title":"Leadership","children":null,"title_cleaned":"leadership","absolute_url":"/courses/personal-development/leadership/","id":146},{"type":"subcategory","icon_name":"personal-finance","title":"Personal Finance","children":null,"title_cleaned":"personal-finance","absolute_url":"/courses/personal-development/personal-finance/","id":148},{"type":"subcategory","icon_name":"career-development","title":"Career Development","children":null,"title_cleaned":"career-development","absolute_url":"/courses/personal-development/career-development/","id":150},{"type":"subcategory","icon_name":"parenting-and-relationships","title":"Parenting \u0026 Relationships","children":null,"title_cleaned":"parenting-and-relationships","absolute_url":"/courses/personal-development/parenting-and-relationships/","id":152},{"type":"subcategory","icon_name":"happiness","title":"Happiness","children":null,"title_cleaned":"happiness","absolute_url":"/courses/personal-development/happiness/","id":156},{"type":"subcategory","icon_name":"religion-and-spirituality","title":"Religion \u0026 Spirituality","children":null,"title_cleaned":"religion-and-spirituality","absolute_url":"/courses/personal-development/religion-and-spirituality/","id":158},{"type":"subcategory","icon_name":"personal-brand-building","title":"Personal Brand Building","children":null,"title_cleaned":"personal-brand-building","absolute_url":"/courses/personal-development/personal-brand-building/","id":160},{"type":"subcategory","icon_name":"creativity","title":"Creativity","children":null,"title_cleaned":"creativity","absolute_url":"/courses/personal-development/creativity/","id":164},{"type":"subcategory","icon_name":"influence","title":"Influence","children":null,"title_cleaned":"influence","absolute_url":"/courses/personal-development/influence/","id":166},{"type":"subcategory","icon_name":"self-esteem","title":"Self Esteem","children":null,"title_cleaned":"self-esteem","absolute_url":"/courses/personal-development/self-esteem/","id":168},{"type":"subcategory","icon_name":"stress-management","title":"Stress Management","children":null,"title_cleaned":"stress-management","absolute_url":"/courses/personal-development/stress-management/","id":170},{"type":"subcategory","icon_name":"memory","title":"Memory \u0026 Study Skills","children":null,"title_cleaned":"memory","absolute_url":"/courses/personal-development/memory/","id":172},{"type":"subcategory","icon_name":"motivation","title":"Motivation","children":null,"title_cleaned":"motivation","absolute_url":"/courses/personal-development/motivation/","id":176},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-personal-development","absolute_url":"/courses/personal-development/other-personal-development/","id":178}],"title_cleaned":"personal-development","absolute_url":"/courses/personal-development/","id":296},{"type":"category","icon_name":"design","title":"Design","children":[{"type":"subcategory","icon_name":"web-design","title":"Web Design","children":null,"title_cleaned":"web-design","absolute_url":"/courses/design/web-design/","id":6},{"type":"subcategory","icon_name":"graphic-design","title":"Graphic Design","children":null,"title_cleaned":"graphic-design","absolute_url":"/courses/design/graphic-design/","id":110},{"type":"subcategory","icon_name":"design-tools","title":"Design Tools","children":null,"title_cleaned":"design-tools","absolute_url":"/courses/design/design-tools/","id":112},{"type":"subcategory","icon_name":"user-experience","title":"User Experience","children":null,"title_cleaned":"user-experience","absolute_url":"/courses/design/user-experience/","id":114},{"type":"subcategory","icon_name":"game-design","title":"Game Design","children":null,"title_cleaned":"game-design","absolute_url":"/courses/design/game-design/","id":116},{"type":"subcategory","icon_name":"design-thinking","title":"Design Thinking","children":null,"title_cleaned":"design-thinking","absolute_url":"/courses/design/design-thinking/","id":118},{"type":"subcategory","icon_name":"3d-and-animation","title":"3D \u0026 Animation","children":null,"title_cleaned":"3d-and-animation","absolute_url":"/courses/design/3d-and-animation/","id":120},{"type":"subcategory","icon_name":"fashion","title":"Fashion","children":null,"title_cleaned":"fashion","absolute_url":"/courses/design/fashion/","id":122},{"type":"subcategory","icon_name":"architectural-design","title":"Architectural Design","children":null,"title_cleaned":"architectural-design","absolute_url":"/courses/design/architectural-design/","id":124},{"type":"subcategory","icon_name":"interior-design","title":"Interior Design","children":null,"title_cleaned":"interior-design","absolute_url":"/courses/design/interior-design/","id":128},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-design","absolute_url":"/courses/design/other-design/","id":130}],"title_cleaned":"design","absolute_url":"/courses/design/","id":269},{"type":"category","icon_name":"marketing","title":"Marketing","children":[{"type":"subcategory","icon_name":"digital-marketing","title":"Digital Marketing","children":null,"title_cleaned":"digital-marketing","absolute_url":"/courses/marketing/digital-marketing/","id":62},{"type":"subcategory","icon_name":"search-engine-optimization","title":"Search Engine Optimization","children":null,"title_cleaned":"search-engine-optimization","absolute_url":"/courses/marketing/search-engine-optimization/","id":64},{"type":"subcategory","icon_name":"social-media-marketing","title":"Social Media Marketing","children":null,"title_cleaned":"social-media-marketing","absolute_url":"/courses/marketing/social-media-marketing/","id":66},{"type":"subcategory","icon_name":"branding","title":"Branding","children":null,"title_cleaned":"branding","absolute_url":"/courses/marketing/branding/","id":68},{"type":"subcategory","icon_name":"marketing-fundamentals","title":"Marketing Fundamentals","children":null,"title_cleaned":"marketing-fundamentals","absolute_url":"/courses/marketing/marketing-fundamentals/","id":70},{"type":"subcategory","icon_name":"analytics-and-automation","title":"Analytics \u0026 Automation","children":null,"title_cleaned":"analytics-and-automation","absolute_url":"/courses/marketing/analytics-and-automation/","id":72},{"type":"subcategory","icon_name":"public-relations","title":"Public Relations","children":null,"title_cleaned":"public-relations","absolute_url":"/courses/marketing/public-relations/","id":74},{"type":"subcategory","icon_name":"advertising","title":"Advertising","children":null,"title_cleaned":"advertising","absolute_url":"/courses/marketing/advertising/","id":76},{"type":"subcategory","icon_name":"video-and-mobile-marketing","title":"Video \u0026 Mobile Marketing","children":null,"title_cleaned":"video-and-mobile-marketing","absolute_url":"/courses/marketing/video-and-mobile-marketing/","id":78},{"type":"subcategory","icon_name":"content-marketing","title":"Content Marketing","children":null,"title_cleaned":"content-marketing","absolute_url":"/courses/marketing/content-marketing/","id":80},{"type":"subcategory","icon_name":"growth-hacking","title":"Growth Hacking","children":null,"title_cleaned":"growth-hacking","absolute_url":"/courses/marketing/growth-hacking/","id":86},{"type":"subcategory","icon_name":"affiliate-marketing","title":"Affiliate Marketing","children":null,"title_cleaned":"affiliate-marketing","absolute_url":"/courses/marketing/affiliate-marketing/","id":88},{"type":"subcategory","icon_name":"product-marketing","title":"Product Marketing","children":null,"title_cleaned":"product-marketing","absolute_url":"/courses/marketing/product-marketing/","id":90},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-marketing","absolute_url":"/courses/marketing/other-marketing/","id":94}],"title_cleaned":"marketing","absolute_url":"/courses/marketing/","id":290},{"type":"category","icon_name":"lifestyle","title":"Lifestyle","children":[{"type":"subcategory","icon_name":"arts-and-crafts","title":"Arts \u0026 Crafts","children":null,"title_cleaned":"arts-and-crafts","absolute_url":"/courses/lifestyle/arts-and-crafts/","id":180},{"type":"subcategory","icon_name":"food-and-beverage","title":"Food \u0026 Beverage","children":null,"title_cleaned":"food-and-beverage","absolute_url":"/courses/lifestyle/food-and-beverage/","id":182},{"type":"subcategory","icon_name":"beauty-and-makeup","title":"Beauty \u0026 Makeup","children":null,"title_cleaned":"beauty-and-makeup","absolute_url":"/courses/lifestyle/beauty-and-makeup/","id":184},{"type":"subcategory","icon_name":"travel","title":"Travel","children":null,"title_cleaned":"travel","absolute_url":"/courses/lifestyle/travel/","id":186},{"type":"subcategory","icon_name":"gaming","title":"Gaming","children":null,"title_cleaned":"gaming","absolute_url":"/courses/lifestyle/gaming/","id":188},{"type":"subcategory","icon_name":"home-improvement","title":"Home Improvement","children":null,"title_cleaned":"home-improvement","absolute_url":"/courses/lifestyle/home-improvement/","id":190},{"type":"subcategory","icon_name":"pet-care-and-training","title":"Pet Care \u0026 Training","children":null,"title_cleaned":"pet-care-and-training","absolute_url":"/courses/lifestyle/pet-care-and-training/","id":192},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-lifestyle","absolute_url":"/courses/lifestyle/other-lifestyle/","id":194}],"title_cleaned":"lifestyle","absolute_url":"/courses/lifestyle/","id":274},{"type":"category","icon_name":"photography","title":"Photography","children":[{"type":"subcategory","icon_name":"digital-photography","title":"Digital Photography","children":null,"title_cleaned":"digital-photography","absolute_url":"/courses/photography/digital-photography/","id":370},{"type":"subcategory","icon_name":"photography-fundamentals","title":"Photography Fundamentals","children":null,"title_cleaned":"photography-fundamentals","absolute_url":"/courses/photography/photography-fundamentals/","id":196},{"type":"subcategory","icon_name":"portraits","title":"Portraits","children":null,"title_cleaned":"portraits","absolute_url":"/courses/photography/portraits/","id":204},{"type":"subcategory","icon_name":"photography-tools","title":"Photography Tools","children":null,"title_cleaned":"photography-tools","absolute_url":"/courses/photography/photography-tools/","id":198},{"type":"subcategory","icon_name":"commercial-photography","title":"Commercial Photography","children":null,"title_cleaned":"commercial-photography","absolute_url":"/courses/photography/commercial-photography/","id":208},{"type":"subcategory","icon_name":"video-design","title":"Video Design","children":null,"title_cleaned":"video-design","absolute_url":"/courses/photography/video-design/","id":218},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-photography","absolute_url":"/courses/photography/other-photography/","id":220}],"title_cleaned":"photography","absolute_url":"/courses/photography/","id":273},{"type":"category","icon_name":"health-and-fitness","title":"Health \u0026 Fitness","children":[{"type":"subcategory","icon_name":"fitness","title":"Fitness","children":null,"title_cleaned":"fitness","absolute_url":"/courses/health-and-fitness/fitness/","id":222},{"type":"subcategory","icon_name":"general-health","title":"General Health","children":null,"title_cleaned":"general-health","absolute_url":"/courses/health-and-fitness/general-health/","id":224},{"type":"subcategory","icon_name":"sports","title":"Sports","children":null,"title_cleaned":"sports","absolute_url":"/courses/health-and-fitness/sports/","id":226},{"type":"subcategory","icon_name":"nutrition","title":"Nutrition","children":null,"title_cleaned":"nutrition","absolute_url":"/courses/health-and-fitness/nutrition/","id":228},{"type":"subcategory","icon_name":"yoga","title":"Yoga","children":null,"title_cleaned":"yoga","absolute_url":"/courses/health-and-fitness/yoga/","id":230},{"type":"subcategory","icon_name":"mental-health","title":"Mental Health","children":null,"title_cleaned":"mental-health","absolute_url":"/courses/health-and-fitness/mental-health/","id":232},{"type":"subcategory","icon_name":"dieting","title":"Dieting","children":null,"title_cleaned":"dieting","absolute_url":"/courses/health-and-fitness/dieting/","id":234},{"type":"subcategory","icon_name":"self-defense","title":"Self Defense","children":null,"title_cleaned":"self-defense","absolute_url":"/courses/health-and-fitness/self-defense/","id":236},{"type":"subcategory","icon_name":"safety-and-first-aid","title":"Safety \u0026 First Aid","children":null,"title_cleaned":"safety-and-first-aid","absolute_url":"/courses/health-and-fitness/safety-and-first-aid/","id":238},{"type":"subcategory","icon_name":"dance","title":"Dance","children":null,"title_cleaned":"dance","absolute_url":"/courses/health-and-fitness/dance/","id":240},{"type":"subcategory","icon_name":"meditation","title":"Meditation","children":null,"title_cleaned":"meditation","absolute_url":"/courses/health-and-fitness/meditation/","id":242},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-health-and-fitness","absolute_url":"/courses/health-and-fitness/other-health-and-fitness/","id":244}],"title_cleaned":"health-and-fitness","absolute_url":"/courses/health-and-fitness/","id":276},{"type":"category","icon_name":"music","title":"Music","children":[{"type":"subcategory","icon_name":"instruments","title":"Instruments","children":null,"title_cleaned":"instruments","absolute_url":"/courses/music/instruments/","id":296},{"type":"subcategory","icon_name":"production","title":"Production","children":null,"title_cleaned":"production","absolute_url":"/courses/music/production/","id":298},{"type":"subcategory","icon_name":"music-fundamentals","title":"Music Fundamentals","children":null,"title_cleaned":"music-fundamentals","absolute_url":"/courses/music/music-fundamentals/","id":300},{"type":"subcategory","icon_name":"vocal","title":"Vocal","children":null,"title_cleaned":"vocal","absolute_url":"/courses/music/vocal/","id":302},{"type":"subcategory","icon_name":"music-techniques","title":"Music Techniques","children":null,"title_cleaned":"music-techniques","absolute_url":"/courses/music/music-techniques/","id":304},{"type":"subcategory","icon_name":"music-software","title":"Music Software","children":null,"title_cleaned":"music-software","absolute_url":"/courses/music/music-software/","id":306},{"type":"subcategory","icon_name":"line-star","title":"Other","children":null,"title_cleaned":"other-music","absolute_url":"/courses/music/other-music/","id":308}],"title_cleaned":"music","absolute_url":"/courses/music/","id":278},{"type":"category","icon_name":"academics","title":"Teaching \u0026 Academics","children":[{"type":"subcategory","icon_name":"development-tools","title":"Engineering","children":null,"title_cleaned":"engineering","absolute_url":"/courses/teaching-and-academics/engineering/","id":366},{"type":"subcategory","icon_name":"humanities","title":"Humanities","children":null,"title_cleaned":"humanities","absolute_url":"/courses/teaching-and-academics/humanities/","id":380},{"type":"subcategory","icon_name":"educational-development","title":"Math","children":null,"title_cleaned":"math","absolute_url":"/courses/teaching-and-academics/math/","id":310},{"type":"subcategory","icon_name":"math-and-science","title":"Science","children":null,"title_cleaned":"science","absolute_url":"/courses/teaching-and-academics/science/","id":312},{"type":"subcategory","icon_name":"instructional-design","title":"Online Education","children":null,"title_cleaned":"online-education","absolute_url":"/courses/teaching-and-academics/online-education/","id":523},{"type":"subcategory","icon_name":"social-science","title":"Social Science","children":null,"title_cleaned":"social-science","absolute_url":"/courses/teaching-and-academics/social-science/","id":376},{"type":"subcategory","icon_name":"language","title":"Language","children":null,"title_cleaned":"language","absolute_url":"/courses/teaching-and-academics/language/","id":521},{"type":"subcategory","icon_name":"teacher-training","title":"Teacher Training","children":null,"title_cleaned":"teacher-training","absolute_url":"/courses/teaching-and-academics/teacher-training/","id":527},{"type":"subcategory","icon_name":"test-prep","title":"Test Prep","children":null,"title_cleaned":"test-prep","absolute_url":"/courses/teaching-and-academics/test-prep/","id":529},{"type":"subcategory","icon_name":"academics","title":"Other Teaching \u0026 Academics","children":null,"title_cleaned":"other-teaching-academics","absolute_url":"/courses/teaching-and-academics/other-teaching-academics/","id":525}],"title_cleaned":"teaching-and-academics","absolute_url":"/courses/teaching-and-academics/","id":300}],
+                organization_categories: [],
+            };
+        </script>
+    
+
+
+
+
+        
+
+
+
+
+        
+    <div class="clp-component-render">
+
+    <base href="/qa-freelance-software-tester/">
+    <link rel="canonical" href="https://www.udemy.com/qa-freelance-software-tester/">
+
+</div>
+
+    </head>
+    <body id="br"
+          class="
+    landing-page ud-app-loader
+  udemy "
+            
+    
+    data-clp-course-id="1834168"
+    
+    
+        data-hotjar-page="clp"
+        data-hotjar-device="desktop"
+    
+    data-hotjar-bw="hb"
+
+
+    data-module-id="course-landing-components"
+    
+        
+        data-module-args="{&quot;subcategoryId&quot;:18,&quot;course_id&quot;:1834168,&quot;is_private&quot;:false,&quot;is_published&quot;:true,&quot;datadogTags&quot;:{&quot;frame&quot;:&quot;visitor&quot;,&quot;root&quot;:&quot;course_landing_page/frames/desktop/hb&quot;,&quot;localized&quot;:false},&quot;initial_components&quot;:[&quot;buy_button&quot;,&quot;discount_expiration&quot;,&quot;gift_this_course&quot;,&quot;introduction_asset&quot;,&quot;purchase&quot;,&quot;deal_badge&quot;,&quot;redeem_coupon&quot;],&quot;vectors&quot;:{&quot;device&quot;:&quot;desktop&quot;,&quot;bandwidth&quot;:&quot;hb&quot;},&quot;sourcePage&quot;:&quot;clp&quot;,&quot;rating&quot;:3.33333,&quot;url&quot;:&quot;/qa-freelance-software-tester/&quot;,&quot;title&quot;:&quot;Quality Assurance -  Become a Freelance Software Tester&quot;,&quot;is_wishlisted&quot;:false,&quot;grouped_components&quot;:[[&quot;curriculum&quot;,&quot;frequently_bought_together&quot;,&quot;practice_test_bundle&quot;,&quot;instructor_bio&quot;,&quot;topic_menu&quot;]]}"
+    
+>
+
+        
+    
+
+
+
+        
+
+        <div class="main-content-wrapper">
+            
+            
+                
+                    <div class="ud-app-loader ud-component--smart-bar--app"
+                         data-module-id="smart-bar"
+                         data-module-priority="-10"></div>
+                
+                
+                    
+
+
+
+<div class="c_header c_header--v6 c_header--desktop
+            
+            ud-app-loader 
+            "
+     data-module-id="header-v6"
+     data-module-args="{&quot;creditMessage&quot;:null,&quot;mobileNav&quot;:{&quot;instructor&quot;:{&quot;text&quot;:&quot;Teach on Udemy&quot;,&quot;trackingDetail&quot;:&quot;become-an-instructor&quot;,&quot;url&quot;:&quot;/teaching/?ref=teach_header&quot;},&quot;ufb&quot;:{&quot;text&quot;:&quot;Udemy for Business&quot;,&quot;url&quot;:&quot;https://business.udemy.com/?ref=ufb_header&quot;},&quot;browse&quot;:{&quot;text&quot;:&quot;Categories&quot;},&quot;teachHub&quot;:{&quot;url&quot;:&quot;https://teach.udemy.com/home&quot;},&quot;mobileApp&quot;:{&quot;url&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;},&quot;performanceEnabled&quot;:false,&quot;support&quot;:{&quot;url&quot;:&quot;/support/&quot;}},&quot;manageUFBDropdownButton&quot;:{&quot;badges&quot;:{}},&quot;app&quot;:{&quot;features&quot;:{&quot;notifications&quot;:true,&quot;teaching&quot;:true,&quot;messaging&quot;:true,&quot;teach_link&quot;:true,&quot;reviews&quot;:true,&quot;instructor_signup_modal&quot;:false,&quot;drop_bell&quot;:false,&quot;invite&quot;:true,&quot;signup&quot;:true,&quot;payout_settings&quot;:false,&quot;ufb_ad_logged_in_header&quot;:false,&quot;profile&quot;:true,&quot;public_profile&quot;:true,&quot;browse&quot;:true,&quot;language_select&quot;:false,&quot;exp_mobile_header&quot;:false,&quot;discussions&quot;:true,&quot;wishlist&quot;:true,&quot;payments&quot;:true,&quot;show_ufb_link&quot;:true,&quot;revenue_report&quot;:false},&quot;isMobile&quot;:false,&quot;isInstructor&quot;:false,&quot;isStudent&quot;:false,&quot;isUFB&quot;:false,&quot;navUserType&quot;:null,&quot;navMode&quot;:null,&quot;user&quot;:null},&quot;wishlistDropdown&quot;:{&quot;listName&quot;:&quot;wishlist&quot;},&quot;cartDropdown&quot;:{&quot;listName&quot;:&quot;cart&quot;}}"
+     data-module-priority="-10">
+
+    <div class="c_header__inner "
+         aria-label="Main navigation"
+         role="navigation">
+        
+            
+                
+                    <div class="c_header__logo-container">
+    
+        
+
+<a class="js-tracked-without-react c_header__logo-wrap"
+   href="/"
+   target="_self"
+   data-tracking-event="logo">
+    <img class="udemy-logo"
+         src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+         alt="Udemy"
+         width="110" height="32"
+         data-purpose="udemy-brand-logo"/>
+</a>
+
+    
+</div>
+
+                
+            
+        
+
+        
+            <div class="c_header__left">
+                <div class="ud-component--header-v6--mobile-nav-trigger">
+                    <button class="btn btn-link c_header__mobile-bt"
+                            aria-label="Menu"
+                            data-purpose="side-menu-opener">
+                        
+                            <span class="udi udi-menu"></span>
+                        
+                    </button>
+                </div>
+                
+                    
+                        
+
+
+
+    <div class="ud-component--header-v6--category-dropdown-button hidden-xs hidden-xxs">
+        <div class="dropdown dropdown--open-on-hover dropdown--topics">
+            <a class="dropdown-toggle"
+   data-purpose="browse-courses-link"
+   id="header.browse"
+   data-tracking-event="topics.main"
+   role="button"
+   aria-haspopup="true"
+   aria-expanded="false"
+   href="javascript:void(0)">
+    <span class="udi udi-explore"></span>
+    <span>Categories</span>
+</a>
+
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="header.browse">
+                <li class="h100p" id="header.browse.categories">
+    <ul class="dropdown-menu__list dropdown-menu__list--level-one">
+        
+        
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.94">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 94px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.61">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 61px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.93">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 93px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.128">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 128px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.159">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 159px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.47">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 47px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.70">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 70px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.57">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 57px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.90">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 90px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.113">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 113px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.116">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 116px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.40">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 40px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.74">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 74px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.67">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 67px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.65">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 65px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+        
+    </ul>
+</li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+<div class="c_header__search-wrapper ud-component--header-v6--header-es-autocomplete">
+    <div class="c_header__search">
+        
+        <button class="btn btn-link c_header__mobile-bt"
+                aria-label="Search">
+            <span class="udi udi-search"></span>
+        </button>
+        
+        <div class="c_quick-search__form">
+            <form action="/courses/search/"
+                  class="es-autocomplete es-autocomplete--primary">
+                <input type="hidden" name="src" value="ukw" />
+                <label for="header-search-field" class="sr-only">Search for anything</label>
+                <div class="input-group">
+                    <input type="text"
+                           name="q"
+                           id="header-search-field"
+                           data-purpose="search-input"
+                           class="form-control"
+                           placeholder="Search for anything"
+                           value=""
+                           autocomplete="off"
+                           maxlength="200" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-link"
+                                type="submit"
+                                aria-label="Search">
+                            <span class="udi udi-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+                    
+                
+            </div>
+            <div class="c_header__mobile-spacer">&nbsp;</div>
+        
+
+        
+            
+                
+
+<div class="c_header__right">
+    
+        
+            
+
+
+<div class="ud-component--header-v6--try-ufb-dropdown-button visible-lg-block visible-xl-block">
+    <div class="dropdown dropdown--ufb zero-state">
+        <a class="dropdown-toggle dropdown__toggle dropdown__main-link"
+           data-purpose="ufb-link"
+           data-tracking-event="ufb.main"
+           id="header.try-ufb"
+           role="button"
+           aria-haspopup="true"
+           aria-expanded="false"
+           href="https://business.udemy.com/?ref=ufb_header"
+           target="_blank"
+           rel="noopener"
+           data-allow-referrer>
+            Udemy for Business
+        </a>
+    </div>
+
+    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.try-ufb">
+        <li id="header.try-ufb.detail">
+            <div class="zero-state__detail">
+                
+                Get your team access to Udemy’s top 3,000 courses anytime, anywhere.
+            </div>
+            <div class="mt-space-sm">
+                <a class="zero-state__cta a11 semibold"
+                   data-tracking-event="ufb.learn-more"
+                   href="https://business.udemy.com/?ref=ufb_header"
+                   target="_blank"
+                   rel="noopener"
+                   data-allow-referrer>
+                    Try Udemy for Business
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+        
+    
+
+    
+
+
+    <div class="ud-component--header-v6--instructor-dropdown-button visible-lg-block visible-xl-block">
+        <div class="dropdown dropdown--open-on-hover dropdown--instructor zero-state">
+            <a class="dropdown-toggle"
+               data-purpose="instructor-dropdown"
+               data-tracking-event="teaching.main"
+               data-tracking-detail="become-an-instructor"
+               id="header.instructor"
+               role="button"
+               aria-haspopup="true"
+               aria-expanded="false"
+               href="/teaching/?ref=teach_header"
+               target="_self">
+                
+                    Teach on Udemy
+                
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.instructor">
+                
+                    <li id="header.instructor.first-course-creation">
+                        <div class="zero-state__detail">
+                            Turn what you know into an opportunity and reach millions around the world.
+                        </div>
+                        <div class="mt-space-sm">
+                            <a class="zero-state__cta a11 semibold"
+                               data-tracking-event="teaching.learn-more"
+                               href="/teaching/?ref=teach_header"
+                               target="_self">
+                                Learn more
+                            </a>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+    
+
+    
+        
+
+
+
+
+
+
+
+    <div class="shopping-cart">
+        <div class="ud-component--header-v6--cart-dropdown"
+             data-purpose="cart-icon">
+            <div class="dropdown dropdown--open-on-hover dropdown--icon dropdown--shopping-list">
+                <a class="dropdown-toggle"
+                   href="/cart/"
+                   target="_self">
+                    <div class="fx pos-r text-center">
+                        <span class="sr-only">Shopping cart</span>
+                        <span class="udi udi-cart-line dropdown__main-icon" data-purpose="cart-icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="ml-space-sm hidden-xs hidden-xxs"></div>
+
+<div class="dropdown dropdown--login ud-component--header-v6--login-button hidden-xs hidden-xxs">
+    <button class="btn btn-quaternary">Log In</button>
+</div>
+
+
+
+    <div class="dropdown dropdown--signup ud-component--header-v6--signup-button hidden-xs hidden-xxs">
+        <button class="btn btn-primary">Sign Up</button>
+    </div>
+
+
+    
+</div>
+
+            
+        
+    </div>
+    <div class="ud-component--header-v6--mobile-nav"></div>
+    <div class="ud-component--header-v6--dropdown-overlay"></div>
+</div>
+
+
+                
+            
+
+            
+
+
+
+
+            <div class="main-content">
+                
+    
+    
+
+    
+    
+    <div class="clp-component-render">
+
+    
+
+<div id="schema_markup" data-purpose="schema_markup">
+    <script type="application/ld+json">
+    [{"about":{"name":"Development"},"name":"Quality Assurance -  Become a Freelance Software Tester","@id":"https://www.udemy.com/qa-freelance-software-tester/","audience":{"audienceType":["Beginners to Quality Assurance and software testing, those interested in testing android or iOS apps, anyone looking to be digital nomad and work anywhere. QA is the perfect office free gig you can get."],"@type":"Audience"},"publisher":{"sameAs":"www.udemy.com","@type":"Organization","name":"Udemy"},"description":"Introduction to Freelance Opportunities for Software Quality Assurance Testers","inLanguage":"en","aggregateRating":{"worstRating":0.5,"@type":"AggregateRating","ratingValue":"3.3","reviewCount":2,"bestRating":5},"provider":{"sameAs":"www.udemy.com/user/khallai/","@type":"Organization","name":"Khallai Taylor"},"creator":[{"@type":"Person","name":"Khallai Taylor"}],"@type":"Course","@context":"http://schema.org","isAccessibleForFree":false,"image":"https://udemy-images.udemy.com/course/750x422/1834168_14ed_3.jpg"},{"aggregateRating":{"worstRating":0.5,"@type":"AggregateRating","ratingValue":"3.3","reviewCount":2,"bestRating":5},"description":"Introduction to Freelance Opportunities for Software Quality Assurance Testers","@type":"Product","name":"Quality Assurance -  Become a Freelance Software Tester","@context":"http://schema.org"}]
+    </script>
+</div>
+
+
+</div>
+    
+    
+    
+    
+    <div class="clp-component-render"><div class="ud-component--clp--topic-menu"></div></div>
+    
+
+    <div class="full-width full-width--streamer streamer--fixed">
+        <div class="streamer__inner">
+            <div class="container">
+                <div class="col-xxs-8 left-col">
+                    <div class="clp-component-render">
+
+<div class="clp-lead clp-lead--fixed" data-purpose="fixed-lead">
+    <div class="clp-lead__title clp-lead__title--fixed">
+        Quality Assurance -  Become a Freelance Software Tester
+    </div>
+    <div class="clp-lead__element-row">
+        <div class="clp-lead__element-item clp-lead__element-item--fixed">
+            <div class="clp-component-render">
+
+    <div class="rating"
+         data-purpose="ratings">
+        
+        <div class="rating__stars">
+            <a href="/qa-freelance-software-tester/#reviews"
+               target="_self"
+               class="js-user-tracker-click"
+               data-user-tracker-page="clp"
+               data-user-tracker-schema="clp-activity"
+               data-user-tracker-action="streamer-review-link-clicked"
+               data-user-tracker-object-id="1834168"
+               aria-labelledby="rate-count-value--2968107a"
+               >
+                <div class="clp-component-render"><div class="ud-component--clp--rating"></div></div>
+            </a>
+        </div>
+        <div class="rate-count">
+            <span class="tooltip-container">
+                
+                    <span aria-label="Rating: 3.3 out of 5" id="rate-count-value--2968107a">3.3</span>
+                    (2 ratings)
+                
+                <span class="tooltip tooltip-neutral tooltip--rate-count">
+                    <div class="tooltip-inner">
+                        Course Ratings are calculated from individual students’ ratings and a variety of other signals, like age of rating and reliability, to ensure that they reflect course quality fairly and accurately.
+                    </div>
+                </span>
+            </span>
+        </div>
+        
+    </div>
+
+</div>
+        </div>
+        <div class="clp-lead__element-item clp-lead__element-item--fixed">
+            <div class="clp-component-render">
+
+    <div data-purpose="enrollment">
+        
+            17 students enrolled
+        
+    </div>
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width full-width--streamer streamer--complete"
+         data-content-group="Landing Page"
+         data-course-id="1834168">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 non-purchase-actions">
+                    <div class="clp-component-render"><div class="ud-component--clp--gift-this-course"></div></div>
+                    <div class="clp-component-render">
+
+    <div class="wishlist__container">
+         <div class="ud-component--clp--wishlist"
+              data-component-args="{&quot;bsStyle&quot;:&quot;inverse&quot;,&quot;withStatusText&quot;:true}">
+         </div>
+    </div>
+
+</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxs-8 left-col">
+                    <div class="clp-lead">
+                        <div class="clp-component-render">
+
+    
+    
+    <div class="clp-component-render">
+
+    <h1 class="clp-lead__title " data-purpose="lead-title">
+        Quality Assurance -  Become a Freelance Software Tester
+    </h1>
+
+    <div class="clp-lead__headline" data-purpose="lead-headline">
+        Introduction to Freelance Opportunities for Software Quality Assurance Testers
+    </div>
+
+</div>
+
+
+    <div class="clp-lead__element-row">
+        
+            
+        
+
+        
+    <div class="clp-lead__element-item">
+        <div class="clp-component-render">
+
+    <div class="rating"
+         data-purpose="ratings">
+        
+        <div class="rating__stars">
+            <a href="/qa-freelance-software-tester/#reviews"
+               target="_self"
+               class="js-user-tracker-click"
+               data-user-tracker-page="clp"
+               data-user-tracker-schema="clp-activity"
+               data-user-tracker-action="streamer-review-link-clicked"
+               data-user-tracker-object-id="1834168"
+               aria-labelledby="rate-count-value--9aa6d1b3"
+               >
+                <div class="clp-component-render"><div class="ud-component--clp--rating"></div></div>
+            </a>
+        </div>
+        <div class="rate-count">
+            <span class="tooltip-container">
+                
+                    <span aria-label="Rating: 3.3 out of 5" id="rate-count-value--9aa6d1b3">3.3</span>
+                    (2 ratings)
+                
+                <span class="tooltip tooltip-neutral tooltip--rate-count">
+                    <div class="tooltip-inner">
+                        Course Ratings are calculated from individual students’ ratings and a variety of other signals, like age of rating and reliability, to ensure that they reflect course quality fairly and accurately.
+                    </div>
+                </span>
+            </span>
+        </div>
+        
+    </div>
+
+</div>
+    </div>
+    <div class="clp-lead__element-item">
+        <div class="clp-component-render">
+
+    <div data-purpose="enrollment">
+        
+            17 students enrolled
+        
+    </div>
+
+</div>
+    </div>
+
+    </div>
+
+    <div class="clp-lead__element-row">
+        <div class="clp-lead__element-item">
+            <div class="clp-component-render">
+
+    <span data-purpose="instructor-name-top">
+        Created by
+        
+            
+                <a href="/qa-freelance-software-tester/#instructor-1" target="_self" class="instructor-links__link">
+                    Khallai Taylor</a>
+            
+        
+    </span>
+
+</div>
+        </div>
+        <div class="clp-lead__element-item">
+            <div class="clp-component-render">
+
+    <div data-purpose="last-update-date">
+        
+            Last updated 9/2018
+
+        
+    </div>
+
+</div>
+        </div>
+        <div class="clp-lead__element-item" data-purpose="lead-course-locale">
+            <div class="clp-lead__language">
+                <div class="clp-lead__locale">
+                    <span><i class="udi udi-comment"></i></span>
+                    English
+                </div>
+                <div class="clp-lead__caption">
+                    <div class="clp-component-render">
+
+    <span class="caption" data-purpose="caption">
+        <span><i class="udi udi-closed-caption"></i></span>
+        
+            English [Auto-generated]
+        
+    </span>
+
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clp-lead__element-row">
+        <div class="clp-lead__element-item">
+            
+        </div>
+    </div>
+
+</div>
+                    </div>
+                </div>
+                <div class="col-xxs-4 right-col js-right-col">
+                    <div class="js-right-col__content right-col__content">
+                        <div class="right-col__module">
+                            <div class="clp-component-render">
+
+    <div class="ud-component--clp--introduction-asset introduction-asset" data-purpose="introduction-asset">
+        
+            <a href="javascript:void(0)" role="button">
+                <div class="introduction-asset__placeholder play-button-trigger">
+                    <div class="play-button"></div>
+                    <span class="introduction_asset__text">Preview this course</span>
+                </div>
+                <img src="https://udemy-images.udemy.com/course/240x135/1834168_14ed_3.jpg"
+                     srcset="https://udemy-images.udemy.com/course/240x135/1834168_14ed_3.jpg 1x, https://udemy-images.udemy.com/course/480x270/1834168_14ed_3.jpg 2x"
+                     class="introduction-asset__img"
+                     alt="Quality Assurance -  Become a Freelance Software Tester"
+                     width="240"
+                     height="135" />
+            </a>
+        
+    </div>
+
+</div>
+                            
+                            <div class="right-col__inner">
+                                <div class="clp-component-render">
+    
+    
+
+    
+
+
+    <div class="buy-box">
+        <div class="buy-box__element">
+            
+                
+            
+        </div>
+
+        <div class="buy-box__element">
+            <div class="clp-component-render">
+
+    
+    <div class="ud-component--clp--price-text ">
+        <div class="price-text">
+             
+
+
+
+
+    <span class="price-text__current" data-purpose="discount-price-text">
+        <span class="sr-only">Current price:</span> R$23.99
+    </span>
+
+    <span class="price-text__old price-text__old--price" data-purpose="course-price-text">
+        <span class="sr-only">Original price:</span> R$69.99
+    </span>
+    
+        <span class="price-text__old" data-purpose="discount-rate">
+            <span class="sr-only">Discount:</span>
+            66% off
+        </span>
+    
+
+
+
+        </div>
+    </div>
+
+</div>
+        </div>
+
+        <div class="buy-box__element buy-box__element--discount-expiration">
+            <div class="clp-component-render">
+
+    <div class="discount-expiration ud-component--clp--discount-expiration"
+         data-purpose="discount-expiration">
+        <i class="discount-expiration__clock-icon udi udi-stress-management"></i>
+        <span>
+            <b>3 days</b> left at this price!
+        </span>
+    </div>
+
+</div>
+            
+        </div>
+
+        <div class="buy-box__element buy-box__element--add-to-cart-button">
+            
+            
+        </div>
+        <div class="buy-box__element buy-box__element--row">
+            
+            <div class="clp-component-render">
+
+    
+        <div class="ud-component--clp--add-to-cart"
+             data-component-args="{&quot;onAddRedirectUrl&quot;:&quot;/cart/added/course/1834168/&quot;,&quot;buyables&quot;:[{&quot;id&quot;:1834168,&quot;buyable_object_type&quot;:&quot;course&quot;,&quot;buyableContext&quot;:{&quot;contentLocaleId&quot;:null}}],&quot;addedButtonBsStyle&quot;:&quot;primary&quot;}"
+             data-purpose="add-to-cart">
+            <button class="btn btn-lg btn-primary mt0 course-cta course-cta--add-to-cart disabled" disabled>
+                <span class="cart-load-spinner">
+                    <span class="udi udi-circle-loader udi-small"></span>
+                </span>
+                <span class="text--add-to-cart">
+                    Add to cart
+                </span>
+            </button>
+        </div>
+    
+
+</div>
+            
+                
+            
+        </div>
+
+        <script type="text/javascript">
+            UD.performance.mark('CLP.buy-button-rendered');
+            UD.performance.sync();
+        </script>
+    </div>
+
+</div>
+                                
+                                <div class="clp-component-render">
+
+    <div class="buy-box__element buy-box__element--money-back">
+        <span class="money-back">
+            30-Day Money-Back Guarantee
+        </span>
+    </div>
+
+</div>
+                                
+                                <div class="incentives">
+                                    <div class="clp-component-render">
+
+    <div>
+        <span id="incentives" class="in-page-offset-anchor"></span>
+        <span class="incentives__header">This course includes</span>
+    </div>
+
+    <ul class="incentives__list">
+        
+            <li class="incentives__item">
+                <i class="incentives__icon incentives__icon--bold udi udi-video-design"></i>
+                <span class="incentives__text" data-purpose="video-content-length">
+                    2 hours on-demand video
+                </span>
+            </li>
+        
+
+        
+
+        
+
+        
+
+        
+            
+                <li class="incentives__item">
+                    <i class="incentives__icon udi udi-file-text-o"></i>
+                    <span class="incentives__text">
+                        12 downloadable resources
+                    </span>
+                </li>
+            
+
+            
+
+            
+        
+
+        
+            <li class="incentives__item">
+                <i class="incentives__icon incentives__icon--bold udi udi-what-lifetime"></i>
+                <span class="incentives__text" data-purpose="incentive-lifetime-access">
+                    Full lifetime access
+                </span>
+            </li>
+        
+
+        <li class="incentives__item">
+            <i class="incentives__icon incentives__icon--bold udi udi-mobile-apps"></i>
+            <span class="incentives__text">
+                Access on mobile and TV
+            </span>
+        </li>
+
+        
+            
+                <li class="incentives__item">
+                    <i class="incentives__icon incentives__icon--bold udi udi-activity"></i>
+                    <span class="incentives__text" data-purpose="incentive-assignment">
+                        Assignments
+                    </span>
+                </li>
+            
+        
+
+        
+    </ul>
+
+</div>
+                                    <div class="clp-component-render">
+
+    <ul class="incentives__list">
+        <li class="incentives__item">
+            <i class="incentives__icon incentives__icon--bold udi udi-academics"></i>
+            <span class="incentives__text" data-purpose="incentive-certificate">
+                Certificate of Completion
+            </span>
+        </li>
+    </ul>
+
+</div>
+                                </div>
+                                
+                                <div class="clp-component-render"><div class="ud-component--clp--redeem-coupon"></div></div>
+                                <div class="clp-component-render"><div class="ud-component--clp--social-share-button"></div></div>
+                            </div>
+                        </div>
+                        <div class="clp-component-render">
+
+    <div class="right-col__module mt10">
+        <div class="right-col__inner">
+            <div class="buy-for-team__title">Training 5 or more people?</div>
+            <p class="buy-for-team__text">
+                
+                Get your team access to Udemy's top 3,000+ courses anytime, anywhere.
+            </p>
+            <a class="js-user-tracker-click buy-for-team__link"
+               href="https://business.udemy.com/request-demo?utm_term=&amp;utm_campaign=mx-hooks&amp;utm_source=marketplace&amp;utm_medium=referral&amp;utm_content=clp&amp;ref=marketplace_development"
+               data-user-tracker-page="clp"
+               data-user-tracker-schema="clp-activity"
+               data-user-tracker-object-id="1834168"
+               data-user-tracker-action="buy-for-team-clicked"
+               data-user-tracker-detail="marketplace"
+               data-purpose="buy-for-team-link"
+               >
+                
+                Try Udemy for Business
+                
+            </a>
+        </div>
+    </div>
+
+</div>
+                        <div class="referral-terms">
+                            <div class="clp-component-render"><div class="ud-component--clp--referral-terms"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container--component-margin">
+
+        <div class="row">
+            <div class="col-xxs-8 left-col">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <span id="objective" class="in-page-offset-anchor"></span>
+    <div class="what-you-get">
+        <div class="js-simple-collapse js-simple-collapse--what-you-get"
+             data-purpose="course-objectives"
+             data-more="See more"
+             >
+            <div class="js-simple-collapse-inner">
+                <div class="what-you-get__content">
+                    <div class="what-you-get__title">
+                        What you'll learn
+                    </div>
+                    <ul class="what-you-get__items">
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <span class="what-you-get__text">Students will learn about quality assurance through the exploration of software theory and practical application. Culminating in strategies on how to become a QA freelancer.</span>
+                                
+                            </li>
+                        
+                            <li class="what-you-get__item what-you-get__item--columns">
+                                <span class="udi udi-check what-you-get__icon"></span>
+                                
+                                <h3 class="what-you-get__text what-you-get__text--h3">Be introduced to the best freelance opportunities globally for QA and learn the tools of the trade.</h3>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+
+        
+            <div class="row row--component-margin">
+                <div class="col-xxs-8 left-col" data-purpose="curriculum-development">
+                    <div class="clp-component-render">
+
+    <div class="curriculum-wrapper" data-purpose="course-curriculum">
+        <span id="curriculum" class="in-page-offset-anchor"></span>
+        <div class="ud-component--clp--curriculum">
+            <div class="curriculum-header-container">
+                <div class="header-left">
+                    <div class="curriculum-header-title">
+                        
+                            Course content
+                        
+                    </div>
+                </div>
+                
+                    <div class="header-right">
+                        <span>
+                            <a class="sections-toggle" href="javascript:void(0)">
+                                Expand all
+                            </a>
+                            <span class="dib">
+                                
+                                    17 lectures
+                                
+                            </span>
+                        </span>
+                        <span class="curriculum-header-length">
+                            02:12:23
+                        </span>
+                    </div>
+                
+            </div>
+
+            
+                <div>
+                    <a class="section-container section-container--expanded"
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">What is QA and Freelancing</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    3 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                18:07
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse in">
+                        
+                            <div class="lecture-container lecture-container--preview
+                                        "
+                                 data-purpose="lecture-item-1-1">
+                                <div class="left-content">
+                                    <span class="udi udi-film"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                <a href="javascript:void(0)">
+                                                    Introduction
+                                                </a>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                        
+                                            <a href="javascript:void(0)" data-purpose="preview-course">
+                                                <span class="preview-text">Preview</span>
+                                            </a>
+                                        
+                                    
+                                    <span class="content-summary">
+                                        02:00
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container lecture-container--preview
+                                        "
+                                 data-purpose="lecture-item-1-2">
+                                <div class="left-content">
+                                    <span class="udi udi-film"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                <a href="javascript:void(0)">
+                                                    What is Quality Assurance
+                                                </a>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                        
+                                            <a href="javascript:void(0)" data-purpose="preview-course">
+                                                <span class="preview-text">Preview</span>
+                                            </a>
+                                        
+                                    
+                                    <span class="content-summary">
+                                        08:48
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-1-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    What is Freelance and How can I become one?
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        07:19
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-1-4">
+                                <div class="left-content">
+                                    <span class="udi udi-activity"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Quality Assurance
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        3 questions
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Software Theory &amp; Methodologies</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    4 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                35:29
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Software Development Life Cycle (SDLC)
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        08:44
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Software Testing Life Cycle (STLC)
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        09:14
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Agile vs. Waterfall
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        08:59
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Agile Testing
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        08:32
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-2-5">
+                                <div class="left-content">
+                                    <span class="udi udi-activity"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse"><p>This quiz covers material from lectures 4 -7</p></div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Software Theory &amp; Methodologies
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-2-5">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        11 questions
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Software Testing Tools</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    4 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                31:25
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container lecture-container--preview
+                                        "
+                                 data-purpose="lecture-item-3-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                <a href="javascript:void(0)">
+                                                    Introduction to QA tools - Screencapture
+                                                </a>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                        
+                                            <a href="javascript:void(0)" data-purpose="preview-course">
+                                                <span class="preview-text">Preview</span>
+                                            </a>
+                                        
+                                    
+                                    <span class="content-summary">
+                                        04:03
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Video Formatting, Compression &amp; Sound for Testing
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        05:24
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-3">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Mobile Screencapture &amp; Log Capture
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        12:10
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-4">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Introduction to Browser Log Capture
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        09:48
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-3-5">
+                                <div class="left-content">
+                                    <span class="udi udi-activity"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Software Testing Tools
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        4 questions
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Bug Reports and Test Cases</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    3 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                16:45
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Bug Reports
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        07:33
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-2">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Test Cases
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        06:19
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-3">
+                                <div class="left-content">
+                                    <span class="udi udi-activity"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse">In this assignment, you will practice writing a test report.</div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Write a Test Report
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-3">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        2 questions
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-4">
+                                <div class="left-content">
+                                    <span class="udi udi-activity"></span>
+                                    <div class="top">
+                                        
+                                            <div class="description collapse">In this assignment you will practice writing a bug report by exploring a website to find issues.</div>
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Practice Writing a Bug Report
+                                                
+                                            
+                                            
+                                                <a class="down-arrow" href="javascript:void(0)"
+                                                   data-purpose="lecture-caret-4-4">
+                                                    <i class="udi udi-caret-down"></i>
+                                                </a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        2 questions
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-4-5">
+                                <div class="left-content">
+                                    <span class="udi udi-film"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Test Cases &amp; Bug Reports Recap
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:53
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div>
+                    <a class="section-container "
+                       href="javascript:void(0)">
+                        <div class="section-header-left">
+                            <span class="section-title-wrapper">
+                                <span class="section-title-toggle">
+                                    <span class="section-title-toggle-plus">+</span>
+                                    <span class="section-title-toggle-minus">–</span>
+                                </span>
+                                <span class="section-title-text">Conclusion</span>
+                            </span>
+                        </div>
+                        <div class="section-header-right">
+                            <span class="num-items-in-section">
+                                
+                                    3 lectures
+                                
+                            </span>
+                            <span class="section-header-length">
+                                13:37
+                            </span>
+                        </div>
+                    </a>
+                    <div class="lectures-container collapse ">
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-1">
+                                <div class="left-content">
+                                    <span class="udi udi-play-circle"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Certifications
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        06:47
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-2">
+                                <div class="left-content">
+                                    <span class="udi udi-film"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    The Journey Toward Digital Nomadness
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        04:40
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            <div class="lecture-container 
+                                        "
+                                 data-purpose="lecture-item-5-3">
+                                <div class="left-content">
+                                    <span class="udi udi-film"></span>
+                                    <div class="top">
+                                        
+                                        <div class="title">
+                                            
+                                                
+                                                    Conclusion - Course Completion
+                                                
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="details">
+                                    
+                                    <span class="content-summary">
+                                        02:10
+                                    </span>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </div>
+    </div>
+
+</div>
+                </div>
+            </div>
+        
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="requirements" data-purpose="course-requirements">
+        <div class="requirements__title">
+            Requirements
+        </div>
+        <div class="requirements__content">
+            <ul class="requirements__list">
+                
+                    <li class="requirements__item">In this course we will work with Chrome and Firefox browsers developer tools, use a basic text editor, use a screen capture screen cast and AZ screen recorder</li>
+                
+            </ul>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xs-8 left-col" data-purpose="curriculum-practice-test">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="description js-user-tracker-click"
+         data-purpose="course-description"
+         data-user-tracker-schema="action-logs"
+         data-user-tracker-object-id="1834168"
+         data-user-tracker-action="full-description-read"
+         data-user-tracker-target-selector-class="js-simple-collapse-more-btn">
+
+        <div data-more="+ See more"
+             
+                 class="js-simple-collapse js-simple-collapse--description"
+                 data-purpose="collapse-description-btn"
+             
+             >
+            <div class="js-simple-collapse-inner" data-purpose="collapse-description-text">
+                <div class="description__title">
+                    Description
+                </div>
+
+                <p>Learn to test websites and mobile apps to find flaws or defects. Allowing you to make money as a freelancer or in your spare time. The course covers manual testing, agile testing, software testing lifecycle and the tools of the trade. Also provided are tips on how to get started so that you to can become a digital nomad. Having the freedom to work from anywhere and at anytime as a freelancer.</p><p>No degree required. Just a desire to learn!</p>
+
+                
+                    <div class="audience" data-purpose="course-audience">
+                        <div class="audience__title">
+                            Who this course is for:
+                        </div>
+                        <ul class="audience__list">
+                            
+                                <li>Beginners to Quality Assurance and software testing, those interested in testing android or iOS apps, anyone looking to be digital nomad and work anywhere. QA is the perfect office free gig you can get.</li>
+                            
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="recommendations" data-purpose="recommendations-unit">
+        <span class="in-page-offset-anchor" data-purpose="recommendations-offset-anchor"></span>
+        <div class="recommendations__course-cards ud-app-loader ud-component--course-comparison--app"
+             data-module-id="course-comparison"
+             data-module-args="{&quot;sourcePage&quot;:&quot;course_landing_page&quot;,&quot;funnelTrackingContext&quot;:&quot;landing-page&quot;,&quot;discoveryContext&quot;:&quot;landing-page&quot;,&quot;funnelTrackingSubcontext2&quot;:&quot;view-coursecomparison&quot;,&quot;currentCourseId&quot;:1834168,&quot;funnelTrackingSubcontext&quot;:&quot;best-seller&quot;}">
+            <div class="recommendations__content recommendations__content--course-comparison">
+                <div class="recommendations__title">
+                    <div class="content-loader__cc-content"></div>
+                </div>
+                <ul class="content-loader--list">
+                    
+                        <li class="content-loader__cc-row">
+                            <span class="content-loader__cc-image">
+                                <div class="content-loader__cc-content content-loader__cc-content--full-height"></div>
+                            </span>
+                            <span class="content-loader__cc-text">
+                                <div class="content-loader__cc-content"></div>
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                        </li>
+                    
+                        <li class="content-loader__cc-row">
+                            <span class="content-loader__cc-image">
+                                <div class="content-loader__cc-content content-loader__cc-content--full-height"></div>
+                            </span>
+                            <span class="content-loader__cc-text">
+                                <div class="content-loader__cc-content"></div>
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                        </li>
+                    
+                        <li class="content-loader__cc-row">
+                            <span class="content-loader__cc-image">
+                                <div class="content-loader__cc-content content-loader__cc-content--full-height"></div>
+                            </span>
+                            <span class="content-loader__cc-text">
+                                <div class="content-loader__cc-content"></div>
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                            <span class="content-loader__cc-stats">
+                                <div class="content-loader__cc-content"></div>
+                            </span>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        
+
+        
+            <div class="row row--component-margin">
+                <div class="col-xxs-8 left-col">
+                    <div class="clp-component-render"><div class="ud-component--clp--frequently-bought-together"></div></div>
+                </div>
+            </div>
+        
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render"><div class="ud-component--clp--practice-test-bundle"></div></div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div class="instructor">
+        <span id="instructor" class="in-page-offset-anchor"></span>
+
+        
+
+        <div class="ud-component--clp--instructors"></div>
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8 left-col">
+                <div class="clp-component-render">
+
+    <div data-purpose="course-reviews">
+        <span id="reviews" class="in-page-offset-anchor"></span>
+        
+            <div class="ud-component--clp--course-reviews-display"
+                 data-component-args="{&quot;showUserAvatar&quot;:true,&quot;averageRating&quot;:3.33333,&quot;courseId&quot;:1834168,&quot;ratingDistribution&quot;:[{&quot;rating&quot;:1,&quot;count&quot;:0},{&quot;rating&quot;:2,&quot;count&quot;:0},{&quot;rating&quot;:3,&quot;count&quot;:1},{&quot;rating&quot;:4,&quot;count&quot;:1},{&quot;rating&quot;:5,&quot;count&quot;:0}],&quot;topReviewAttributes&quot;:[],&quot;page&quot;:&quot;clp&quot;}">
+            </div>
+        
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8">
+                <div class="clp-component-render">
+
+    <div class="more-from-instructor ud-component--clp--more-courses-by-instructors"
+         data-component-args="{&quot;context&quot;:&quot;landing-page&quot;,&quot;subContext&quot;:&quot;morefrominstructor&quot;,&quot;courseId&quot;:1834168,&quot;instructors&quot;:[{&quot;id&quot;:38524966,&quot;title&quot;:&quot;Khallai Taylor&quot;}],&quot;organizationCoursesOnly&quot;:false}">
+    </div>
+
+</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxs-8">
+                <div class="clp-component-render"><div class="ud-component--clp--price-disclaimer"></div></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxs-8">
+                
+            </div>
+        </div>
+
+        <div class="row row--component-margin">
+            <div class="col-xxs-8">
+                <div class="clp-component-render">
+
+    
+        <div class="ud-component--clp--report-abuse report-abuse" data-purpose="report-abuse-link">
+        </div>
+    
+
+</div>
+            </div>
+        </div>
+    </div>
+
+
+
+            </div>
+
+            
+                
+            
+
+            
+                
+
+
+
+
+<div class="footer-v6 footer--marketplace ud-app-loader ud-component--footer--app
+            footer--en-us
+            
+            "
+     data-module-id="footer"
+     data-module-args="{&quot;ufbNotice&quot;:{&quot;link&quot;:&quot;https://business.udemy.com/request-demo/&quot;},&quot;localeDropdown&quot;:{&quot;currentLanguage&quot;:&quot;English&quot;,&quot;items&quot;:[{&quot;id&quot;:&quot;en_US&quot;,&quot;prefix&quot;:&quot;en&quot;,&quot;name&quot;:&quot;English&quot;},{&quot;id&quot;:&quot;de_DE&quot;,&quot;prefix&quot;:&quot;de&quot;,&quot;name&quot;:&quot;Deutsch&quot;},{&quot;id&quot;:&quot;es_ES&quot;,&quot;prefix&quot;:&quot;es&quot;,&quot;name&quot;:&quot;Espa\u00f1ol&quot;},{&quot;id&quot;:&quot;fr_FR&quot;,&quot;prefix&quot;:&quot;fr&quot;,&quot;name&quot;:&quot;Fran\u00e7ais&quot;},{&quot;id&quot;:&quot;id_ID&quot;,&quot;prefix&quot;:&quot;id&quot;,&quot;name&quot;:&quot;Bahasa Indonesia&quot;},{&quot;id&quot;:&quot;it_IT&quot;,&quot;prefix&quot;:&quot;it&quot;,&quot;name&quot;:&quot;Italiano&quot;},{&quot;id&quot;:&quot;ja_JP&quot;,&quot;prefix&quot;:&quot;ja&quot;,&quot;name&quot;:&quot;\u65e5\u672c\u8a9e&quot;},{&quot;id&quot;:&quot;ko_KR&quot;,&quot;prefix&quot;:&quot;ko&quot;,&quot;name&quot;:&quot;\ud55c\uad6d\uc5b4&quot;},{&quot;id&quot;:&quot;nl_NL&quot;,&quot;prefix&quot;:&quot;nl&quot;,&quot;name&quot;:&quot;Nederlands&quot;},{&quot;id&quot;:&quot;pl_PL&quot;,&quot;prefix&quot;:&quot;pl&quot;,&quot;name&quot;:&quot;Polski&quot;},{&quot;id&quot;:&quot;pt_BR&quot;,&quot;prefix&quot;:&quot;pt&quot;,&quot;name&quot;:&quot;Portugu\u00eas&quot;},{&quot;id&quot;:&quot;ro_RO&quot;,&quot;prefix&quot;:&quot;ro&quot;,&quot;name&quot;:&quot;Rom\u00e2n\u0103&quot;},{&quot;id&quot;:&quot;ru_RU&quot;,&quot;prefix&quot;:&quot;ru&quot;,&quot;name&quot;:&quot;\u0420\u0443\u0441\u0441\u043a\u0438\u0439&quot;},{&quot;id&quot;:&quot;th_TH&quot;,&quot;prefix&quot;:&quot;th&quot;,&quot;name&quot;:&quot;\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22&quot;},{&quot;id&quot;:&quot;tr_TR&quot;,&quot;prefix&quot;:&quot;tr&quot;,&quot;name&quot;:&quot;T\u00fcrk\u00e7e&quot;},{&quot;id&quot;:&quot;zh_CN&quot;,&quot;prefix&quot;:&quot;zh-cn&quot;,&quot;name&quot;:&quot;\u4e2d\u6587(\u7b80\u4f53)&quot;},{&quot;id&quot;:&quot;zh_TW&quot;,&quot;prefix&quot;:&quot;zh-tw&quot;,&quot;name&quot;:&quot;\u4e2d\u6587(\u7e41\u9ad4)&quot;}]},&quot;mobileAppDownload&quot;:{&quot;link&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;}}"
+     data-module-priority="-20"
+     data-purpose="footer-bar">
+    <div class="fixed-message-container">
+        <div class="ud-component--footer--legal-message"></div>
+
+        <div class="ud-app-loader ud-component--footer--eu-cookie-message"
+     data-module-id="eu-cookie-message"
+     data-module-priority="-20">
+</div>
+
+    </div>
+    <footer>
+        
+            
+            
+                <hr />
+                <div class="container-fluid footer__main">
+                    <div class="row">
+                        <div class="hidden-xxs hidden-xs col-sm-9 footer__links--main">
+                            
+
+
+<ul class="links ">
+    
+            
+                
+                    <li>
+                        
+
+<a class="ud-click-tracking bold"
+    data-purpose="footer.links.business"
+    href="https://business.udemy.com/?ref=footer"
+    
+    data-type="udemy-business-footer-clicked"
+    >
+    Udemy for Business
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" bold"
+    data-purpose="footer.links.teach"
+    href="/teaching/?ref=teach_footer"
+    
+    
+    >
+    Teach on Udemy
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.mobile"
+    href="/mobile/"
+    
+    
+    >
+    Udemy app
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.about"
+    href="https://about.udemy.com/?locale=en-us"
+    
+    
+    >
+    About us
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.careers"
+    href="https://about.udemy.com/careers?locale=en-us"
+    
+    
+    >
+    Careers
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.blog"
+    href="https://about.udemy.com/blog?ref=footer"
+    
+    
+    >
+    Blog
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+            
+    
+            
+                
+            
+    
+            
+                <li>
+                    
+                        
+                            
+
+<a class=" breadcrumb"
+    data-purpose="footer.links.topics"
+    href="/topics/"
+    
+    
+    >
+    Topics
+</a>
+
+                        
+                    
+                        
+                            
+
+<a class=" "
+    data-purpose="footer.links.concepts"
+    href="/concept/"
+    
+    
+    >
+    Concepts
+</a>
+
+                        
+                    
+                </li>
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.support"
+    href="/support/"
+    
+    
+    >
+    Support
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.affiliates"
+    href="/affiliate/"
+    
+    
+    title="Udemy Affiliate Program">
+    Affiliate
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+</ul>
+
+                        </div>
+                        <div class="col-sm-3">
+                            
+
+<div class="ud-component--footer--locale-dropdown text-right footer__locale-dropdown">
+    
+    <div class="dropup btn-group locale-dropdown">
+        <button aria-label="Select language"
+                data-purpose="locale-dropdown-btn"
+                id="locale-dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                type="button"
+                class="dropdown-toggle btn btn-sm btn-quaternary">
+            <span>
+                <span class="mr15">
+                    <span class="ml10 mr10 udi udi-globe"></span>
+                    <span class="mr10">English</span>
+                </span>
+                <span class="pos-a" style="right: 12px;">
+                    <span class="dropdown-caret udi udi-angle-down"></span>
+                </span>
+            </span>
+        </button>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+                    <hr />
+                    <div class="ud-component--footer--ufb-notice"></div>
+                
+
+                <hr />
+                <div class="container-fluid footer__bottom">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            
+
+
+
+<a class="dib mr20"
+    href="/">
+    <img alt="Udemy"
+        class="ufb-logo"
+        src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+        width="110" height="32" />
+</a>
+
+
+    <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+    <span class="footer__copyright dib mr20 text-midnight-lighter">
+        Copyright &copy; 2019 Udemy, Inc.
+    </span>
+    <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+
+
+                        </div>
+                        <div class="col-sm-6 text-right footer__links--bottom">
+                            
+
+<ul class="links list-inline">
+    <li>
+        <a data-purpose="terms-link"
+           href="/terms/">
+            Terms
+        </a>
+    </li>
+    <li>
+        <a data-purpose="privacy-link"
+           href="/terms/privacy/">
+            Privacy Policy and Cookie Policy
+        </a>
+    </li>
+    <li>
+        <a data-purpose="copyright-link"
+           href="/terms/copyright/">
+            Intellectual Property
+        </a>
+    </li>
+    <li class="footer__app-download-link ud-component--footer--mobile-app-download-link">
+        <a data-purpose="app-download-link"
+           href="https://udemy.app.link/garBkjjtDO"
+           target="_blank">
+            Get The App
+        </a>
+    </li>
+</ul>
+
+                        </div>
+                    </div>
+                </div>
+            
+            <hr class="hr-primary" />
+            <div class="ud-component--footer--incentive-signup"></div>
+            <div class="ud-component--footer--share-welcome-popup"></div>
+        
+    </footer>
+</div>
+
+                
+
+
+
+
+                
+
+            
+        </div>
+        
+
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-manifest.44b494e4dd415bd0de26.js" defer></script>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-desktop-vendor.47fb6dcfdd3484c8fd40.js" defer></script>
+
+    <script type="text/javascript" src="/staticx/udemy/js/webpack/jsi18n-en-us.045a65daf3a8a632f4f5.js" defer></script>
+
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-desktop.36821b60a75d41805db7.js" defer></script>
+
+    </body>
+</html>

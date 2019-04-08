@@ -10,6 +10,7 @@ df_tags = None
 PATH_DATA = STACK_JOBS_DATA # 'data/'
 
 def _aplicar_tfidf(palavras = []):
+    palavras = [_clean_tranform_str(p) for p in palavras]
     matrix_tfidf = vectorizer.transform(palavras)
     
     return pd.DataFrame(
@@ -22,19 +23,28 @@ def _tag_similar(df_tags, df_tfidf_tags, df_tfidf_analizar):
     sim_matriz = cosine_similarity(df_tfidf)
     
     sim_serie = pd.Series(sim_matriz[-1]).sort_values(ascending=False)
-    index_tag = df_tags.loc[sim_serie.index].iloc[1].name
-    
-    return df_tags.columns[index_tag]
+
+    if sim_serie.iloc[1] > 0.4:
+        index_tag = df_tags.loc[sim_serie.index[1]].name
+        return df_tags.columns[index_tag]
+    else: return None
 
 
 def _tags_correlacionadas(tag):
     return tags_corr[ tag ].sort_values(ascending=False)[:20]
 
+def _clean_tranform_str(texto):
+    processado = ' '.join([x for x in texto])
+    processado += ' ' +  ' '.join([texto[i:i+2] for i, x in enumerate(texto[:-1])])
+    return processado
+
 def obter_tags_correlacionadas(descricao):
     tfidf_analizar = _aplicar_tfidf([descricao])
     tag_similar = _tag_similar(df_tags, tfidf_tags, tfidf_analizar)
-    tags_correlacionadas = _tags_correlacionadas(tag_similar)
     
+    if not tag_similar: return []
+    
+    tags_correlacionadas = _tags_correlacionadas(tag_similar)
     return tags_correlacionadas.index.tolist()
     
     

@@ -46,5 +46,15 @@ class ProfileForm(forms.ModelForm):
 
         return cpass
 
+    def clean_comp(self):
+        comp = self.cleaned_data['comp']
+        print(dir(comp))
+        print(comp)    
+        
+        if not comp or len(comp) < 3:
+            raise forms.ValidationError('Forneça pelo menos 3 tags.')            
+        return comp
+
+
 
 
