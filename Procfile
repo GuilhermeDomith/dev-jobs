@@ -1,1 +1,1 @@
-web: gunicorn DevJobs.wsgi --timeout 60 --keep-alive 5 
+web: gunicorn DevJobs.wsgi --timeout 90 --keep-alive 10 
