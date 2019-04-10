@@ -8,6 +8,7 @@ vectorizer = None
 tags_corr = None
 df_tags = None
 PATH_DATA = STACK_JOBS_DATA # 'data/'
+tfidf_tags = None
 
 def _aplicar_tfidf(palavras = []):
     palavras = [_clean_tranform_str(p) for p in palavras]

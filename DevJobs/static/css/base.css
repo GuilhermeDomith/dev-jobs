@@ -88,6 +88,26 @@ main {
     color: skyblue;
 }
 
+.logo-index{
+    margin-top: 15vh !important;
+}
+
+.logo-devjobs-big{
+    font-size: 5.1em;
+}
+
+.slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9em;
+    margin-top: 5px;
+    color: rgb(145, 145, 145)
+}
+
+.slogan-divider{
+    width: 12em;
+    margin: 0 calc((100% - 12em) / 2) !important;
+}
+
 .sidenav-top-logo{
     text-align: center;
     padding: 40px 0;

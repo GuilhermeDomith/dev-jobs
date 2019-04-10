@@ -32,12 +32,15 @@
                         <div class="chip"> {{tag}} </div>
                     {% endfor %}
                 </div>
+
+                {% if user.is_authenticated %}
                 <div class="col s12 mt-2">
                     <a class="waves-effect waves-light btn right">
                         <i class="material-icons left">done</i>
                         Candidatar
                     </a>
                 </div>
+                {% endif %}
             </div>
 
         </div>
