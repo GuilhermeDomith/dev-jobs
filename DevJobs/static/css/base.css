@@ -21,6 +21,19 @@
     margin-bottom: 8px !important;
 }
 
+#card-sobre .body{
+    display: block;
+    padding: 20px 10%;
+}
+
+#card-sobre{
+    padding: 15px;
+}
+
+ul.browser-default li{
+    padding: 5px 0  
+}
+
 .login-screen{
     padding: 20px 20%;
 }
@@ -166,6 +179,10 @@ main {
 
     .search-jobs + button{
         padding-left: 30px;
+    }
+
+    #card-sobre .body{
+        padding: 20px 5%;
     }
 
 }

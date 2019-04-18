@@ -48,7 +48,9 @@ def jobs_similares(search, max_jobs):
 def _inicializar():
     global stopwords, tags, stemmer, df_jobs, vectorizer, jobs_tfidf
 
-    df_jobs = pd.read_csv(STACK_JOBS_DATA + 'Stack_Overflow_Jobs2.csv')
+    df_jobs = pd.read_csv(STACK_JOBS_DATA + 'Stack_Overflow_Jobs.csv')
+    df_jobs.fillna("", inplace=True)
+    df_jobs['posted'] = pd.to_datetime(df_jobs.posted)
     df_tags = pd.read_csv(STACK_JOBS_DATA + 'jobs_tags.csv')
     jobs_tfidf = pd.read_csv(STACK_JOBS_DATA + 'jobs_tfidf.csv')
     vectorizer = joblib.load(STACK_JOBS_DATA + 'vectorizer_jobs.dat')

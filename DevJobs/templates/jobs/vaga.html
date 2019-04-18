@@ -15,13 +15,15 @@
 
             <div class="row">
                 <div class="col s12 mt-2">
-                    <p> <b>Postagem:</b> {{ job.posted }} </p>
-                    <p> <b>Empresa:</b> {{job.company}} </p>
-                    <p> <b>Local:</b> {{ job.location }} </p>
-                    <p> <b>Tamanho da Empresa:</b> {{job.company_size}} employee{{job.company_size|pluralize}} </p>
-                    <p> <b>Tipo de Empresa:</b> {{job.company_type}} </p>
-                    <p> <b>Cargo:</b> {{job.role}} </p>
-                    <p> <b>Salário:</b> R$ {{job.salary_mean}} </p>
+                    <p> <b>Postagem:</b> {{ job.posted|date:"l, d M Y" }} </p>
+                    <p> <b>Empresa:</b> {{job.company|default:"-"}} </p>
+                    <p> <b>Local:</b> {{ job.location|default:"-" }} </p>
+                    {% with cs=job.company_size %}
+                    <p> <b>Tamanho da Empresa:</b> {{cs}} {% if cs != "-" %} employee{{cs|pluralize}} {%endif%}</p>
+                    {% endwith %}
+                    <p> <b>Tipo de Empresa:</b> {{job.company_type|default:"-"}} </p>
+                    <p> <b>Cargo:</b> {{job.role|default:"-"}} </p>
+                    <p> <b>Salário:</b>{% if job.salary_mean %} R$ {{job.salary_mean}} {%else%} - {%endif%}</p>
                 </div>
                 <div class="col s12 mt-2">
                     {{job.description|linebreaks}}
@@ -47,19 +49,24 @@
     </div>
 </div>
 
-
-{% if user.is_authenticated %}
-
 <div class="divider"></div>
 
-<!-- Sugestão de cursos -->
+
 <div class="section section-card">
     <div class="row">
+
+        <!-- Exibe uma mensagem de acordo com as 
+        competências do usuário em relação à vaga -->
         <div class="col s12">
             <div class="card grey lighten-5">
                 <blockquote>
                     <div class="card-content">
-                        {% if nao_competencias %}
+                        {% if not user.is_authenticated %}
+                        <p>
+                            Você deve estar logado para ver sugestões de cursos direcionados à esta vaga.
+                        </p>
+                        {% elif nao_competencias %}
+                        <!-- Logado, mas não tem as competencias para a vaga -->
                         <p>
                             Parece que você não domina 
                             {% if nao_competencias|length > 1 %}
@@ -71,6 +78,7 @@
                             abaixo e ficar mais apto para a vaga ofertada.
                         </p>
                         {% else %}
+                        <!-- Logado, e possui todas competencias para a vaga -->
                         <p>
                             Você possui todas as competências para esta vaga! Você pode fazer algum dos cursos abaixo e ficar ainda mais apto para se candidatar.
                         </p>
@@ -80,6 +88,8 @@
             </div>
         </div>
 
+        {% if user.is_authenticated %}
+        <!-- Sugere cursos apenas para usuários logados-->
         <ul>
             {% for c in cursos %}
             {% if not forloop.counter|divisibleby:2  %}
@@ -112,8 +122,8 @@
             {% endif %}
             {% endfor %}
         </ul>
+        {% endif %}
     </div>
 </div>
-{% endif %}
 
 {% endblock %}

@@ -24,4 +24,5 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('jobs/', include('jobs.urls')),
     path('', TemplateView.as_view(template_name='index.html')),
+    path('sobre/', TemplateView.as_view(template_name='sobre.html')),
 ]
