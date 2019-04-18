@@ -1,2 +1,0 @@
-Arquivo criado para evitar que a pasta seja removida ao ser gerenciado pelo git. 
-A pasta é necessária para o deploy do projeto, que é quando o whitenoise é gerencia os arquivos estáticos.
